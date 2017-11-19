@@ -28,6 +28,36 @@ public class VerifyloginWithInvalidCredentails extends TestBase{
     log.info("***********Finish VerifyloginWithInvalidCredentails Test************");
 	}
 	
+ @Test
+	public void verifysearchshirt(){
+	 log.info("***********Starting Verifysearchshirt Test************");
+	 homepage = new HomePage(driver);
+	 homepage.homepageSearchButton("shirt");
+ Assert.assertEquals(homepage.getSearchShirt(),"shirt");
+ log.info("***********Finish Verifysearchshirt Test************");
+	}
+ @Test
+	public void verifyHomePagePhoneNumber(){
+	 log.info("***********Starting verifyHomePagePhoneNumber Test************");
+	 homepage = new HomePage(driver);
+	 homepage.vrifiedHomePagephonenumber();
+ log.info("***********Finish verifyHomePagePhoneNumber Test************");
+	}
+
+ @Test
+	public void vrifiedHomePageshoppingchart(){
+	 log.info("***********Starting vrifiedHomePageshoppingchart Test************");
+	 homepage = new HomePage(driver);
+	 homepage.vrifiedHomePageshoppingchart();
+	 log.info("***********Finish verifyHomePageShoppingChart Test************");
+	}
+ @Test
+	public void vrifiedHomePagesearchbutton(){
+	 log.info("***********Starting vrifiedHomePagesearchbutton Test************");
+	 homepage = new HomePage(driver);
+	 homepage.vrifiedHomePagesearchbutton();
+	 log.info("***********Finish verifyHomePagesearchbutton Test************");
+	}
 	@AfterTest 
 	public void end(){
 	driver.close();

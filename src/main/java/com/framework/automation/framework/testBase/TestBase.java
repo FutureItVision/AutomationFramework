@@ -17,8 +17,7 @@ public class TestBase {
 	public WebDriver driver;
 	private static ChromeDriverService service;
 	String url = "http://automationpractice.com/index.php";
-	String browser = "chrome";
-
+	String browser = "chrome";       
 	public void init() throws IOException {
 		selectBrowser(browser);
 		getUrl(url);

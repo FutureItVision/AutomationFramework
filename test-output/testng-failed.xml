@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Regression Suite]">
-  <test name="verifyLoginWithInvalidCredentails">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test name="Default test" verbose="2">
     <classes>
-      <class name="com.framework.automation.framework.homePage.VerifyloginWithInvalidCredentails"/>
+      <class name="com.framework.automation.framework.homePage.VerifyloginWithValidCredentails">
+        <methods>
+          <include name="verifyLoginWithValidCredentails"/>
+        </methods>
+      </class> <!-- com.framework.automation.framework.homePage.VerifyloginWithValidCredentails -->
     </classes>
-  </test> <!-- verifyLoginWithInvalidCredentails -->
-  <test name="verifyLoginWithValidCredentails">
-    <classes>
-      <class name="com.framework.automation.framework.homePage.VerifyloginWithValidCredentails"/>
-    </classes>
-  </test> <!-- verifyLoginWithValidCredentails -->
-</suite> <!-- Failed suite [Regression Suite] -->
+  </test> <!-- Default test -->
+</suite> <!-- Failed suite [Default suite] -->

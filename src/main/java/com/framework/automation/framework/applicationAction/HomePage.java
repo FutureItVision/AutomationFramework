@@ -32,6 +32,24 @@ public class HomePage {
 	@FindBy(xpath=".//*[@id='header']/div[2]/div/div/nav/div[1]/a")
 	WebElement authenticationValid;
 	
+	@FindBy(xpath=".//*[@id='header']/div[2]/div/div/nav/span/strong")
+	WebElement validphonenumber;
+	
+	@FindBy(xpath=".//*[@id='header']/div[3]/div/div/div[3]/div/a")
+	WebElement shoppingchart;
+	
+	@FindBy(xpath=".//*[@id='search_query_top']")
+	WebElement searchbutton;
+
+	@FindBy(xpath=".//*[@id='center_column']/h1/span[1]")
+	WebElement searchshirt;
+	
+	@FindBy(xpath=".//*[@id='search_query_top']")
+	WebElement homepageSearchbutton;
+	
+	@FindBy(xpath=".//*[@id='center_column']/h1/span[1]")
+	WebElement searchhat;
+	
 	public HomePage(WebDriver driver){
 		PageFactory.initElements(driver, this);
 		
@@ -48,6 +66,32 @@ public class HomePage {
 		log.info("Click submitButton and object is : "+submitButton.toString());
 	}
 	
+	public void vrifiedHomePagephonenumber(){
+		validphonenumber.isDisplayed();
+		log.info("validphonenumber object is : "+validphonenumber.toString());
+	}
+	
+	public void homepageSearchButton(String cloth){
+		homepageSearchbutton.sendKeys(cloth);
+		homepageSearchbutton.click();
+		log.info("homepageSearchbutton object is : "+validphonenumber.toString());
+	}
+	 String getSearchShirt(){
+		log.info("Valid message is : "+searchshirt.getText());
+				return searchshirt.getText();
+			
+			}
+
+	public void vrifiedHomePageshoppingchart(){
+		shoppingchart.isDisplayed();
+		log.info(" shoppingchart object is : "+shoppingchart.toString());
+	}
+	public void vrifiedHomePagesearchbutton(){
+		searchbutton.isDisplayed();
+		log.info(" searchbutton object is : "+searchbutton.toString());
+	}
+	
+	
 	public String getInvalidLogInText(){
 log.info("Error message is : "+authenticationFailed.getText());
 		return authenticationFailed.getText();
@@ -56,7 +100,9 @@ log.info("Error message is : "+authenticationFailed.getText());
 	public String getValidLogInText(){
 		log.info("Valid message is : "+authenticationValid.getText());
 				return authenticationValid.getText();
+			
 			}
+
 	
 	
 }
