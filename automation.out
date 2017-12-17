@@ -339,3 +339,8 @@
 2017-11-25 20:06:44 INFO  HomePage:48 - Click submitButton and object is : [[RemoteWebDriver: chrome on MAC (7d6d6abb59c56889652e92491002b04f)] -> id: SubmitLogin]
 2017-11-25 20:06:44 INFO  HomePage:65 - Error message is : Authentication failed.
 2017-11-25 20:06:44 INFO  VerifyloginWithInvalidCredentails:28 - ***********Finish VerifyloginWithInvalidCredentails Test************
+2017-12-17 12:08:01 INFO  HomePageDisplayVerification:24 - ***********Starting verifyHomePageWomenButton Test************
+2017-12-17 12:16:50 INFO  HomePageDisplayVerification:24 - ***********Starting verifyHomePageWomenButton Test************
+2017-12-17 12:16:52 INFO  HomePage:84 - Click Women Button object is : [[RemoteWebDriver: chrome on MAC (401290d2c221c7ef44212d7d42d073ed)] -> xpath: .//*[@id='block_top_menu']/ul[@class='sf-menu clearfix menu-content sf-js-enabled sf-arrows']/li[1]/a['Women']]
+2017-12-17 12:16:52 INFO  HomePage:86 - Diplayed  Women home title  Button object is : [[RemoteWebDriver: chrome on MAC (401290d2c221c7ef44212d7d42d073ed)] -> xpath: .//*[@id='columns']/div[@class='breadcrumb clearfix']]
+2017-12-17 12:16:52 INFO  HomePageDisplayVerification:27 - ***********Finish verifyHomePageWomenButton Test************

@@ -32,6 +32,10 @@ public class HomePage {
 	
 	@FindBy(xpath=".//h1['Create an account']") WebElement validCreatedAccount;
 	
+	@FindBy(xpath=".//*[@id='block_top_menu']/ul[@class='sf-menu clearfix menu-content sf-js-enabled sf-arrows']/li[1]/a['Women']") WebElement homePageWomenButton;
+	
+	@FindBy (xpath=".//*[@id='columns']/div[@class='breadcrumb clearfix']") WebElement womenHomeTitleButton;
+	
 	public HomePage(WebDriver driver){
 		PageFactory.initElements(driver, this);
 		
@@ -75,4 +79,11 @@ log.info("Error message is : "+authenticationFailed.getText());
 		log.info("Valid message is : "+validCreatedAccount.getText());
 				return validCreatedAccount.getText();
 }
+	public void homePageWomenButton(){
+		homePageWomenButton.click();
+		log.info("Click Women Button object is : "+homePageWomenButton.toString());
+		womenHomeTitleButton.isDisplayed();
+		log.info("Diplayed  Women home title  Button object is : "+womenHomeTitleButton.toString());
+
+	}
 }
