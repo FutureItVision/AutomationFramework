@@ -3,6 +3,7 @@ package com.framework.automation.framework.homePage;
 import java.io.IOException;
 
 import org.apache.log4j.Logger;
+import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
@@ -36,8 +37,15 @@ public class HomePageDisplayVerification extends TestBase {
 	 homepage.verifyContactHomeLogo();
 	 log.info("***********Finish vrifiedHomePageshoppingChartButtonDisplayed Test************");
 }
+	@Test
+	public void verifyT_shirtResult(){
+	 log.info("***********HomePageDisplayVerificationTest************");
+	 homepage = new HomePage(driver);
+	 homepage.homePageSearch("T-Shirt");
+	 Assert.assertEquals(homepage.searchresultVerification(),"1 result has been found.");
+	 log.info("***********Finish verifyT_shirtResult************");
 
-	
+	}
 	@AfterTest
 	public void end() {
 		driver.close();

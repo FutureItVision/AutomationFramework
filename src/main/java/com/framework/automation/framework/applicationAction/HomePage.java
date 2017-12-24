@@ -41,6 +41,11 @@ public class HomePage {
 	
 	@FindBy(xpath=".//a[@title='Return to Home']/i['@class=\"icon-home\"']") WebElement VarifiedContactHomeLogo;
 	
+	@FindBy(id="search_query_top") WebElement searchButton;
+	
+	@FindBy(xpath=".//*[@id='searchbox']/button['@name=submit_search']") WebElement cilickSearchButton;
+	
+	@FindBy(xpath=".//*[@id='center_column']/h1/span[2]") WebElement  searchResultHasBeenFound;
 	
 		public HomePage(WebDriver driver){
 		PageFactory.initElements(driver, this);
@@ -101,15 +106,30 @@ log.info("Error message is : "+authenticationFailed.getText());
 
 	public boolean verifyContactHomeLogo() {
 		try{
-		ClickContactUsButton.click();
+		cilickSearchButton.click();
 		VarifiedContactHomeLogo.isDisplayed();
 		Assert.assertEquals(VarifiedContactHomeLogo, VarifiedContactHomeLogo);
 		log.info(VarifiedContactHomeLogo);
 		return true;
 		
 		}catch (Exception e) {
-			return true;
+			return true;}
 			}
+		public void homePageSearch(String search) {
+			searchButton.sendKeys(search);			
+			cilickSearchButton.click();
+			log.info(cilickSearchButton);
 	}
-}
+		public String searchresultVerification(){
+			log.info("Valid message is : "+ searchResultHasBeenFound.getText());
+					return searchResultHasBeenFound.getText();
+		}
 
+		
+			
+		}
+
+
+
+
+		
