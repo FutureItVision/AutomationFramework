@@ -369,3 +369,19 @@
 2017-12-23 10:24:23 INFO  HomePageDisplayVerification:24 - ***********Verified WomendressButton Test************
 2017-12-23 10:24:25 INFO  HomePage:94 - [[RemoteWebDriver: chrome on MAC (c6771dc04156421ba57b37bbf12ecf8e)] -> xpath: .//*[@id='columns']/div[@class="breadcrumb clearfix"]]
 2017-12-23 10:24:25 INFO  HomePageDisplayVerification:27 - ***********Finish WomendressButton Test************
+2017-12-24 12:14:25 INFO  HomePageDisplayVerification:25 - ***********Verified WomendressButton Test************
+2017-12-24 12:14:26 INFO  HomePage:102 - [[RemoteWebDriver: chrome on MAC (bcdf8115ae7392f98087f89ff882ba81)] -> xpath: .//*[@id='columns']/div[@class="breadcrumb clearfix"]]
+2017-12-24 12:14:26 INFO  HomePageDisplayVerification:28 - ***********Finish WomendressButton Test************
+2017-12-24 12:14:26 INFO  HomePageDisplayVerification:35 - ***********HomePageDisplayVerificationTest************
+2017-12-24 12:14:27 INFO  HomePage:116 - [[RemoteWebDriver: chrome on MAC (bcdf8115ae7392f98087f89ff882ba81)] -> xpath: .//a[@title='Return to Home']/i['@class="icon-home"']]
+2017-12-24 12:14:27 INFO  HomePageDisplayVerification:38 - ***********Finish vrifiedHomePageshoppingChartButtonDisplayed Test************
+2017-12-24 12:14:27 INFO  HomePageDisplayVerification:56 - ***********verifyMyAccountIndexPage************
+2017-12-24 12:14:28 INFO  HomePage:134 - [[RemoteWebDriver: chrome on MAC (bcdf8115ae7392f98087f89ff882ba81)] -> xpath: .//*[@id='footer']/div/section[5]/h4/a]
+2017-12-24 12:14:28 INFO  HomePage:71 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (bcdf8115ae7392f98087f89ff882ba81)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2017-12-24 12:14:28 INFO  HomePage:73 - Enter valid EmailAddress : [[RemoteWebDriver: chrome on MAC (bcdf8115ae7392f98087f89ff882ba81)] -> id: email_create]
+2017-12-24 12:14:29 INFO  HomePage:75 - Click submitCreateButton and object is : [[RemoteWebDriver: chrome on MAC (bcdf8115ae7392f98087f89ff882ba81)] -> id: SubmitCreate]
+2017-12-24 12:14:29 INFO  HomePageDisplayVerification:60 - ***********Finish verifyMyAccountIndexPage Test************
+2017-12-24 12:14:29 INFO  HomePageDisplayVerification:42 - ***********HomePageDisplayVerificationTest************
+2017-12-24 12:14:29 INFO  HomePage:125 - [[RemoteWebDriver: chrome on MAC (bcdf8115ae7392f98087f89ff882ba81)] -> xpath: .//*[@id='searchbox']/button['@name=submit_search']]
+2017-12-24 12:14:29 INFO  HomePage:128 - Valid message is : 1 result has been found.
+2017-12-24 12:14:29 INFO  HomePageDisplayVerification:46 - ***********Finish verifyT_shirtResult************

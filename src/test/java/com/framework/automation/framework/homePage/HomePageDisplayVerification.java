@@ -51,6 +51,13 @@ public class HomePageDisplayVerification extends TestBase {
 		driver.close();
 
 	}
-	
+	@Test
+	public void verifyMyAccountIndexPage(){
+	 log.info("***********verifyMyAccountIndexPage************");
+	 homepage = new HomePage(driver);
+	 homepage.myAccountForIndex();
+	 homepage.correctCreateAccount("konok123@gmail.com");
+	 log.info("***********Finish verifyMyAccountIndexPage Test************");
+}
 
 }

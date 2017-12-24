@@ -47,6 +47,10 @@ public class HomePage {
 	
 	@FindBy(xpath=".//*[@id='center_column']/h1/span[2]") WebElement  searchResultHasBeenFound;
 	
+	@FindBy(xpath=".//*[@id='footer']/div/section[5]/h4/a") WebElement MyAccountIndexButton;
+	
+	
+	
 		public HomePage(WebDriver driver){
 		PageFactory.initElements(driver, this);
 		
@@ -125,7 +129,10 @@ log.info("Error message is : "+authenticationFailed.getText());
 					return searchResultHasBeenFound.getText();
 		}
 
-		
+		public void myAccountForIndex() {
+			MyAccountIndexButton.click();
+			log.info(MyAccountIndexButton);
+		}
 			
 		}
 
