@@ -14,83 +14,59 @@ public class HomePage {
 
 	WebDriver driver;
 
-	@FindBy(xpath = ".//nav/div[@class='header_user_info']/a['Sign in']")
-	WebElement signIn;
+	@FindBy(xpath = ".//nav/div[@class='header_user_info']/a['Sign in']")WebElement signIn;
 
-	@FindBy(id = "email")
-	WebElement logInemailAddress;
+	@FindBy(id = "email")WebElement logInemailAddress;
 
-	@FindBy(id = "passwd")
-	WebElement logInPassword;
+	@FindBy(id = "passwd")WebElement logInPassword;
 
-	@FindBy(id = "SubmitLogin")
-	WebElement submitLogInButton;
+	@FindBy(id = "SubmitLogin")WebElement submitLogInButton;
 
-	@FindBy(xpath = ".//ol/li['Authentication failed.']")
-	WebElement authenticationFailed;
+	@FindBy(xpath = ".//ol/li['Authentication failed.']")WebElement authenticationFailed;
 
-	@FindBy(xpath = ".//nav/div[@class='header_user_info']/a[@title='View my customer account']/span['k u']")
-	WebElement authenticationValidWithAccountName;
+	@FindBy(xpath = ".//nav/div[@class='header_user_info']/a[@title='View my customer account']/span['k u']")WebElement authenticationValidWithAccountName;
 
-	@FindBy(id = "email_create")
-	WebElement EmailAddressForCreateAccount;
+	@FindBy(id = "email_create")WebElement EmailAddressForCreateAccount;
 
-	@FindBy(id = "SubmitCreate")
-	WebElement SubmitCreatAnAccountbutton;
+	@FindBy(id = "SubmitCreate")WebElement SubmitCreatAnAccountbutton;
 
-	@FindBy(xpath = ".//div[@class=\"col-sm-4 clearfix\"]/div[@class='shopping_cart']/a[@ title='View my shopping cart']")
-	WebElement shoppingChartFromHomePage;
+	@FindBy(xpath = ".//div[@class=\"col-sm-4 clearfix\"]/div[@class='shopping_cart']/a[@ title='View my shopping cart']")WebElement shoppingChartFromHomePage;
 
-	@FindBy(id = "newsletter-input")
-	WebElement EnterEmailAddressForEmailAddressForNewsLetter;
+	@FindBy(id = "newsletter-input")WebElement EnterEmailAddressForEmailAddressForNewsLetter;
 
-	@FindBy(xpath = ".//button[@name='submitNewsletter']")
-	WebElement NewsLetterClickButton;
+	@FindBy(xpath = ".//button[@name='submitNewsletter']")WebElement NewsLetterClickButton;
 
-	@FindBy(xpath = ".//*[@id='columns']/p[@class='alert alert-danger']")
-	WebElement NewsLetterInvitaionResult;
+	@FindBy(xpath = ".//*[@id='columns']/p[@class='alert alert-danger']")WebElement NewsLetterInvitaionResult;
 
-	@FindBy(xpath = ".//*[@id='block_various_links_footer']/ul/li[1]/a")
-	WebElement SpecialsButton;
+	@FindBy(xpath = ".//*[@id='block_various_links_footer']/ul/li[1]/a")WebElement SpecialsButton;
 
-	@FindBy(xpath = ".//*[@id='best-sellers_block_right']/h4['title_block']/a['View a top sellers products']")
-	WebElement InformationSpecialsTopSeller;
+	@FindBy(xpath = ".//*[@id='best-sellers_block_right']/h4['title_block']/a['View a top sellers products']")WebElement InformationSpecialsTopSeller;
 
-	@FindBy(xpath = ".//h1['Create an account']")
-	WebElement validCreatedAccount;
+	@FindBy(xpath = ".//h1['Create an account']")WebElement validCreatedAccount;
 
-	@FindBy(xpath = ".//*[@id='block_top_menu']/ul/li['Dresses']/a[@title='Dresses']")
-	WebElement dressButtonFromHomepage;
+	@FindBy(xpath = ".//*[@id='block_top_menu']/ul/li['Dresses']/a[@title='Dresses']")WebElement dressButtonFromHomepage;
 
-	@FindBy(xpath = ".//*[@id='columns']/div[@class='breadcrumb clearfix']")
-	WebElement WomenButton;
+	@FindBy(xpath = ".//*[@id='columns']/div[@class='breadcrumb clearfix']")WebElement WomenButton;
 
-	@FindBy(xpath = ".//*[@id='contact-link']/a['@ title=Contact Us']")
-	WebElement ClickContactUsButton;
+	@FindBy(xpath = ".//*[@id='contact-link']/a['@ title=Contact Us']")WebElement ClickContactUsButton;
 
-	@FindBy(xpath = ".//a[@title='Return to Home']/i['@class=\"icon-home\"']")
-	WebElement VarifiedContactHomeLogo;
+	@FindBy(xpath = ".//a[@title='Return to Home']/i['@class=\"icon-home\"']")WebElement VarifiedContactHomeLogo;
 
-	@FindBy(xpath = ".//*[@id='home-page-tabs']/li[@class='active']/a['Best Sellers']")
-	WebElement bestSellersButton;
+	@FindBy(xpath = ".//*[@id='home-page-tabs']/li[@class='active']/a['Best Sellers']")WebElement bestSellersButton;
 
-	@FindBy(xpath = ".//section['Categories']/div/div/ul/li/a['Women']")
-	WebElement wonemCategories;
+	@FindBy(xpath = ".//section['Categories']/div/div/ul/li/a['Women']")WebElement wonemCategories;
 
-	@FindBy(id = "search_query_top")
-	WebElement homePageSearchButton;
+	@FindBy(id = "search_query_top")WebElement homePageSearchButton;
 
-	@FindBy(xpath = ".//*[@id='searchbox']/button[@type=\"submit\"]")
-	WebElement homePageSearchButtonClick;
+	@FindBy(xpath = ".//*[@id='searchbox']/button[@type=\"submit\"]")WebElement homePageSearchButtonClick;
 
-	@FindBy(xpath = ".//*[@id='center_column']/h1/span['T-Shirt']")
-	WebElement searchResut;
+	@FindBy(xpath = ".//*[@id='center_column']/h1/span['T-Shirt']")WebElement searchResut;
 
-	@FindBy(xpath = ".//*[@id='center_column']/h1/span['Top']")
-	WebElement searchResultTop;
+	@FindBy(xpath = ".//*[@id='center_column']/h1/span['Top']")WebElement searchResultTop;
 
-	@FindBy(xpath = ".//*[@id='center_column']/h1/span['Printed Dress']")
-	WebElement searchResulPrintedDress;
+	@FindBy(xpath = ".//*[@id='center_column']/h1/span['Printed Dress']")WebElement searchResulPrintedDress;
+	@FindBy(xpath=".//*[@id='block_contact_infos']/div//li[3]") WebElement emaillink;
+	@FindBy(xpath=".//li[@class='twitter']/a['Twitter']")WebElement twitterlink;
 
 	public HomePage(WebDriver driver) {
 		PageFactory.initElements(driver, this);
@@ -229,5 +205,28 @@ public class HomePage {
 		log.info("Valid message is : " + searchResulPrintedDress.getText());
 		return searchResulPrintedDress.getText();
 	}
-
+	
+	public boolean homepageEmaillink() {
+		try {
+			emaillink.isDisplayed();
+			Assert.assertEquals(emaillink, emaillink);
+			log.info(emaillink);
+			return true;
+		} catch (Exception e) {
+			return false;
+		}
+	
 }
+		public boolean homepagetwitterlink() {
+			try {
+				twitterlink.isDisplayed();
+				log.info(twitterlink);
+				return true;
+			} catch (Exception e) {
+				return false;
+		
+
+	}
+
+	}
+	}
