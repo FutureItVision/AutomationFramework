@@ -5,7 +5,11 @@
     <classes>
       <class name="com.framework.automation.framework.homePage.HomePageDisplayVerification">
         <methods>
+<<<<<<< HEAD
           <include name="homepagetwitterlink"/>
+=======
+          <include name="FacebookLogo"/>
+>>>>>>> c11aa9a7cc2c5fd916a11ddb072c92788deaf6bd
         </methods>
       </class> <!-- com.framework.automation.framework.homePage.HomePageDisplayVerification -->
     </classes>

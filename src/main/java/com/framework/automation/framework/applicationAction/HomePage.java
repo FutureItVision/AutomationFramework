@@ -1,10 +1,8 @@
 package com.framework.automation.framework.applicationAction;
 
 import org.apache.log4j.Logger;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
@@ -63,10 +61,16 @@ public class HomePage {
 	@FindBy(xpath = ".//*[@id='center_column']/h1/span['T-Shirt']")WebElement searchResut;
 
 	@FindBy(xpath = ".//*[@id='center_column']/h1/span['Top']")WebElement searchResultTop;
-
+	
 	@FindBy(xpath = ".//*[@id='center_column']/h1/span['Printed Dress']")WebElement searchResulPrintedDress;
 	@FindBy(xpath=".//*[@id='block_contact_infos']/div//li[3]") WebElement emaillink;
 	@FindBy(xpath=".//li[@class='twitter']/a['Twitter']")WebElement twitterlink;
+	
+	@FindBy(xpath = ".//*[@id='social_block']/h4['@Follow us']")
+	WebElement FollowUs;
+	
+	@FindBy(xpath = ".//*[@id='social_block']//li[1]['@class=\"facebook\"']")
+	WebElement FacebookLogo;
 
 	public HomePage(WebDriver driver) {
 		PageFactory.initElements(driver, this);
@@ -229,4 +233,26 @@ public class HomePage {
 	}
 
 	}
-	}
+
+	public boolean FollowUs(){
+		try {
+	FollowUs.isDisplayed();
+		log.info(FollowUs);
+		return true;
+		}
+		catch (Exception e) {
+			return false;
+		}
+}
+	public boolean FacebookLogo() {
+		try {
+			FacebookLogo.isDisplayed();
+			log.info(FacebookLogo);
+			return true;
+
+		} catch (Exception e) {
+			return false;
+		}
+}
+}
+
