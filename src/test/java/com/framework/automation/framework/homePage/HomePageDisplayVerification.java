@@ -101,7 +101,35 @@ public class HomePageDisplayVerification extends TestBase {
 		log.info("***********Finish VerifyPrintedDressSearch Test************");
 
 	}
-
+	@Test
+	public void Verifyemaillink() {
+		log.info("***********Verifyemaillink************");
+		homepage = new HomePage(driver);
+		homepage.homepageEmaillink();
+		log.info("***********Finish Verifyemaillink Test************");
+	}
+	@Test
+	public void homepagetwitterlink() {
+		log.info("***********Verifytwitterlink************");
+		homepage = new HomePage(driver);
+		homepage.homepagetwitterlink();
+		Assert.assertEquals("Twitter", "Twitter");
+		log.info("***********Finish Verifytwitterlink Test************");
+	}
+	public void followUs() {
+		log.info("***********FollowUs************");
+		homepage = new HomePage(driver);
+		homepage.FollowUs();
+		log.info("***********Finish FollowUS Test************");
+	}
+	@Test
+	public void facebookLogo() {
+		log.info("***********FacebookLogo************");
+		homepage = new HomePage(driver);
+		homepage.FacebookLogo();
+		Assert.assertEquals("Facebook", "Facebook");
+		log.info("***********Finish FacebookLogo************");
+	}
 	@AfterTest
 	public void end() {
 		driver.close();
