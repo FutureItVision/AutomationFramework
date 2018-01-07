@@ -75,7 +75,7 @@ public class Excel_Reader {
 		
 	}
 	
-	
+	//This is for single data reader
 	@SuppressWarnings("deprecation")
 	public String getCellData(String sheetName,String colName,int rowNum){
 		try{
