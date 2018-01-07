@@ -116,6 +116,20 @@ public class HomePageDisplayVerification extends TestBase {
 		Assert.assertEquals("Facebook", "Facebook");
 		log.info("***********Finish FacebookLogo************");
 	}
+	@Test
+	public void homePageYoutubeLogo() {
+		log.info("***********YoutubeLogo************");
+		homepage = new HomePage(driver);
+		homepage.youtubeLogoForHomePage();
+		log.info("***********Finish YoutubeLogo************");
+	}
+	@Test
+	public void homePageYourLogo() {
+		log.info("***********YourLogo************");
+		homepage = new HomePage(driver);
+		homepage.yourLogoForHomePage();
+		log.info("***********Finish YourLogo************");
+	}
 	@AfterTest
 	public void end() {
 		driver.close();
