@@ -7,7 +7,9 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 
-public class HomePage {
+import com.framework.automation.framework.testBase.TestBase;
+
+public class HomePage extends TestBase{
 	public static final Logger log = Logger.getLogger(HomePage.class.getName());
 
 	WebDriver driver;
@@ -236,6 +238,7 @@ public class HomePage {
 
 	public boolean FollowUs(){
 		try {
+ waitForElement(300, FollowUs);
 	FollowUs.isDisplayed();
 		log.info(FollowUs);
 		return true;

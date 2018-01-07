@@ -607,3 +607,19 @@
 2017-12-31 11:18:43 INFO  HomePage:245 - [[RemoteWebDriver: chrome on MAC (517e790cb7ef47c9ab5d0b4b47700900)] -> xpath: .//*[@id='social_block']//li[1]['@class="facebook"']]
 2017-12-31 11:18:43 INFO  HomePageDisplayVerification:117 - ***********Finish FacebookLogo************
 >>>>>>> c11aa9a7cc2c5fd916a11ddb072c92788deaf6bd
+2018-01-06 18:14:56 INFO  VerifyloginWithValidCredentails:64 - ***********Starting verifyLoginWithValidCredentails Test************
+2018-01-06 18:14:57 INFO  HomePage:84 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (62280e56469975ef9a03ade38ad25501)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-01-06 18:14:57 INFO  HomePage:86 - Enterd login and object is : [[RemoteWebDriver: chrome on MAC (62280e56469975ef9a03ade38ad25501)] -> id: email]
+2018-01-06 18:14:57 INFO  HomePage:88 - Enterd password and object is : [[RemoteWebDriver: chrome on MAC (62280e56469975ef9a03ade38ad25501)] -> id: passwd]
+2018-01-06 18:15:58 INFO  HomePage:90 - Click submitButton and object is : Proxy element for: DefaultElementLocator 'By.id: SubmitLogin'
+2018-01-06 18:15:58 INFO  HomePage:135 - Valid message is : k u
+2018-01-06 18:15:58 INFO  VerifyloginWithValidCredentails:68 - ***********Finish verifyLoginWithValidCredentails Test************
+2018-01-06 18:17:40 INFO  VerifyloginWithValidCredentails:34 - ***********Starting verifyLoginWithValidCredentails Test************
+2018-01-06 18:17:41 INFO  HomePage:84 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (322df532cab898d562daf513bd525cda)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-01-06 18:17:41 INFO  HomePage:86 - Enterd login and object is : [[RemoteWebDriver: chrome on MAC (322df532cab898d562daf513bd525cda)] -> id: email]
+2018-01-06 18:17:41 INFO  HomePage:88 - Enterd password and object is : [[RemoteWebDriver: chrome on MAC (322df532cab898d562daf513bd525cda)] -> id: passwd]
+2018-01-06 18:18:42 INFO  HomePage:90 - Click submitButton and object is : Proxy element for: DefaultElementLocator 'By.id: SubmitLogin'
+2018-01-06 18:18:42 INFO  HomePage:135 - Valid message is : k u
+2018-01-06 18:18:42 INFO  VerifyloginWithValidCredentails:38 - ***********Finish verifyLoginWithValidCredentails Test************
+2018-01-06 18:18:43 INFO  VerifyloginWithValidCredentails:64 - ***********Starting verifyLoginWithValidCredentails Test************
+2018-01-06 18:18:43 INFO  HomePage:84 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (322df532cab898d562daf513bd525cda)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
