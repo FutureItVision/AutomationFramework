@@ -74,6 +74,14 @@ public class HomePage extends TestBase{
 	@FindBy(xpath = ".//*[@id='social_block']//li[1]['@class=\"facebook\"']")
 	WebElement FacebookLogo;
 
+	@FindBy(xpath = ".//li[@class='youtube']/a['target=\"_blank\"']")
+	WebElement YoutubeLogo;
+	
+	@FindBy(xpath = ".//*[@id='header_logo']//img[' @class=logo img-responsive']")
+	WebElement YourLogo;
+	
+
+	
 	public HomePage(WebDriver driver) {
 		PageFactory.initElements(driver, this);
 
@@ -256,6 +264,26 @@ public class HomePage extends TestBase{
 		} catch (Exception e) {
 			return false;
 		}
+	}
+		public boolean youtubeLogoForHomePage() {
+			try {
+				YoutubeLogo.isDisplayed();
+				log.info(YoutubeLogo);
+				return true;
+
+			} catch (Exception e) {
+				return false;
+			}
+		}
+			public boolean yourLogoForHomePage() {
+				try {
+					YourLogo.isDisplayed();
+					log.info(YourLogo);
+					return true;
+
+				} catch (Exception e) {
+					return false;
+				}
 }
 }
 

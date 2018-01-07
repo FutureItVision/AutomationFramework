@@ -2,6 +2,7 @@
 <testng-results skipped="3" failed="1" total="5" passed="1">
   <reporter-output>
   </reporter-output>
+<<<<<<< HEAD
   <suite name="Default suite" duration-ms="129273" started-at="2018-01-06T23:17:34Z" finished-at="2018-01-06T23:19:44Z">
     <groups>
     </groups>
@@ -275,6 +276,22 @@ Session ID: 322df532cab898d562daf513bd525cda
           </reporter-output>
         </test-method> <!-- verifyLoginWithValidCredentails -->
         <test-method status="PASS" signature="end()[pri:0, instance:com.framework.automation.framework.homePage.VerifyloginWithValidCredentails@146ba0ac]" name="end" is-config="true" duration-ms="110" started-at="2018-01-06T18:19:43Z" finished-at="2018-01-06T18:19:44Z">
+=======
+  <suite name="Default suite" duration-ms="4406" started-at="2018-01-03T02:45:24Z" finished-at="2018-01-03T02:45:28Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="4406" started-at="2018-01-03T02:45:24Z" finished-at="2018-01-03T02:45:28Z">
+      <class name="com.framework.automation.framework.homePage.HomePageDisplayVerification">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.framework.automation.framework.homePage.HomePageDisplayVerification@59ec2012]" name="setup" is-config="true" duration-ms="4224" started-at="2018-01-02T21:45:24Z" finished-at="2018-01-02T21:45:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="homePageYoutubeLogo()[pri:0, instance:com.framework.automation.framework.homePage.HomePageDisplayVerification@59ec2012]" name="homePageYoutubeLogo" duration-ms="60" started-at="2018-01-02T21:45:28Z" finished-at="2018-01-02T21:45:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageYoutubeLogo -->
+        <test-method status="PASS" signature="end()[pri:0, instance:com.framework.automation.framework.homePage.HomePageDisplayVerification@59ec2012]" name="end" is-config="true" duration-ms="113" started-at="2018-01-02T21:45:28Z" finished-at="2018-01-02T21:45:28Z">
+>>>>>>> b9d84a6c93227029d3bfabd0c7e39ab0732b2d92
           <reporter-output>
           </reporter-output>
         </test-method> <!-- end -->

@@ -606,6 +606,7 @@
 2017-12-31 11:18:43 INFO  HomePageDisplayVerification:113 - ***********FacebookLogo************
 2017-12-31 11:18:43 INFO  HomePage:245 - [[RemoteWebDriver: chrome on MAC (517e790cb7ef47c9ab5d0b4b47700900)] -> xpath: .//*[@id='social_block']//li[1]['@class="facebook"']]
 2017-12-31 11:18:43 INFO  HomePageDisplayVerification:117 - ***********Finish FacebookLogo************
+<<<<<<< HEAD
 >>>>>>> c11aa9a7cc2c5fd916a11ddb072c92788deaf6bd
 2018-01-06 18:14:56 INFO  VerifyloginWithValidCredentails:64 - ***********Starting verifyLoginWithValidCredentails Test************
 2018-01-06 18:14:57 INFO  HomePage:84 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (62280e56469975ef9a03ade38ad25501)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
@@ -623,3 +624,19 @@
 2018-01-06 18:18:42 INFO  VerifyloginWithValidCredentails:38 - ***********Finish verifyLoginWithValidCredentails Test************
 2018-01-06 18:18:43 INFO  VerifyloginWithValidCredentails:64 - ***********Starting verifyLoginWithValidCredentails Test************
 2018-01-06 18:18:43 INFO  HomePage:84 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (322df532cab898d562daf513bd525cda)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+=======
+2018-01-02 20:33:56 INFO  HomePageDisplayVerification:121 - ***********YoutubeLogo************
+2018-01-02 20:33:56 INFO  HomePage:265 - [[RemoteWebDriver: chrome on MAC (1fd6ecbf20bcdc9d25bb77bd9416e37a)] -> xpath: .//*[@id='social_block']/ul/li[3]['@class=youtube']]
+2018-01-02 20:34:30 INFO  HomePageDisplayVerification:121 - ***********YoutubeLogo************
+2018-01-02 20:34:30 INFO  HomePage:265 - [[RemoteWebDriver: chrome on MAC (56a5c1297f74e981c1be68f68b935e80)] -> xpath: .//*[@id='social_block']/ul/li[3]['@class=youtube']]
+2018-01-02 20:34:30 INFO  HomePageDisplayVerification:125 - ***********Finish YoutubeLogo************
+2018-01-02 20:42:51 INFO  HomePageDisplayVerification:121 - ***********YoutubeLogo************
+2018-01-02 20:42:51 INFO  HomePage:265 - [[RemoteWebDriver: chrome on MAC (d873b7008a8e48103bd0f729e096bec7)] -> xpath: .//*[@id='social_block']/ul/li[3]['@class=youtube']]
+2018-01-02 20:42:51 INFO  HomePageDisplayVerification:124 - ***********Finish YoutubeLogo************
+2018-01-02 21:06:43 INFO  HomePageDisplayVerification:128 - ***********YourLogo************
+2018-01-02 21:06:43 INFO  HomePage:278 - [[RemoteWebDriver: chrome on MAC (71a418570455f273484cbfa296ae619e)] -> xpath: .//*[@id='header_logo']//img[' @class=logo img-responsive']]
+2018-01-02 21:06:43 INFO  HomePageDisplayVerification:131 - ***********Finish YourLogo************
+2018-01-02 21:45:28 INFO  HomePageDisplayVerification:121 - ***********YoutubeLogo************
+2018-01-02 21:45:28 INFO  HomePage:270 - [[RemoteWebDriver: chrome on MAC (cdd58a797973e421cebcf54a52c7b155)] -> xpath: .//li[@class='youtube']/a['target="_blank"']]
+2018-01-02 21:45:28 INFO  HomePageDisplayVerification:124 - ***********Finish YoutubeLogo************
+>>>>>>> b9d84a6c93227029d3bfabd0c7e39ab0732b2d92

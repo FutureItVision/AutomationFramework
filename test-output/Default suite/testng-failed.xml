@@ -5,7 +5,11 @@
     <classes>
       <class name="com.framework.automation.framework.homePage.VerifyloginWithValidCredentails">
         <methods>
+<<<<<<< HEAD
           <include name="verifyLoginWithValidCredentails"/>
+=======
+          <include name="homePageYoutubeLogo"/>
+>>>>>>> b9d84a6c93227029d3bfabd0c7e39ab0732b2d92
         </methods>
       </class> <!-- com.framework.automation.framework.homePage.VerifyloginWithValidCredentails -->
     </classes>
