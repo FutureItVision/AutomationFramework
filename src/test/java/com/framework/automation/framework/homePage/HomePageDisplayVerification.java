@@ -144,6 +144,21 @@ public class HomePageDisplayVerification extends TestBase {
 		homepage.yourLogoForHomePage();
 		log.info("***********Finish YourLogo************");
 	}
+	@Test
+	public void VerifyCart() {
+		log.info("***********CartLogo************");
+		homepage = new HomePage(driver);
+		homepage.VerifiedCartButton();
+		log.info("***********Finish CartLogo************");
+	}
+	@Test
+	public void VerifyChiffonDress() {
+		log.info("***********ChiffonDress************");
+		homepage = new HomePage(driver);
+		homepage.homePageSearch("ChiffonDress");
+		homepage.ChiffonDressAddCart();
+		log.info("***********Finish ChiffonDress************");
+	}
 	@AfterTest
 	public void end() {
 		driver.close();

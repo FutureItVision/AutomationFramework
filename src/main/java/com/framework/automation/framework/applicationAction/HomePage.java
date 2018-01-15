@@ -65,24 +65,40 @@ public class HomePage extends TestBase{
 	@FindBy(xpath = ".//*[@id='center_column']/h1/span['Top']")WebElement searchResultTop;
 	
 	@FindBy(xpath = ".//*[@id='center_column']/h1/span['Printed Dress']")WebElement searchResulPrintedDress;
+	
 	@FindBy(xpath=".//*[@id='block_contact_infos']/div//li[3]") WebElement emaillink;
+	
 	@FindBy(xpath=".//li[@class='twitter']/a['Twitter']")WebElement twitterlink;
 	
-	@FindBy(xpath = ".//*[@id='social_block']/h4['@Follow us']")
-	WebElement FollowUs;
+	@FindBy(xpath = ".//*[@id='social_block']/h4['@Follow us']")WebElement FollowUs;
 	
 	@FindBy(xpath = ".//*[@id='social_block']//li[1]['@class=\"facebook\"']")
 	WebElement FacebookLogo;
 
-	@FindBy(xpath = ".//li[@class='youtube']/a['target=\"_blank\"']")
-	WebElement YoutubeLogo;
+	@FindBy(xpath = ".//li[@class='youtube']/a['target=\"_blank\"']")WebElement YoutubeLogo;
 	
-	@FindBy(xpath = ".//*[@id='header_logo']//img[' @class=logo img-responsive']")
-	WebElement YourLogo;
+	@FindBy(xpath = ".//*[@id='header_logo']//img[' @class=logo img-responsive']")WebElement YourLogo;
 	
-
+	@FindBy(xpath = ".//div[ @class='shopping_cart']")WebElement ShoppingCart;
 	
-	public HomePage(WebDriver driver) {
+	@FindBy(xpath = ".//*[@id='order_step']/li[1]/span")WebElement Summary;
+	
+	@FindBy(xpath = ".//li[@class='step_todo second']/span")WebElement SignIn;
+	
+	@FindBy(xpath = ".//li[@class='step_todo third']/span")WebElement Address;
+	
+	@FindBy(xpath = ".//li[@class='step_todo third']/span")WebElement Shipping;
+	
+	@FindBy(xpath = ".//*[@id='step_end']/span")WebElement Payment;
+	
+	@FindBy(xpath = ".//*[@id='center_column']/h1/span['Printed Dress']")WebElement ChiffonDress;
+	
+	@FindBy(xpath = ".//*[@id='center_column']/ul/li[1]/div/div/div[3]/div/div[2]/a[1]/span")WebElement PrintedChiffonDressAddToCart;
+	
+	@FindBy(xpath = ".//*[@id='layer_cart']/div[1]/div[1]/h2")WebElement ProductSuccessfullyAddedToCart;
+	
+	
+        public HomePage(WebDriver driver) {
 		PageFactory.initElements(driver, this);
 
 	}
@@ -283,7 +299,41 @@ public class HomePage extends TestBase{
 
 				} catch (Exception e) {
 					return false;
-				}
-}
-}
+				}}
+				public boolean VerifiedCartButton() {
+					try {
+						ShoppingCart.click();
+						Summary.isDisplayed();
+						Assert.assertEquals(Summary, "Summary");
+						log.info(Summary);
+						SignIn.isDisplayed();
+						Assert.assertEquals(SignIn, "Sign in");
+						log.info(SignIn);
+						Address.isDisplayed();
+						Assert.assertEquals(Address, "Address");
+						log.info(Address);
+						Shipping.isDisplayed();
+						Assert.assertEquals(Shipping, "Shipping");
+						log.info(Shipping);
+						Payment.isDisplayed();
+						Assert.assertEquals(Payment, "Payment");
+						log.info(Payment);
+						
+						return true;
+						
+					} catch (Exception e) {
+						return false;
+					}
+}public boolean ChiffonDressAddCart() {
+	try {
+		PrintedChiffonDressAddToCart.click();
+		ProductSuccessfullyAddedToCart.isDisplayed();
+		Assert.assertEquals("Product successfully added to your shopping cart ", ProductSuccessfullyAddedToCart);
+		log.info("Valid message is : " + ProductSuccessfullyAddedToCart.getText());
+		return true;
+
+	} catch (Exception e) {
+		return false;
+	}
+}}
 
