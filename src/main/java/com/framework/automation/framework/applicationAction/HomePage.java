@@ -93,7 +93,11 @@ public class HomePage extends TestBase{
 	
 	@FindBy(xpath = ".//*[@id='center_column']/h1/span['Printed Dress']")WebElement ChiffonDress;
 	
+<<<<<<< HEAD
 	@FindBy(xpath = ".//*[@id='center_column']/ul/li[1]/div/div/div[3]/div/div[2]/a[1]/span")WebElement PrintedChiffonDressAddToCart;
+=======
+	@FindBy(xpath=".//*[@id='columns']/div[@class=\'breadcrumb clearfix\']") WebElement WomenButton;
+>>>>>>> 858e41040fc69753ed7310d36105cdec3ac71389
 	
 	@FindBy(xpath = ".//*[@id='layer_cart']/div[1]/div[1]/h2")WebElement ProductSuccessfullyAddedToCart;
 	
