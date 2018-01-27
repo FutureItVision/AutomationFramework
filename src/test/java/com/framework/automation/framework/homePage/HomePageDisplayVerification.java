@@ -184,6 +184,14 @@ public class HomePageDisplayVerification extends TestBase {
 		homepage.sunglass();
 		log.info("***********Finish sunglass************");
 	}
+	public void Test() {
+		log.info("***********sunglass************");
+		homepage = new HomePage(driver);
+		homepage.homePageSearch("sunglass");
+		homepage.sunglass();
+		log.info("***********Finish sunglass************");
+	}
+
 
 	@AfterTest
 	public void end() {
