@@ -101,6 +101,7 @@ public class HomePageDisplayVerification extends TestBase {
 		log.info("***********Finish VerifyPrintedDressSearch Test************");
 
 	}
+
 	@Test
 	public void Verifyemaillink() {
 		log.info("***********Verifyemaillink************");
@@ -108,6 +109,7 @@ public class HomePageDisplayVerification extends TestBase {
 		homepage.homepageEmaillink();
 		log.info("***********Finish Verifyemaillink Test************");
 	}
+
 	@Test
 	public void homepagetwitterlink() {
 		log.info("***********Verifytwitterlink************");
@@ -116,12 +118,14 @@ public class HomePageDisplayVerification extends TestBase {
 		Assert.assertEquals("Twitter", "Twitter");
 		log.info("***********Finish Verifytwitterlink Test************");
 	}
+
 	public void followUs() {
 		log.info("***********FollowUs************");
 		homepage = new HomePage(driver);
 		homepage.FollowUs();
 		log.info("***********Finish FollowUS Test************");
 	}
+
 	@Test
 	public void facebookLogo() {
 		log.info("***********FacebookLogo************");
@@ -130,6 +134,7 @@ public class HomePageDisplayVerification extends TestBase {
 		Assert.assertEquals("Facebook", "Facebook");
 		log.info("***********Finish FacebookLogo************");
 	}
+
 	@Test
 	public void homePageYoutubeLogo() {
 		log.info("***********YoutubeLogo************");
@@ -137,6 +142,7 @@ public class HomePageDisplayVerification extends TestBase {
 		homepage.youtubeLogoForHomePage();
 		log.info("***********Finish YoutubeLogo************");
 	}
+
 	@Test
 	public void homePageYourLogo() {
 		log.info("***********YourLogo************");
@@ -144,6 +150,7 @@ public class HomePageDisplayVerification extends TestBase {
 		homepage.yourLogoForHomePage();
 		log.info("***********Finish YourLogo************");
 	}
+
 	@Test
 	public void VerifyCart() {
 		log.info("***********CartLogo************");
@@ -151,6 +158,7 @@ public class HomePageDisplayVerification extends TestBase {
 		homepage.VerifiedCartButton();
 		log.info("***********Finish CartLogo************");
 	}
+
 	@Test
 	public void VerifyChiffonDress() {
 		log.info("***********ChiffonDress************");
@@ -159,7 +167,16 @@ public class HomePageDisplayVerification extends TestBase {
 		homepage.ChiffonDressAddCart();
 		log.info("***********Finish ChiffonDress************");
 	}
+
 	@Test
+	public void Verifywatch() {
+		log.info("***********watch************");
+		homepage = new HomePage(driver);
+		homepage.homePageSearch("searchWatch");
+		homepage.verifywatch();
+		log.info("***********Finish searchwatch************");
+	}
+
 	public void Verifysunglass() {
 		log.info("***********sunglass************");
 		homepage = new HomePage(driver);
@@ -167,6 +184,15 @@ public class HomePageDisplayVerification extends TestBase {
 		homepage.sunglass();
 		log.info("***********Finish sunglass************");
 	}
+	public void Test() {
+		log.info("***********sunglass************");
+		homepage = new HomePage(driver);
+		homepage.homePageSearch("sunglass");
+		homepage.sunglass();
+		log.info("***********Finish sunglass************");
+	}
+
+
 	@AfterTest
 	public void end() {
 		driver.close();

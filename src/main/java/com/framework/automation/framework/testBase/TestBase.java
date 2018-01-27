@@ -58,16 +58,16 @@ public class TestBase {
 		driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
 
 	}
-	
-	public String[][] getData(String excelName, String dataFileName){
-		String path=System.getProperty("user.dir")+"/DataXLSfile/"+excelName;
-		excel_reader=new Excel_Reader(path);
+
+	public String[][] getData(String excelName, String dataFileName) {
+		String path = System.getProperty("user.dir") + "/DataXLSfile/" + excelName;
+		excel_reader = new Excel_Reader(path);
 		String[][] data = excel_reader.readDataFromSheet(dataFileName, excelName);
 		return data;
 	}
-	
-	public void waitForElement(int timeoutInSeconds,WebElement element){
-		WebDriverWait wait = new WebDriverWait(driver,timeoutInSeconds);
+
+	public void waitForElement(int timeoutInSeconds, WebElement element) {
+		WebDriverWait wait = new WebDriverWait(driver, timeoutInSeconds);
 		wait.until(ExpectedConditions.visibilityOf(element));
 	}
 
