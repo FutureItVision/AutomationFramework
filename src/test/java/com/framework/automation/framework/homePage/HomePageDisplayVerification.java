@@ -159,7 +159,14 @@ public class HomePageDisplayVerification extends TestBase {
 		homepage.ChiffonDressAddCart();
 		log.info("***********Finish ChiffonDress************");
 	}
-	
+	@Test
+	public void Verifywatch() {
+		log.info("***********watch************");
+		homepage = new HomePage(driver);
+		homepage.homePageSearch("searchWatch");
+		homepage.verifywatch();
+		log.info("***********Finish searchwatch************");
+	}
 	
 	@AfterTest
 	public void end() {

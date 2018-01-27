@@ -96,8 +96,10 @@ public class HomePage extends TestBase{
 	@FindBy(xpath=".//*[@id='columns']/div[@class=\'breadcrumb clearfix\']") WebElement WomenButton;
 	
 	@FindBy(xpath = ".//*[@id='layer_cart']/div[1]/div[1]/h2")WebElement ProductSuccessfullyAddedToCart;
-	
-	
+
+     @FindBy(xpath = ".//*[@id='center_column']/p[\"alert alert-warning\']")
+	  WebElement   searchWatch;
+       
         public HomePage(WebDriver driver) {
 		PageFactory.initElements(driver, this);
 
@@ -324,7 +326,8 @@ public class HomePage extends TestBase{
 					} catch (Exception e) {
 						return false;
 					}
-}public boolean ChiffonDressAddCart() {
+}
+public boolean ChiffonDressAddCart() {
 	try {
 		PrintedChiffonDressAddToCart.click();
 		ProductSuccessfullyAddedToCart.isDisplayed();
@@ -335,5 +338,19 @@ public class HomePage extends TestBase{
 	} catch (Exception e) {
 		return false;
 	}
-}}
 
+
+}
+public boolean verifywatch () {
+	try {
+		searchWatch.isDisplayed();
+		Assert.assertEquals("No results were found for your search",searchWatch );
+		log.info(searchWatch.getText());
+		return true;
+
+	} catch (Exception e) {
+		return false;
+
+}
+}
+}
