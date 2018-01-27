@@ -674,3 +674,6 @@
 2018-01-14 22:57:16 INFO  VerifyloginWithValidCredentails:38 - ***********Finish verifyLoginWithValidCredentails Test************
 2018-01-14 22:57:16 INFO  VerifyloginWithValidCredentails:64 - ***********Starting verifyLoginWithValidCredentails Test************
 2018-01-14 22:57:17 INFO  HomePage:108 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (1d0b5076615d8cd8099d2017aafe72ca)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-01-27 13:25:05 INFO  HomePageDisplayVerification:164 - ***********sunglass************
+2018-01-27 13:25:06 INFO  HomePage:345 - Valid message is : No results were found for your search "sunglass"
+2018-01-27 13:25:06 INFO  HomePageDisplayVerification:168 - ***********Finish sunglass************
