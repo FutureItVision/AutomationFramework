@@ -9,98 +9,138 @@ import org.testng.Assert;
 
 import com.framework.automation.framework.testBase.TestBase;
 
-public class HomePage extends TestBase{
+public class HomePage extends TestBase {
 	public static final Logger log = Logger.getLogger(HomePage.class.getName());
 
 	WebDriver driver;
 
-	@FindBy(xpath = ".//nav/div[@class='header_user_info']/a['Sign in']")WebElement signIn;
+	@FindBy(xpath = ".//nav/div[@class='header_user_info']/a['Sign in']")
+	WebElement signIn;
 
-	@FindBy(id = "email")WebElement logInemailAddress;
+	@FindBy(id = "email")
+	WebElement logInemailAddress;
 
-	@FindBy(id = "passwd")WebElement logInPassword;
+	@FindBy(id = "passwd")
+	WebElement logInPassword;
 
-	@FindBy(id = "SubmitLogin")WebElement submitLogInButton;
+	@FindBy(id = "SubmitLogin")
+	WebElement submitLogInButton;
 
-	@FindBy(xpath = ".//ol/li['Authentication failed.']")WebElement authenticationFailed;
+	@FindBy(xpath = ".//ol/li['Authentication failed.']")
+	WebElement authenticationFailed;
 
-	@FindBy(xpath = ".//nav/div[@class='header_user_info']/a[@title='View my customer account']/span['k u']")WebElement authenticationValidWithAccountName;
+	@FindBy(xpath = ".//nav/div[@class='header_user_info']/a[@title='View my customer account']/span['k u']")
+	WebElement authenticationValidWithAccountName;
 
-	@FindBy(id = "email_create")WebElement EmailAddressForCreateAccount;
+	@FindBy(id = "email_create")
+	WebElement EmailAddressForCreateAccount;
 
-	@FindBy(id = "SubmitCreate")WebElement SubmitCreatAnAccountbutton;
+	@FindBy(id = "SubmitCreate")
+	WebElement SubmitCreatAnAccountbutton;
 
-	@FindBy(xpath = ".//div[@class=\"col-sm-4 clearfix\"]/div[@class='shopping_cart']/a[@ title='View my shopping cart']")WebElement shoppingChartFromHomePage;
+	@FindBy(xpath = ".//div[@class=\"col-sm-4 clearfix\"]/div[@class='shopping_cart']/a[@ title='View my shopping cart']")
+	WebElement shoppingChartFromHomePage;
 
-	@FindBy(id = "newsletter-input")WebElement EnterEmailAddressForEmailAddressForNewsLetter;
+	@FindBy(id = "newsletter-input")
+	WebElement EnterEmailAddressForEmailAddressForNewsLetter;
 
-	@FindBy(xpath = ".//button[@name='submitNewsletter']")WebElement NewsLetterClickButton;
+	@FindBy(xpath = ".//button[@name='submitNewsletter']")
+	WebElement NewsLetterClickButton;
 
-	@FindBy(xpath = ".//*[@id='columns']/p[@class='alert alert-danger']")WebElement NewsLetterInvitaionResult;
+	@FindBy(xpath = ".//*[@id='columns']/p[@class='alert alert-danger']")
+	WebElement NewsLetterInvitaionResult;
 
-	@FindBy(xpath = ".//*[@id='block_various_links_footer']/ul/li[1]/a")WebElement SpecialsButton;
+	@FindBy(xpath = ".//*[@id='block_various_links_footer']/ul/li[1]/a")
+	WebElement SpecialsButton;
 
-	@FindBy(xpath = ".//*[@id='best-sellers_block_right']/h4['title_block']/a['View a top sellers products']")WebElement InformationSpecialsTopSeller;
+	@FindBy(xpath = ".//*[@id='best-sellers_block_right']/h4['title_block']/a['View a top sellers products']")
+	WebElement InformationSpecialsTopSeller;
 
-	@FindBy(xpath = ".//h1['Create an account']")WebElement validCreatedAccount;
+	@FindBy(xpath = ".//h1['Create an account']")
+	WebElement validCreatedAccount;
 
-	@FindBy(xpath = ".//*[@id='block_top_menu']/ul/li['Dresses']/a[@title='Dresses']")WebElement dressButtonFromHomepage;
-	
-	@FindBy(xpath = ".//*[@id='contact-link']/a['@ title=Contact Us']")WebElement ClickContactUsButton;
+	@FindBy(xpath = ".//*[@id='block_top_menu']/ul/li['Dresses']/a[@title='Dresses']")
+	WebElement dressButtonFromHomepage;
 
-	@FindBy(xpath = ".//a[@title='Return to Home']/i['@class=\"icon-home\"']")WebElement VarifiedContactHomeLogo;
+	@FindBy(xpath = ".//*[@id='contact-link']/a['@ title=Contact Us']")
+	WebElement ClickContactUsButton;
 
-	@FindBy(xpath = ".//*[@id='home-page-tabs']/li[@class='active']/a['Best Sellers']")WebElement bestSellersButton;
+	@FindBy(xpath = ".//a[@title='Return to Home']/i['@class=\"icon-home\"']")
+	WebElement VarifiedContactHomeLogo;
 
-	@FindBy(xpath = ".//section['Categories']/div/div/ul/li/a['Women']")WebElement wonemCategories;
+	@FindBy(xpath = ".//*[@id='home-page-tabs']/li[@class='active']/a['Best Sellers']")
+	WebElement bestSellersButton;
 
-	@FindBy(id = "search_query_top")WebElement homePageSearchButton;
+	@FindBy(xpath = ".//section['Categories']/div/div/ul/li/a['Women']")
+	WebElement wonemCategories;
 
-	@FindBy(xpath = ".//*[@id='searchbox']/button[@type=\"submit\"]")WebElement homePageSearchButtonClick;
+	@FindBy(id = "search_query_top")
+	WebElement homePageSearchButton;
 
-	@FindBy(xpath = ".//*[@id='center_column']/h1/span['T-Shirt']")WebElement searchResut;
+	@FindBy(xpath = ".//*[@id='searchbox']/button[@type=\"submit\"]")
+	WebElement homePageSearchButtonClick;
 
-	@FindBy(xpath = ".//*[@id='center_column']/h1/span['Top']")WebElement searchResultTop;
-	
-	@FindBy(xpath = ".//*[@id='center_column']/h1/span['Printed Dress']")WebElement searchResulPrintedDress;
-	
-	@FindBy(xpath=".//*[@id='block_contact_infos']/div//li[3]") WebElement emaillink;
-	
-	@FindBy(xpath=".//li[@class='twitter']/a['Twitter']")WebElement twitterlink;
-	
-	@FindBy(xpath = ".//*[@id='social_block']/h4['@Follow us']")WebElement FollowUs;
-	
+	@FindBy(xpath = ".//*[@id='center_column']/h1/span['T-Shirt']")
+	WebElement searchResut;
+
+	@FindBy(xpath = ".//*[@id='center_column']/h1/span['Top']")
+	WebElement searchResultTop;
+
+	@FindBy(xpath = ".//*[@id='center_column']/h1/span['Printed Dress']")
+	WebElement searchResulPrintedDress;
+
+	@FindBy(xpath = ".//*[@id='block_contact_infos']/div//li[3]")
+	WebElement emaillink;
+
+	@FindBy(xpath = ".//li[@class='twitter']/a['Twitter']")
+	WebElement twitterlink;
+
+	@FindBy(xpath = ".//*[@id='social_block']/h4['@Follow us']")
+	WebElement FollowUs;
+
 	@FindBy(xpath = ".//*[@id='social_block']//li[1]['@class=\"facebook\"']")
 	WebElement FacebookLogo;
 
-	@FindBy(xpath = ".//li[@class='youtube']/a['target=\"_blank\"']")WebElement YoutubeLogo;
-	
-	@FindBy(xpath = ".//*[@id='header_logo']//img[' @class=logo img-responsive']")WebElement YourLogo;
-	
-	@FindBy(xpath = ".//div[ @class='shopping_cart']")WebElement ShoppingCart;
-	
-	@FindBy(xpath = ".//*[@id='order_step']/li[1]/span")WebElement Summary;
-	
-	@FindBy(xpath = ".//li[@class='step_todo second']/span")WebElement SignIn;
-	
-	@FindBy(xpath = ".//li[@class='step_todo third']/span")WebElement Address;
-	
-	@FindBy(xpath = ".//li[@class='step_todo third']/span")WebElement Shipping;
-	
-	@FindBy(xpath = ".//*[@id='step_end']/span")WebElement Payment;
-	
-	@FindBy(xpath = ".//*[@id='center_column']/h1/span['Printed Dress']")WebElement ChiffonDress;
-	
-	@FindBy(xpath = ".//*[@id='center_column']/ul/li[1]/div/div/div[3]/div/div[2]/a[1]/span")WebElement PrintedChiffonDressAddToCart;
+	@FindBy(xpath = ".//li[@class='youtube']/a['target=\"_blank\"']")
+	WebElement YoutubeLogo;
 
-	@FindBy(xpath=".//*[@id='columns']/div[@class=\'breadcrumb clearfix\']") WebElement WomenButton;
-	
-	@FindBy(xpath = ".//*[@id='layer_cart']/div[1]/div[1]/h2")WebElement ProductSuccessfullyAddedToCart;
+	@FindBy(xpath = ".//*[@id='header_logo']//img[' @class=logo img-responsive']")
+	WebElement YourLogo;
 
-     @FindBy(xpath = ".//*[@id='center_column']/p[\"alert alert-warning\']")
-	  WebElement   searchWatch;
-       
-        public HomePage(WebDriver driver) {
+	@FindBy(xpath = ".//div[ @class='shopping_cart']")
+	WebElement ShoppingCart;
+
+	@FindBy(xpath = ".//*[@id='order_step']/li[1]/span")
+	WebElement Summary;
+
+	@FindBy(xpath = ".//li[@class='step_todo second']/span")
+	WebElement SignIn;
+
+	@FindBy(xpath = ".//li[@class='step_todo third']/span")
+	WebElement Address;
+
+	@FindBy(xpath = ".//li[@class='step_todo third']/span")
+	WebElement Shipping;
+
+	@FindBy(xpath = ".//*[@id='step_end']/span")
+	WebElement Payment;
+
+	@FindBy(xpath = ".//*[@id='center_column']/h1/span['Printed Dress']")
+	WebElement ChiffonDress;
+
+	@FindBy(xpath = ".//*[@id='center_column']/ul/li[1]/div/div/div[3]/div/div[2]/a[1]/span")
+	WebElement PrintedChiffonDressAddToCart;
+
+	@FindBy(xpath = ".//*[@id='columns']/div[@class=\'breadcrumb clearfix\']")
+	WebElement WomenButton;
+	@FindBy(xpath = ".//*[@id='layer_cart']/div[1]/div[1]/h2")
+	WebElement ProductSuccessfullyAddedToCart;
+	@FindBy(xpath = ".//*[@id='center_column']/p[\"alert alert-warning\']")
+	WebElement searchWatch;
+	@FindBy(xpath = ".//*[@id='center_column']/p['alert alert-warning']")
+	WebElement sunglass;
+
+	public HomePage(WebDriver driver) {
 		PageFactory.initElements(driver, this);
 
 	}
@@ -237,7 +277,7 @@ public class HomePage extends TestBase{
 		log.info("Valid message is : " + searchResulPrintedDress.getText());
 		return searchResulPrintedDress.getText();
 	}
-	
+
 	public boolean homepageEmaillink() {
 		try {
 			emaillink.isDisplayed();
@@ -247,32 +287,32 @@ public class HomePage extends TestBase{
 		} catch (Exception e) {
 			return false;
 		}
-	
-}
-		public boolean homepagetwitterlink() {
-			try {
-				twitterlink.isDisplayed();
-				log.info(twitterlink);
-				return true;
-			} catch (Exception e) {
-				return false;
-		
 
 	}
 
-	}
-
-	public boolean FollowUs(){
+	public boolean homepagetwitterlink() {
 		try {
- waitForElement(300, FollowUs);
-	FollowUs.isDisplayed();
-		log.info(FollowUs);
-		return true;
+			twitterlink.isDisplayed();
+			log.info(twitterlink);
+			return true;
+		} catch (Exception e) {
+			return false;
+
 		}
-		catch (Exception e) {
+
+	}
+
+	public boolean FollowUs() {
+		try {
+			waitForElement(300, FollowUs);
+			FollowUs.isDisplayed();
+			log.info(FollowUs);
+			return true;
+		} catch (Exception e) {
 			return false;
 		}
-}
+	}
+
 	public boolean FacebookLogo() {
 		try {
 			FacebookLogo.isDisplayed();
@@ -283,74 +323,93 @@ public class HomePage extends TestBase{
 			return false;
 		}
 	}
-		public boolean youtubeLogoForHomePage() {
-			try {
-				YoutubeLogo.isDisplayed();
-				log.info(YoutubeLogo);
-				return true;
 
-			} catch (Exception e) {
-				return false;
-			}
+	public boolean youtubeLogoForHomePage() {
+		try {
+			YoutubeLogo.isDisplayed();
+			log.info(YoutubeLogo);
+			return true;
+
+		} catch (Exception e) {
+			return false;
 		}
-			public boolean yourLogoForHomePage() {
-				try {
-					YourLogo.isDisplayed();
-					log.info(YourLogo);
-					return true;
-
-				} catch (Exception e) {
-					return false;
-				}}
-				public boolean VerifiedCartButton() {
-					try {
-						ShoppingCart.click();
-						Summary.isDisplayed();
-						Assert.assertEquals(Summary, "Summary");
-						log.info(Summary);
-						SignIn.isDisplayed();
-						Assert.assertEquals(SignIn, "Sign in");
-						log.info(SignIn);
-						Address.isDisplayed();
-						Assert.assertEquals(Address, "Address");
-						log.info(Address);
-						Shipping.isDisplayed();
-						Assert.assertEquals(Shipping, "Shipping");
-						log.info(Shipping);
-						Payment.isDisplayed();
-						Assert.assertEquals(Payment, "Payment");
-						log.info(Payment);
-						
-						return true;
-						
-					} catch (Exception e) {
-						return false;
-					}
-}
-public boolean ChiffonDressAddCart() {
-	try {
-		PrintedChiffonDressAddToCart.click();
-		ProductSuccessfullyAddedToCart.isDisplayed();
-		Assert.assertEquals("Product successfully added to your shopping cart ", ProductSuccessfullyAddedToCart);
-		log.info("Valid message is : " + ProductSuccessfullyAddedToCart.getText());
-		return true;
-
-	} catch (Exception e) {
-		return false;
 	}
 
+	public boolean yourLogoForHomePage() {
+		try {
+			YourLogo.isDisplayed();
+			log.info(YourLogo);
+			return true;
 
-}
-public boolean verifywatch () {
-	try {
-		searchWatch.isDisplayed();
-		Assert.assertEquals("No results were found for your search",searchWatch );
-		log.info(searchWatch.getText());
-		return true;
+		} catch (Exception e) {
+			return false;
+		}
+	}
 
-	} catch (Exception e) {
-		return false;
+	public boolean VerifiedCartButton() {
+		try {
+			ShoppingCart.click();
+			Summary.isDisplayed();
+			Assert.assertEquals(Summary, "Summary");
+			log.info(Summary);
+			SignIn.isDisplayed();
+			Assert.assertEquals(SignIn, "Sign in");
+			log.info(SignIn);
+			Address.isDisplayed();
+			Assert.assertEquals(Address, "Address");
+			log.info(Address);
+			Shipping.isDisplayed();
+			Assert.assertEquals(Shipping, "Shipping");
+			log.info(Shipping);
+			Payment.isDisplayed();
+			Assert.assertEquals(Payment, "Payment");
+			log.info(Payment);
 
-}
-}
+			return true;
+
+		} catch (Exception e) {
+			return false;
+		}
+	}
+
+	public boolean ChiffonDressAddCart() {
+		try {
+			PrintedChiffonDressAddToCart.click();
+			ProductSuccessfullyAddedToCart.isDisplayed();
+			Assert.assertEquals("Product successfully added to your shopping cart ", ProductSuccessfullyAddedToCart);
+			log.info("Valid message is : " + ProductSuccessfullyAddedToCart.getText());
+			return true;
+
+		} catch (Exception e) {
+			return false;
+		}
+
+	}
+
+	public boolean verifywatch() {
+		try {
+			searchWatch.isDisplayed();
+			Assert.assertEquals("No results were found for your search", searchWatch);
+			log.info(searchWatch.getText());
+			return true;
+
+		} catch (Exception e) {
+			return false;
+
+		}
+	}
+
+	public boolean sunglass() {
+		try {
+
+			sunglass.isDisplayed();
+			Assert.assertEquals(sunglass, sunglass);
+			log.info("Valid message is : " + sunglass.getText());
+			return true;
+
+		} catch (Exception e) {
+			return false;
+		}
+	}
+
 }
