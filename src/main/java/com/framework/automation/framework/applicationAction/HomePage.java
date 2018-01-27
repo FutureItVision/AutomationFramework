@@ -96,6 +96,7 @@ public class HomePage extends TestBase{
 	@FindBy(xpath=".//*[@id='columns']/div[@class=\'breadcrumb clearfix\']") WebElement WomenButton;
 	
 	@FindBy(xpath = ".//*[@id='layer_cart']/div[1]/div[1]/h2")WebElement ProductSuccessfullyAddedToCart;
+	@FindBy(xpath=".//*[@id='center_column']/p['alert alert-warning']") WebElement sunglass;
 	
 	
         public HomePage(WebDriver driver) {
@@ -335,5 +336,18 @@ public class HomePage extends TestBase{
 	} catch (Exception e) {
 		return false;
 	}
+
+}public boolean sunglass() {
+		try {
+			
+			sunglass.isDisplayed();
+			Assert.assertEquals(sunglass,sunglass);
+			log.info("Valid message is : " + sunglass.getText());
+			return true;
+
+		} catch (Exception e) {
+				return false;
 }}
+
+}
 
