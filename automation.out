@@ -677,3 +677,6 @@
 2018-01-27 13:25:05 INFO  HomePageDisplayVerification:164 - ***********sunglass************
 2018-01-27 13:25:06 INFO  HomePage:345 - Valid message is : No results were found for your search "sunglass"
 2018-01-27 13:25:06 INFO  HomePageDisplayVerification:168 - ***********Finish sunglass************
+2018-01-28 10:10:24 INFO  HomePageDisplayVerification:189 - ***********searchjewelary************
+2018-01-28 10:10:25 INFO  HomePage:424 - Valid message is : No results were found for your search "jewelary"
+2018-01-28 10:10:25 INFO  HomePageDisplayVerification:193 - ***********Finish searchjewelary************

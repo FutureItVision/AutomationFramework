@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="3598" started-at="2018-01-27T18:25:02Z" finished-at="2018-01-27T18:25:06Z">
+  <suite started-at="2018-01-28T15:10:21Z" name="Default suite" finished-at="2018-01-28T15:10:25Z" duration-ms="4185">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="3598" started-at="2018-01-27T18:25:02Z" finished-at="2018-01-27T18:25:06Z">
+    <test started-at="2018-01-28T15:10:21Z" name="Default test" finished-at="2018-01-28T15:10:25Z" duration-ms="4185">
       <class name="com.framework.automation.framework.homePage.HomePageDisplayVerification">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.framework.automation.framework.homePage.HomePageDisplayVerification@754ba872]" name="setup" is-config="true" duration-ms="2683" started-at="2018-01-27T13:25:02Z" finished-at="2018-01-27T13:25:05Z">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.framework.automation.framework.homePage.HomePageDisplayVerification@2f54a33d]" started-at="2018-01-28T10:10:21Z" name="setup" finished-at="2018-01-28T10:10:24Z" duration-ms="3112" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="Verifysunglass()[pri:0, instance:com.framework.automation.framework.homePage.HomePageDisplayVerification@754ba872]" name="Verifysunglass" duration-ms="784" started-at="2018-01-27T13:25:05Z" finished-at="2018-01-27T13:25:06Z">
+        <test-method signature="Verifysearchjewelary()[pri:0, instance:com.framework.automation.framework.homePage.HomePageDisplayVerification@2f54a33d]" started-at="2018-01-28T10:10:24Z" name="Verifysearchjewelary" finished-at="2018-01-28T10:10:25Z" duration-ms="952" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Verifysunglass -->
-        <test-method status="PASS" signature="end()[pri:0, instance:com.framework.automation.framework.homePage.HomePageDisplayVerification@754ba872]" name="end" is-config="true" duration-ms="111" started-at="2018-01-27T13:25:06Z" finished-at="2018-01-27T13:25:06Z">
+        </test-method> <!-- Verifysearchjewelary -->
+        <test-method is-config="true" signature="end()[pri:0, instance:com.framework.automation.framework.homePage.HomePageDisplayVerification@2f54a33d]" started-at="2018-01-28T10:10:25Z" name="end" finished-at="2018-01-28T10:10:25Z" duration-ms="109" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- end -->

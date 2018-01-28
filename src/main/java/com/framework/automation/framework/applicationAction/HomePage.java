@@ -140,6 +140,10 @@ public class HomePage extends TestBase {
 	@FindBy(xpath = ".//*[@id='center_column']/p['alert alert-warning']")
 	WebElement sunglass;
 
+	
+	@FindBy(xpath = ".//*[@id='center_column']/p[\"alert alert-warning\"]")
+	WebElement searchjewelary;
+
 	public HomePage(WebDriver driver) {
 		PageFactory.initElements(driver, this);
 
@@ -410,6 +414,24 @@ public class HomePage extends TestBase {
 		} catch (Exception e) {
 			return false;
 		}
+	}
+		
+		public boolean searchjewelary() {
+			try {
+
+				searchjewelary.isDisplayed();
+				Assert.assertEquals(searchjewelary, searchjewelary);
+				log.info("Valid message is : " + searchjewelary.getText());
+				return true;
+
+			} catch (Exception e) {
+				return false;
+			}
+			
+		
+		
+		
+		
 	}
 
 }
