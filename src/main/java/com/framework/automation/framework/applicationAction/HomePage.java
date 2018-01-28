@@ -139,8 +139,8 @@ public class HomePage extends TestBase {
 	WebElement searchWatch;
 	@FindBy(xpath = ".//*[@id='center_column']/p['alert alert-warning']")
 	WebElement sunglass;
-
-	
+	@FindBy(xpath = ".//*[@id='center_column']/p")
+	WebElement searchRing;
 	@FindBy(xpath = ".//*[@id='center_column']/p[\"alert alert-warning\"]")
 	WebElement searchjewelary;
 
@@ -427,8 +427,18 @@ public class HomePage extends TestBase {
 			} catch (Exception e) {
 				return false;
 			}
-			
-		
+		}
+			public boolean SearchProductRing() {
+				try {
+
+                      searchRing.isDisplayed();
+					Assert.assertEquals(searchRing, searchRing);
+					log.info("Valid message is : " +searchRing.getText());
+					return true;
+
+				} catch (Exception e) {
+					return false;
+				}
 		
 		
 		

@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results total="1" passed="1" failed="0" skipped="0">
+<testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2018-01-28T15:10:21Z" name="Default suite" finished-at="2018-01-28T15:10:25Z" duration-ms="4185">
+  <suite name="Default suite" duration-ms="3826" started-at="2018-01-28T15:50:34Z" finished-at="2018-01-28T15:50:38Z">
     <groups>
     </groups>
-    <test started-at="2018-01-28T15:10:21Z" name="Default test" finished-at="2018-01-28T15:10:25Z" duration-ms="4185">
-      <class name="com.framework.automation.framework.homePage.HomePageDisplayVerification">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.framework.automation.framework.homePage.HomePageDisplayVerification@2f54a33d]" started-at="2018-01-28T10:10:21Z" name="setup" finished-at="2018-01-28T10:10:24Z" duration-ms="3112" status="PASS">
+    <test name="Default test" duration-ms="3826" started-at="2018-01-28T15:50:34Z" finished-at="2018-01-28T15:50:38Z">
+      <class name="com.framework.automation.framework.homePage.VerifyloginWithInvalidCredentails">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.framework.automation.framework.homePage.VerifyloginWithInvalidCredentails@27c20538]" name="setup" is-config="true" duration-ms="2773" started-at="2018-01-28T10:50:34Z" finished-at="2018-01-28T10:50:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="Verifysearchjewelary()[pri:0, instance:com.framework.automation.framework.homePage.HomePageDisplayVerification@2f54a33d]" started-at="2018-01-28T10:10:24Z" name="Verifysearchjewelary" finished-at="2018-01-28T10:10:25Z" duration-ms="952" status="PASS">
+        <test-method status="PASS" signature="VerifyProductring()[pri:0, instance:com.framework.automation.framework.homePage.VerifyloginWithInvalidCredentails@27c20538]" name="VerifyProductring" duration-ms="933" started-at="2018-01-28T10:50:37Z" finished-at="2018-01-28T10:50:38Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Verifysearchjewelary -->
-        <test-method is-config="true" signature="end()[pri:0, instance:com.framework.automation.framework.homePage.HomePageDisplayVerification@2f54a33d]" started-at="2018-01-28T10:10:25Z" name="end" finished-at="2018-01-28T10:10:25Z" duration-ms="109" status="PASS">
+        </test-method> <!-- VerifyProductring -->
+        <test-method status="PASS" signature="end()[pri:0, instance:com.framework.automation.framework.homePage.VerifyloginWithInvalidCredentails@27c20538]" name="end" is-config="true" duration-ms="109" started-at="2018-01-28T10:50:38Z" finished-at="2018-01-28T10:50:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- end -->
-      </class> <!-- com.framework.automation.framework.homePage.HomePageDisplayVerification -->
+      </class> <!-- com.framework.automation.framework.homePage.VerifyloginWithInvalidCredentails -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
