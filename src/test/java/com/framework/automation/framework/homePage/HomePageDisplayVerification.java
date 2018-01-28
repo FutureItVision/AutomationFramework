@@ -176,13 +176,21 @@ public class HomePageDisplayVerification extends TestBase {
 		homepage.verifywatch();
 		log.info("***********Finish searchwatch************");
 	}
-
+@Test
 	public void Verifysunglass() {
 		log.info("***********sunglass************");
 		homepage = new HomePage(driver);
 		homepage.homePageSearch("sunglass");
 		homepage.sunglass();
 		log.info("***********Finish sunglass************");
+	}
+	@Test
+	public void Verifysearchjewelary() {
+		log.info("***********searchjewelary************");
+		homepage = new HomePage(driver);
+		homepage.homePageSearch("jewelary");
+		homepage.searchjewelary();
+		log.info("***********Finish searchjewelary************");
 	}
 	
 	@AfterTest
