@@ -37,7 +37,23 @@ public class VerifyloginWithInvalidCredentails extends TestBase {
 		homepage.homePageSearch("ring");
 		homepage.SearchProductRing();
 		log.info("***********Finish ring***********");
+	
+	
 	}
+	@Test
+	public void Verifypopular() {
+		log.info("***********popular************");
+		homepage = new HomePage(driver);
+		homepage.homePageSearch("search popular");
+		homepage.verifypopular();
+		log.info("***********Finish searchpopular************");
+	}
+	
+	
+	
+	
+	
+	
 	@AfterTest
 	public void end() {
 		driver.close();
