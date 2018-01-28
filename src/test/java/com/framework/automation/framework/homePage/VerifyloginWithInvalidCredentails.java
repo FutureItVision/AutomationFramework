@@ -30,7 +30,14 @@ public class VerifyloginWithInvalidCredentails extends TestBase {
 		log.info("***********Finish VerifyloginWithInvalidCredentails Test************");
 
 	}
-
+	@Test
+	public void VerifyProductring() {
+		log.info("**********ring************");
+		homepage = new HomePage(driver);
+		homepage.homePageSearch("ring");
+		homepage.SearchProductRing();
+		log.info("***********Finish ring***********");
+	}
 	@AfterTest
 	public void end() {
 		driver.close();

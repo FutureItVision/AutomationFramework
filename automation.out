@@ -680,3 +680,6 @@
 2018-01-28 10:10:24 INFO  HomePageDisplayVerification:189 - ***********searchjewelary************
 2018-01-28 10:10:25 INFO  HomePage:424 - Valid message is : No results were found for your search "jewelary"
 2018-01-28 10:10:25 INFO  HomePageDisplayVerification:193 - ***********Finish searchjewelary************
+2018-01-28 10:50:37 INFO  VerifyloginWithInvalidCredentails:35 - **********ring************
+2018-01-28 10:50:38 INFO  HomePage:436 - Valid message is : No results were found for your search "ring"
+2018-01-28 10:50:38 INFO  VerifyloginWithInvalidCredentails:39 - ***********Finish ring***********
