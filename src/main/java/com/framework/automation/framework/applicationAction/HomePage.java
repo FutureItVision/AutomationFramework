@@ -143,6 +143,8 @@ public class HomePage extends TestBase {
 	WebElement searchRing;
 	@FindBy(xpath = ".//*[@id='center_column']/p[\"alert alert-warning\"]")
 	WebElement searchjewelary;
+	@FindBy(xpath = ".//*[@id='center_column']/p[\"alert alert-warning\']")
+	WebElement  searchpopular ; 
 
 	public HomePage(WebDriver driver) {
 		PageFactory.initElements(driver, this);
@@ -427,6 +429,24 @@ public class HomePage extends TestBase {
 			} catch (Exception e) {
 				return false;
 			}
+		
+			public boolean verifypopular () {
+				try {
+					searchpopular.isDisplayed();
+					Assert.assertEquals("No results were found for your search",searchpopular );
+					log.info(searchpopular.getText());
+					return true;
+
+				} catch (Exception e) {
+					return false;		
+		
+		
+				}	
+		
+		
+		
+		
+		
 		}
 			public boolean SearchProductRing() {
 				try {
