@@ -18,6 +18,7 @@ public class HomePageDisplayVerification extends TestBase {
 	@BeforeTest
 	public void setup() throws IOException {
 		init();
+		
 	}
 
 	@Test
@@ -176,7 +177,7 @@ public class HomePageDisplayVerification extends TestBase {
 		homepage.verifywatch();
 		log.info("***********Finish searchwatch************");
 	}
-
+	@Test
 	public void Verifysunglass() {
 		log.info("***********sunglass************");
 		homepage = new HomePage(driver);
@@ -184,6 +185,33 @@ public class HomePageDisplayVerification extends TestBase {
 		homepage.sunglass();
 		log.info("***********Finish sunglass************");
 	}
+	
+	@Test
+	public void VerifyHomepageWomenFilterButtonWork() throws InterruptedException{
+		log.info("*********** homepage women filter button work test start***********");
+		homepage = new HomePage(driver);
+		homepage.homepageFilterButton(driver, "Women").click();
+		Thread.sleep(5000);
+		takeScreenShot("VerifyHomepageWomenFilterButtonWork");
+		log.info("*********homepage women filter button work test finish*********");
+	}
+	
+	 @Test
+	 public void VerifyFaded_T_shirt() throws InterruptedException {
+	 log.info("***********Faded T_shirt************");
+	 homepage = new HomePage(driver);
+	 homepage.homePageSearch("Faded_T_shirt");
+	 homepage.FadedT_ShirtAddToCart(driver);
+	 //homepage.state(driver, "M");
+	 takeScreenShot("validParameterDressSizeTest ");
+	 log.info("***********Finish Faded_T_shirt test************");
+	 }
+
+
+
+
+
+	
 	
 	@AfterTest
 	public void end() {

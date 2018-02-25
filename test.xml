@@ -2,6 +2,10 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
 <suite name="Regression Suite">
+<listeners>
+<listener class-name="com.framework.automation.framework.testlistner.Listener">
+</listener>
+</listeners>
 <test name="verifyLoginWithInvalidCredentails">
 <classes>
 <class name="com.framework.automation.framework.homePage.VerifyloginWithInvalidCredentails"></class>

@@ -677,3 +677,276 @@
 2018-01-27 13:25:05 INFO  HomePageDisplayVerification:164 - ***********sunglass************
 2018-01-27 13:25:06 INFO  HomePage:345 - Valid message is : No results were found for your search "sunglass"
 2018-01-27 13:25:06 INFO  HomePageDisplayVerification:168 - ***********Finish sunglass************
+2018-01-27 22:51:15 INFO  HomePageDisplayVerification:173 - ***********watch************
+2018-01-27 22:51:16 INFO  HomePageDisplayVerification:177 - ***********Finish searchwatch************
+2018-02-16 15:44:31 INFO  VerifyloginWithValidCredentails:51 - ***********Starting validEmailforCreateAccount Test************
+2018-02-16 15:44:32 INFO  HomePage:174 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (9f62dab02e4d1d6bcca568467ff7966c)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-02-16 15:44:32 INFO  HomePage:176 - Enter valid EmailAddress : [[RemoteWebDriver: chrome on MAC (9f62dab02e4d1d6bcca568467ff7966c)] -> id: email_create]
+2018-02-16 15:44:32 INFO  HomePage:178 - Click submitCreateButton and object is : [[RemoteWebDriver: chrome on MAC (9f62dab02e4d1d6bcca568467ff7966c)] -> id: SubmitCreate]
+2018-02-16 15:44:32 INFO  HomePage:219 - Valid message is : AUTHENTICATION
+2018-02-16 15:44:33 INFO  VerifyloginWithValidCredentails:56 - ***********Finish validEmailforCreateAccount Test************
+2018-02-16 15:47:33 INFO  VerifyloginWithValidCredentails:51 - ***********Starting validEmailforCreateAccount Test************
+2018-02-16 15:47:34 INFO  HomePage:174 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (7cc197d7e1bf6a994904244d5b7819e9)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-02-16 15:47:34 INFO  HomePage:176 - Enter valid EmailAddress : [[RemoteWebDriver: chrome on MAC (7cc197d7e1bf6a994904244d5b7819e9)] -> id: email_create]
+2018-02-16 15:47:34 INFO  HomePage:178 - Click submitCreateButton and object is : [[RemoteWebDriver: chrome on MAC (7cc197d7e1bf6a994904244d5b7819e9)] -> id: SubmitCreate]
+2018-02-16 15:47:34 INFO  HomePage:219 - Valid message is : AUTHENTICATION
+2018-02-16 15:47:35 INFO  VerifyloginWithValidCredentails:56 - ***********Finish validEmailforCreateAccount Test************
+2018-02-16 15:52:55 INFO  VerifyloginWithValidCredentails:51 - ***********Starting validEmailforCreateAccount Test************
+2018-02-16 15:52:56 INFO  HomePage:174 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (7e4dd67478341391ca4ab46207e59b9f)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-02-16 15:52:56 INFO  HomePage:176 - Enter valid EmailAddress : [[RemoteWebDriver: chrome on MAC (7e4dd67478341391ca4ab46207e59b9f)] -> id: email_create]
+2018-02-16 15:52:56 INFO  HomePage:178 - Click submitCreateButton and object is : [[RemoteWebDriver: chrome on MAC (7e4dd67478341391ca4ab46207e59b9f)] -> id: SubmitCreate]
+2018-02-16 15:52:56 INFO  HomePage:219 - Valid message is : AUTHENTICATION
+2018-02-16 15:52:57 INFO  VerifyloginWithValidCredentails:56 - ***********Finish validEmailforCreateAccount Test************
+2018-02-16 16:06:10 INFO  VerifyloginWithValidCredentails:51 - ***********Starting validEmailforCreateAccount Test************
+2018-02-16 16:06:11 INFO  HomePage:174 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (3f919fbc279e7360f613ae4261578916)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-02-16 16:06:11 INFO  HomePage:176 - Enter valid EmailAddress : [[RemoteWebDriver: chrome on MAC (3f919fbc279e7360f613ae4261578916)] -> id: email_create]
+2018-02-16 16:06:11 INFO  HomePage:178 - Click submitCreateButton and object is : [[RemoteWebDriver: chrome on MAC (3f919fbc279e7360f613ae4261578916)] -> id: SubmitCreate]
+2018-02-16 16:06:11 INFO  HomePage:219 - Valid message is : AUTHENTICATION
+2018-02-16 16:06:12 INFO  VerifyloginWithValidCredentails:56 - ***********Finish validEmailforCreateAccount Test************
+2018-02-17 22:00:24 INFO  HomePageDisplayVerification:190 - *********** homepage women filter button work test start***********
+2018-02-17 22:01:23 INFO  HomePageDisplayVerification:190 - *********** homepage women filter button work test start***********
+2018-02-17 22:01:47 INFO  HomePageDisplayVerification:190 - *********** homepage women filter button work test start***********
+2018-02-17 22:04:08 INFO  HomePageDisplayVerification:190 - *********** homepage women filter button work test start***********
+2018-02-17 22:19:53 INFO  HomePageDisplayVerification:190 - *********** homepage women filter button work test start***********
+2018-02-17 22:23:09 INFO  HomePageDisplayVerification:190 - *********** homepage women filter button work test start***********
+2018-02-17 22:28:26 INFO  HomePageDisplayVerification:190 - *********** homepage women filter button work test start***********
+2018-02-17 22:53:37 INFO  HomePageDisplayVerification:190 - *********** homepage women filter button work test start***********
+2018-02-17 22:54:59 INFO  HomePageDisplayVerification:190 - *********** homepage women filter button work test start***********
+2018-02-17 23:05:15 INFO  HomePageDisplayVerification:190 - *********** homepage women filter button work test start***********
+2018-02-17 23:05:22 INFO  HomePageDisplayVerification:195 - *********homepage women filter button work test finish*********
+2018-02-17 23:11:57 INFO  HomePageDisplayVerification:190 - *********** homepage women filter button work test start***********
+2018-02-17 23:12:05 INFO  HomePageDisplayVerification:195 - *********homepage women filter button work test finish*********
+2018-02-18 10:40:21 INFO  HomePageDisplayVerification:190 - *********** homepage women filter button work test start***********
+2018-02-18 10:41:44 INFO  HomePageDisplayVerification:190 - *********** homepage women filter button work test start***********
+2018-02-18 10:42:12 INFO  HomePageDisplayVerification:190 - *********** homepage women filter button work test start***********
+2018-02-18 10:42:20 INFO  HomePageDisplayVerification:195 - *********homepage women filter button work test finish*********
+2018-02-22 23:20:45 INFO  HomePageDisplayVerification:200 - ***********Faded T_shirt************
+2018-02-22 23:28:14 INFO  HomePageDisplayVerification:200 - ***********Faded T_shirt************
+2018-02-22 23:34:36 INFO  HomePageDisplayVerification:200 - ***********Faded T_shirt************
+2018-02-22 23:42:05 INFO  HomePageDisplayVerification:200 - ***********Faded T_shirt************
+2018-02-22 23:45:28 INFO  HomePageDisplayVerification:200 - ***********Faded T_shirt************
+2018-02-23 00:01:29 INFO  HomePageDisplayVerification:200 - ***********Faded T_shirt************
+2018-02-23 00:03:17 INFO  HomePageDisplayVerification:200 - ***********Faded T_shirt************
+2018-02-23 00:06:10 INFO  HomePageDisplayVerification:200 - ***********Faded T_shirt************
+2018-02-23 00:09:18 INFO  HomePageDisplayVerification:200 - ***********Faded T_shirt************
+2018-02-23 00:11:16 INFO  HomePageDisplayVerification:200 - ***********Faded T_shirt************
+2018-02-23 00:12:58 INFO  HomePageDisplayVerification:200 - ***********Faded T_shirt************
+2018-02-23 00:23:10 INFO  HomePageDisplayVerification:200 - ***********Faded T_shirt************
+2018-02-23 00:23:49 INFO  HomePageDisplayVerification:200 - ***********Faded T_shirt************
+2018-02-23 00:25:59 INFO  HomePageDisplayVerification:200 - ***********Faded T_shirt************
+2018-02-23 00:27:05 INFO  HomePageDisplayVerification:200 - ***********Faded T_shirt************
+2018-02-23 00:28:04 INFO  HomePageDisplayVerification:200 - ***********Faded T_shirt************
+2018-02-23 00:30:20 INFO  HomePageDisplayVerification:200 - ***********Faded T_shirt************
+2018-02-23 00:31:07 INFO  HomePageDisplayVerification:200 - ***********Faded T_shirt************
+2018-02-23 00:31:09 INFO  HomePageDisplayVerification:206 - ***********Finish Faded_T_shirt test************
+2018-02-23 00:34:51 INFO  HomePageDisplayVerification:200 - ***********Faded T_shirt************
+2018-02-23 00:34:54 INFO  HomePageDisplayVerification:206 - ***********Finish Faded_T_shirt test************
+2018-02-23 00:37:21 INFO  HomePageDisplayVerification:200 - ***********Faded T_shirt************
+2018-02-23 00:37:24 INFO  HomePageDisplayVerification:206 - ***********Finish Faded_T_shirt test************
+2018-02-23 00:39:32 INFO  HomePageDisplayVerification:200 - ***********Faded T_shirt************
+2018-02-23 00:39:35 INFO  HomePageDisplayVerification:206 - ***********Finish Faded_T_shirt test************
+2018-02-23 00:41:22 INFO  HomePageDisplayVerification:200 - ***********Faded T_shirt************
+2018-02-23 00:41:25 INFO  HomePageDisplayVerification:206 - ***********Finish Faded_T_shirt test************
+2018-02-23 00:42:06 INFO  HomePageDisplayVerification:200 - ***********Faded T_shirt************
+2018-02-23 00:42:09 INFO  HomePageDisplayVerification:206 - ***********Finish Faded_T_shirt test************
+2018-02-23 00:43:08 INFO  HomePageDisplayVerification:200 - ***********Faded T_shirt************
+2018-02-23 00:43:10 INFO  HomePageDisplayVerification:206 - ***********Finish Faded_T_shirt test************
+2018-02-23 00:50:49 INFO  HomePageDisplayVerification:200 - ***********Faded T_shirt************
+2018-02-23 00:55:11 INFO  HomePageDisplayVerification:200 - ***********Faded T_shirt************
+2018-02-23 00:55:14 INFO  HomePageDisplayVerification:206 - ***********Finish Faded_T_shirt test************
+2018-02-23 01:17:07 INFO  HomePageDisplayVerification:200 - ***********Faded T_shirt************
+2018-02-23 01:17:10 INFO  HomePageDisplayVerification:206 - ***********Finish Faded_T_shirt test************
+2018-02-23 01:17:38 INFO  HomePageDisplayVerification:200 - ***********Faded T_shirt************
+2018-02-23 01:17:40 INFO  HomePageDisplayVerification:206 - ***********Finish Faded_T_shirt test************
+2018-02-23 01:18:21 INFO  HomePageDisplayVerification:200 - ***********Faded T_shirt************
+2018-02-23 01:18:23 INFO  HomePageDisplayVerification:206 - ***********Finish Faded_T_shirt test************
+2018-02-23 01:26:39 INFO  HomePageDisplayVerification:200 - ***********Faded T_shirt************
+2018-02-23 14:03:15 INFO  HomePageDisplayVerification:201 - ***********Faded T_shirt************
+2018-02-23 14:04:04 INFO  HomePageDisplayVerification:201 - ***********Faded T_shirt************
+2018-02-23 14:09:48 INFO  HomePageDisplayVerification:201 - ***********Faded T_shirt************
+2018-02-23 14:13:29 INFO  HomePageDisplayVerification:201 - ***********Faded T_shirt************
+2018-02-23 14:13:31 INFO  HomePageDisplayVerification:207 - ***********Finish Faded_T_shirt test************
+2018-02-23 14:15:58 INFO  HomePageDisplayVerification:201 - ***********Faded T_shirt************
+2018-02-23 14:16:00 INFO  HomePageDisplayVerification:207 - ***********Finish Faded_T_shirt test************
+2018-02-23 14:18:44 INFO  HomePageDisplayVerification:201 - ***********Faded T_shirt************
+2018-02-23 14:18:47 INFO  HomePageDisplayVerification:207 - ***********Finish Faded_T_shirt test************
+2018-02-23 14:21:28 INFO  HomePageDisplayVerification:201 - ***********Faded T_shirt************
+2018-02-23 14:21:31 INFO  HomePageDisplayVerification:207 - ***********Finish Faded_T_shirt test************
+2018-02-23 14:23:42 INFO  HomePageDisplayVerification:201 - ***********Faded T_shirt************
+2018-02-23 14:23:44 INFO  HomePageDisplayVerification:207 - ***********Finish Faded_T_shirt test************
+2018-02-23 14:24:38 INFO  HomePageDisplayVerification:201 - ***********Faded T_shirt************
+2018-02-23 14:24:41 INFO  HomePageDisplayVerification:207 - ***********Finish Faded_T_shirt test************
+2018-02-23 14:45:47 INFO  HomePageDisplayVerification:201 - ***********Faded T_shirt************
+2018-02-23 14:45:50 INFO  HomePageDisplayVerification:207 - ***********Finish Faded_T_shirt test************
+2018-02-23 14:55:22 INFO  HomePageDisplayVerification:201 - ***********Faded T_shirt************
+2018-02-23 15:02:14 INFO  HomePageDisplayVerification:201 - ***********Faded T_shirt************
+2018-02-23 15:02:17 INFO  HomePageDisplayVerification:207 - ***********Finish Faded_T_shirt test************
+2018-02-23 15:14:31 INFO  HomePageDisplayVerification:201 - ***********Faded T_shirt************
+2018-02-23 15:14:33 INFO  HomePageDisplayVerification:207 - ***********Finish Faded_T_shirt test************
+2018-02-23 15:17:53 INFO  HomePageDisplayVerification:201 - ***********Faded T_shirt************
+2018-02-23 15:17:55 INFO  HomePageDisplayVerification:207 - ***********Finish Faded_T_shirt test************
+2018-02-23 15:19:36 INFO  HomePageDisplayVerification:201 - ***********Faded T_shirt************
+2018-02-23 15:19:38 INFO  HomePageDisplayVerification:207 - ***********Finish Faded_T_shirt test************
+2018-02-23 15:31:49 INFO  HomePageDisplayVerification:201 - ***********Faded T_shirt************
+2018-02-23 15:31:52 INFO  HomePageDisplayVerification:207 - ***********Finish Faded_T_shirt test************
+2018-02-23 15:32:24 INFO  HomePageDisplayVerification:201 - ***********Faded T_shirt************
+2018-02-23 15:32:27 INFO  HomePageDisplayVerification:207 - ***********Finish Faded_T_shirt test************
+2018-02-23 15:34:23 INFO  HomePageDisplayVerification:157 - ***********CartLogo************
+2018-02-23 15:34:38 INFO  HomePageDisplayVerification:160 - ***********Finish CartLogo************
+2018-02-23 15:34:38 INFO  HomePageDisplayVerification:165 - ***********ChiffonDress************
+2018-02-23 15:34:38 INFO  HomePageDisplayVerification:201 - ***********Faded T_shirt************
+2018-02-23 15:34:38 INFO  HomePageDisplayVerification:191 - *********** homepage women filter button work test start***********
+2018-02-23 15:34:38 INFO  HomePageDisplayVerification:98 - ***********VerifyPrintedDressSearch************
+2018-02-23 15:34:38 INFO  HomePageDisplayVerification:78 - ***********tShirtSearch************
+2018-02-23 15:34:38 INFO  HomePageDisplayVerification:88 - ***********VerifyToptSearch************
+2018-02-23 15:34:38 INFO  HomePageDisplayVerification:108 - ***********Verifyemaillink************
+2018-02-23 15:34:38 INFO  HomePageDisplayVerification:111 - ***********Finish Verifyemaillink Test************
+2018-02-23 15:34:38 INFO  HomePageDisplayVerification:182 - ***********sunglass************
+2018-02-23 15:34:38 INFO  HomePageDisplayVerification:174 - ***********watch************
+2018-02-23 15:34:38 INFO  HomePageDisplayVerification:26 - ***********Verified WomendressButton Test************
+2018-02-23 15:34:38 INFO  HomePageDisplayVerification:29 - ***********Finish WomendressButton Test************
+2018-02-23 15:34:38 INFO  HomePageDisplayVerification:132 - ***********FacebookLogo************
+2018-02-23 15:34:38 INFO  HomePageDisplayVerification:136 - ***********Finish FacebookLogo************
+2018-02-23 15:34:38 INFO  HomePageDisplayVerification:149 - ***********YourLogo************
+2018-02-23 15:34:38 INFO  HomePageDisplayVerification:152 - ***********Finish YourLogo************
+2018-02-23 15:34:38 INFO  HomePageDisplayVerification:141 - ***********YoutubeLogo************
+2018-02-23 15:34:38 INFO  HomePageDisplayVerification:144 - ***********Finish YoutubeLogo************
+2018-02-23 15:34:38 INFO  HomePageDisplayVerification:116 - ***********Verifytwitterlink************
+2018-02-23 15:34:38 INFO  HomePageDisplayVerification:120 - ***********Finish Verifytwitterlink Test************
+2018-02-23 15:34:38 INFO  HomePageDisplayVerification:35 - ***********HomePageDisplayVerificationTest************
+2018-02-23 15:34:38 INFO  HomePageDisplayVerification:38 - ***********Finish vrifiedHomePageshoppingChartButtonDisplayed Test************
+2018-02-23 15:34:38 INFO  HomePageDisplayVerification:69 - ***********verifyInformationSpecialsTopSeller************
+2018-02-23 15:34:38 INFO  HomePageDisplayVerification:58 - ***********verifyNewsLetterInvitation************
+2018-02-23 15:34:38 INFO  HomePageDisplayVerification:43 - **********bestSellersButtonTest************
+2018-02-23 15:34:38 INFO  HomePageDisplayVerification:46 - *********** vrifybestSellersButtonInHomepgaeTest************
+2018-02-23 15:35:07 INFO  HomePageDisplayVerification:201 - ***********Faded T_shirt************
+2018-02-23 15:35:10 INFO  HomePageDisplayVerification:207 - ***********Finish Faded_T_shirt test************
+2018-02-23 15:40:25 INFO  HomePageDisplayVerification:201 - ***********Faded T_shirt************
+2018-02-23 15:40:28 INFO  HomePageDisplayVerification:207 - ***********Finish Faded_T_shirt test************
+2018-02-23 15:41:51 INFO  HomePageDisplayVerification:201 - ***********Faded T_shirt************
+2018-02-23 15:41:54 INFO  HomePageDisplayVerification:207 - ***********Finish Faded_T_shirt test************
+2018-02-23 15:42:46 INFO  HomePageDisplayVerification:201 - ***********Faded T_shirt************
+2018-02-23 15:42:49 INFO  HomePageDisplayVerification:207 - ***********Finish Faded_T_shirt test************
+2018-02-23 15:52:57 INFO  HomePageDisplayVerification:201 - ***********Faded T_shirt************
+2018-02-23 15:52:59 INFO  HomePageDisplayVerification:207 - ***********Finish Faded_T_shirt test************
+2018-02-23 15:53:24 INFO  HomePageDisplayVerification:201 - ***********Faded T_shirt************
+2018-02-23 15:53:26 INFO  HomePageDisplayVerification:207 - ***********Finish Faded_T_shirt test************
+2018-02-23 15:55:09 INFO  HomePageDisplayVerification:201 - ***********Faded T_shirt************
+2018-02-23 15:56:02 INFO  HomePageDisplayVerification:201 - ***********Faded T_shirt************
+2018-02-23 15:58:40 INFO  HomePageDisplayVerification:201 - ***********Faded T_shirt************
+2018-02-23 16:08:42 INFO  HomePageDisplayVerification:201 - ***********Faded T_shirt************
+2018-02-23 16:21:10 INFO  HomePageDisplayVerification:201 - ***********Faded T_shirt************
+2018-02-23 16:23:08 INFO  HomePageDisplayVerification:201 - ***********Faded T_shirt************
+2018-02-24 22:26:46 INFO  VerifyloginWithInvalidCredentails:25 - ***********Starting VerifyloginWithInvalidCredentails Test************
+2018-02-24 22:26:47 INFO  HomePage:186 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (99a20ea6849b3b9bb4136bb803b53f7a)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-02-24 22:26:47 INFO  HomePage:188 - Enterd login and object is : [[RemoteWebDriver: chrome on MAC (99a20ea6849b3b9bb4136bb803b53f7a)] -> id: email]
+2018-02-24 22:26:47 INFO  HomePage:190 - Enterd password and object is : [[RemoteWebDriver: chrome on MAC (99a20ea6849b3b9bb4136bb803b53f7a)] -> id: passwd]
+2018-02-24 22:26:48 INFO  HomePage:192 - Click submitButton and object is : [[RemoteWebDriver: chrome on MAC (99a20ea6849b3b9bb4136bb803b53f7a)] -> id: SubmitLogin]
+2018-02-24 22:26:48 INFO  HomePage:232 - Error message is : Authentication failed.
+2018-02-24 22:26:48 INFO  VerifyloginWithInvalidCredentails:30 - ***********Finish VerifyloginWithInvalidCredentails Test************
+2018-02-24 22:26:48 INFO  TestBase:51 - creating object of  chrome
+2018-02-24 22:26:49 INFO  TestBase:65 - navigating to http://automationpractice.com/index.php
+2018-02-24 22:26:51 INFO  VerifyloginWithValidCredentails:51 - ***********Starting validEmailforCreateAccount Test************
+2018-02-24 22:26:52 INFO  HomePage:197 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (e8c43d31a0de4342d118c7698551b833)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-02-24 22:26:52 INFO  HomePage:199 - Enter valid EmailAddress : [[RemoteWebDriver: chrome on MAC (e8c43d31a0de4342d118c7698551b833)] -> id: email_create]
+2018-02-24 22:26:52 INFO  HomePage:201 - Click submitCreateButton and object is : [[RemoteWebDriver: chrome on MAC (e8c43d31a0de4342d118c7698551b833)] -> id: SubmitCreate]
+2018-02-24 22:26:52 INFO  HomePage:242 - Valid message is : AUTHENTICATION
+2018-02-24 22:26:52 INFO  VerifyloginWithValidCredentails:56 - ***********Finish validEmailforCreateAccount Test************
+2018-02-24 22:26:52 INFO  VerifyloginWithValidCredentails:34 - ***********Starting verifyLoginWithValidCredentails Test************
+2018-02-24 22:26:53 INFO  HomePage:186 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (e8c43d31a0de4342d118c7698551b833)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-02-24 22:26:53 INFO  HomePage:188 - Enterd login and object is : [[RemoteWebDriver: chrome on MAC (e8c43d31a0de4342d118c7698551b833)] -> id: email]
+2018-02-24 22:26:53 INFO  HomePage:190 - Enterd password and object is : [[RemoteWebDriver: chrome on MAC (e8c43d31a0de4342d118c7698551b833)] -> id: passwd]
+2018-02-24 22:27:54 INFO  HomePage:192 - Click submitButton and object is : Proxy element for: DefaultElementLocator 'By.id: SubmitLogin'
+2018-02-24 22:27:54 INFO  HomePage:237 - Valid message is : k u
+2018-02-24 22:27:54 INFO  VerifyloginWithValidCredentails:38 - ***********Finish verifyLoginWithValidCredentails Test************
+2018-02-24 22:27:55 INFO  VerifyloginWithValidCredentails:64 - ***********Starting verifyLoginWithValidCredentails Test************
+2018-02-24 22:28:01 INFO  HomePage:186 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (e8c43d31a0de4342d118c7698551b833)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-02-24 22:49:32 INFO  VerifyloginWithInvalidCredentails:25 - ***********Starting VerifyloginWithInvalidCredentails Test************
+2018-02-24 22:49:33 INFO  HomePage:186 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (7a3a3b777fa8a124a2309a059f23f972)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-02-24 22:49:33 INFO  HomePage:188 - Enterd login and object is : [[RemoteWebDriver: chrome on MAC (7a3a3b777fa8a124a2309a059f23f972)] -> id: email]
+2018-02-24 22:49:33 INFO  HomePage:190 - Enterd password and object is : [[RemoteWebDriver: chrome on MAC (7a3a3b777fa8a124a2309a059f23f972)] -> id: passwd]
+2018-02-24 22:49:34 INFO  HomePage:192 - Click submitButton and object is : [[RemoteWebDriver: chrome on MAC (7a3a3b777fa8a124a2309a059f23f972)] -> id: SubmitLogin]
+2018-02-24 22:49:34 INFO  HomePage:232 - Error message is : Authentication failed.
+2018-02-24 22:49:34 INFO  VerifyloginWithInvalidCredentails:30 - ***********Finish VerifyloginWithInvalidCredentails Test************
+2018-02-24 22:49:34 INFO  TestBase:53 - creating object of  chrome
+2018-02-24 22:49:35 INFO  TestBase:67 - navigating to http://automationpractice.com/index.php
+2018-02-24 22:49:37 INFO  VerifyloginWithValidCredentails:51 - ***********Starting validEmailforCreateAccount Test************
+2018-02-24 22:49:38 INFO  HomePage:197 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (3e88581404ad7e8db0a1ff4314e580b3)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-02-24 22:49:38 INFO  HomePage:199 - Enter valid EmailAddress : [[RemoteWebDriver: chrome on MAC (3e88581404ad7e8db0a1ff4314e580b3)] -> id: email_create]
+2018-02-24 22:49:38 INFO  HomePage:201 - Click submitCreateButton and object is : [[RemoteWebDriver: chrome on MAC (3e88581404ad7e8db0a1ff4314e580b3)] -> id: SubmitCreate]
+2018-02-24 22:49:38 INFO  HomePage:242 - Valid message is : AUTHENTICATION
+2018-02-24 22:49:39 INFO  VerifyloginWithValidCredentails:56 - ***********Finish validEmailforCreateAccount Test************
+2018-02-24 22:49:39 INFO  VerifyloginWithValidCredentails:34 - ***********Starting verifyLoginWithValidCredentails Test************
+2018-02-24 22:49:39 INFO  HomePage:186 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (3e88581404ad7e8db0a1ff4314e580b3)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-02-24 22:49:40 INFO  HomePage:188 - Enterd login and object is : [[RemoteWebDriver: chrome on MAC (3e88581404ad7e8db0a1ff4314e580b3)] -> id: email]
+2018-02-24 22:49:40 INFO  HomePage:190 - Enterd password and object is : [[RemoteWebDriver: chrome on MAC (3e88581404ad7e8db0a1ff4314e580b3)] -> id: passwd]
+2018-02-24 22:50:41 INFO  HomePage:192 - Click submitButton and object is : Proxy element for: DefaultElementLocator 'By.id: SubmitLogin'
+2018-02-24 22:50:41 INFO  HomePage:237 - Valid message is : k u
+2018-02-24 22:50:41 INFO  VerifyloginWithValidCredentails:38 - ***********Finish verifyLoginWithValidCredentails Test************
+2018-02-24 22:50:41 INFO  VerifyloginWithValidCredentails:64 - ***********Starting verifyLoginWithValidCredentails Test************
+2018-02-24 22:50:47 INFO  HomePage:186 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (3e88581404ad7e8db0a1ff4314e580b3)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-02-24 22:51:48 INFO  VerifyloginWithValidCredentails:43 - ***********Starting vrifiedHomePageshoppingChartButtonDisplayed Test************
+2018-02-24 22:51:48 INFO  HomePage:207 -  shoppingchart object is : [[RemoteWebDriver: chrome on MAC (3e88581404ad7e8db0a1ff4314e580b3)] -> xpath: .//div[@class="col-sm-4 clearfix"]/div[@class='shopping_cart']/a[@ title='View my shopping cart']]
+2018-02-24 22:51:48 INFO  VerifyloginWithValidCredentails:46 - ***********Finish vrifiedHomePageshoppingChartButtonDisplayed Test************
+2018-02-24 23:39:32 INFO  VerifyloginWithInvalidCredentails:25 - ***********Starting VerifyloginWithInvalidCredentails Test************
+2018-02-24 23:39:33 INFO  HomePage:186 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (305bd750529ca86fef60d09a0784ad4b)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-02-24 23:39:33 INFO  HomePage:188 - Enterd login and object is : [[RemoteWebDriver: chrome on MAC (305bd750529ca86fef60d09a0784ad4b)] -> id: email]
+2018-02-24 23:39:33 INFO  HomePage:190 - Enterd password and object is : [[RemoteWebDriver: chrome on MAC (305bd750529ca86fef60d09a0784ad4b)] -> id: passwd]
+2018-02-24 23:39:34 INFO  HomePage:192 - Click submitButton and object is : [[RemoteWebDriver: chrome on MAC (305bd750529ca86fef60d09a0784ad4b)] -> id: SubmitLogin]
+2018-02-24 23:39:34 INFO  HomePage:232 - Error message is : Authentication failed.
+2018-02-24 23:39:34 INFO  VerifyloginWithInvalidCredentails:30 - ***********Finish VerifyloginWithInvalidCredentails Test************
+2018-02-24 23:39:35 INFO  TestBase:53 - creating object of  chrome
+2018-02-24 23:39:35 INFO  TestBase:67 - navigating to http://automationpractice.com/index.php
+2018-02-24 23:39:37 INFO  VerifyloginWithValidCredentails:51 - ***********Starting validEmailforCreateAccount Test************
+2018-02-24 23:39:38 INFO  HomePage:197 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (788fc12bcffd7efcdc0ea095762207ca)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-02-24 23:39:38 INFO  HomePage:199 - Enter valid EmailAddress : [[RemoteWebDriver: chrome on MAC (788fc12bcffd7efcdc0ea095762207ca)] -> id: email_create]
+2018-02-24 23:39:38 INFO  HomePage:201 - Click submitCreateButton and object is : [[RemoteWebDriver: chrome on MAC (788fc12bcffd7efcdc0ea095762207ca)] -> id: SubmitCreate]
+2018-02-24 23:39:38 INFO  HomePage:242 - Valid message is : AUTHENTICATION
+2018-02-24 23:39:39 INFO  VerifyloginWithValidCredentails:56 - ***********Finish validEmailforCreateAccount Test************
+2018-02-24 23:39:39 INFO  VerifyloginWithValidCredentails:34 - ***********Starting verifyLoginWithValidCredentails Test************
+2018-02-24 23:39:40 INFO  HomePage:186 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (788fc12bcffd7efcdc0ea095762207ca)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-02-24 23:39:40 INFO  HomePage:188 - Enterd login and object is : [[RemoteWebDriver: chrome on MAC (788fc12bcffd7efcdc0ea095762207ca)] -> id: email]
+2018-02-24 23:39:40 INFO  HomePage:190 - Enterd password and object is : [[RemoteWebDriver: chrome on MAC (788fc12bcffd7efcdc0ea095762207ca)] -> id: passwd]
+2018-02-24 23:40:41 INFO  HomePage:192 - Click submitButton and object is : Proxy element for: DefaultElementLocator 'By.id: SubmitLogin'
+2018-02-24 23:40:41 INFO  HomePage:237 - Valid message is : k u
+2018-02-24 23:40:41 INFO  VerifyloginWithValidCredentails:38 - ***********Finish verifyLoginWithValidCredentails Test************
+2018-02-24 23:40:42 INFO  VerifyloginWithValidCredentails:64 - ***********Starting verifyLoginWithValidCredentails Test************
+2018-02-24 23:40:43 INFO  HomePage:186 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (788fc12bcffd7efcdc0ea095762207ca)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-02-24 23:41:43 INFO  VerifyloginWithValidCredentails:43 - ***********Starting vrifiedHomePageshoppingChartButtonDisplayed Test************
+2018-02-24 23:41:43 INFO  HomePage:207 -  shoppingchart object is : [[RemoteWebDriver: chrome on MAC (788fc12bcffd7efcdc0ea095762207ca)] -> xpath: .//div[@class="col-sm-4 clearfix"]/div[@class='shopping_cart']/a[@ title='View my shopping cart']]
+2018-02-24 23:41:43 INFO  VerifyloginWithValidCredentails:46 - ***********Finish vrifiedHomePageshoppingChartButtonDisplayed Test************
+2018-02-24 23:51:48 INFO  VerifyloginWithInvalidCredentails:25 - ***********Starting VerifyloginWithInvalidCredentails Test************
+2018-02-24 23:52:24 INFO  VerifyloginWithInvalidCredentails:25 - ***********Starting VerifyloginWithInvalidCredentails Test************
+2018-02-24 23:52:25 INFO  HomePage:186 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (1a15ffc467a3ffe55d59b649127ee270)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-02-24 23:52:25 INFO  HomePage:188 - Enterd login and object is : [[RemoteWebDriver: chrome on MAC (1a15ffc467a3ffe55d59b649127ee270)] -> id: email]
+2018-02-24 23:52:25 INFO  HomePage:190 - Enterd password and object is : [[RemoteWebDriver: chrome on MAC (1a15ffc467a3ffe55d59b649127ee270)] -> id: passwd]
+2018-02-24 23:52:26 INFO  HomePage:192 - Click submitButton and object is : [[RemoteWebDriver: chrome on MAC (1a15ffc467a3ffe55d59b649127ee270)] -> id: SubmitLogin]
+2018-02-24 23:52:26 INFO  HomePage:232 - Error message is : Authentication failed.
+2018-02-24 23:52:26 INFO  VerifyloginWithInvalidCredentails:30 - ***********Finish VerifyloginWithInvalidCredentails Test************
+2018-02-24 23:53:48 INFO  VerifyloginWithInvalidCredentails:25 - ***********Starting VerifyloginWithInvalidCredentails Test************
+2018-02-24 23:53:54 INFO  HomePage:186 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (a501e693ee144c535b171c79d51aab18)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-02-24 23:53:55 INFO  HomePage:188 - Enterd login and object is : [[RemoteWebDriver: chrome on MAC (a501e693ee144c535b171c79d51aab18)] -> id: email]
+2018-02-24 23:53:55 INFO  HomePage:190 - Enterd password and object is : [[RemoteWebDriver: chrome on MAC (a501e693ee144c535b171c79d51aab18)] -> id: passwd]
+2018-02-24 23:54:00 INFO  HomePage:192 - Click submitButton and object is : [[RemoteWebDriver: chrome on MAC (a501e693ee144c535b171c79d51aab18)] -> id: SubmitLogin]
+2018-02-24 23:54:00 INFO  HomePage:232 - Error message is : Authentication failed.
+2018-02-24 23:54:00 INFO  VerifyloginWithInvalidCredentails:30 - ***********Finish VerifyloginWithInvalidCredentails Test************
+2018-02-24 23:54:01 INFO  TestBase:53 - creating object of  chrome
+2018-02-24 23:54:02 INFO  TestBase:67 - navigating to http://automationpractice.com/index.php
+2018-02-24 23:54:03 INFO  VerifyloginWithValidCredentails:51 - ***********Starting validEmailforCreateAccount Test************
+2018-02-24 23:54:09 INFO  HomePage:197 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (ccc5e9abbb941f9f627623e7f3486fd2)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-02-24 23:54:09 INFO  HomePage:199 - Enter valid EmailAddress : [[RemoteWebDriver: chrome on MAC (ccc5e9abbb941f9f627623e7f3486fd2)] -> id: email_create]
+2018-02-24 23:54:14 INFO  HomePage:201 - Click submitCreateButton and object is : [[RemoteWebDriver: chrome on MAC (ccc5e9abbb941f9f627623e7f3486fd2)] -> id: SubmitCreate]
+2018-02-24 23:54:14 INFO  HomePage:242 - Valid message is : AUTHENTICATION
+2018-02-24 23:54:15 INFO  VerifyloginWithValidCredentails:56 - ***********Finish validEmailforCreateAccount Test************
+2018-02-24 23:54:15 INFO  VerifyloginWithValidCredentails:34 - ***********Starting verifyLoginWithValidCredentails Test************
+2018-02-24 23:54:16 INFO  HomePage:186 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (ccc5e9abbb941f9f627623e7f3486fd2)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-02-24 23:54:16 INFO  HomePage:188 - Enterd login and object is : [[RemoteWebDriver: chrome on MAC (ccc5e9abbb941f9f627623e7f3486fd2)] -> id: email]
+2018-02-24 23:54:16 INFO  HomePage:190 - Enterd password and object is : [[RemoteWebDriver: chrome on MAC (ccc5e9abbb941f9f627623e7f3486fd2)] -> id: passwd]
+2018-02-24 23:55:19 INFO  HomePage:192 - Click submitButton and object is : Proxy element for: DefaultElementLocator 'By.id: SubmitLogin'
+2018-02-24 23:55:19 INFO  HomePage:237 - Valid message is : k u
+2018-02-24 23:55:19 INFO  VerifyloginWithValidCredentails:38 - ***********Finish verifyLoginWithValidCredentails Test************
+2018-02-24 23:55:20 INFO  VerifyloginWithValidCredentails:64 - ***********Starting verifyLoginWithValidCredentails Test************
+2018-02-24 23:55:21 INFO  HomePage:186 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (ccc5e9abbb941f9f627623e7f3486fd2)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-02-24 23:56:22 INFO  VerifyloginWithValidCredentails:43 - ***********Starting vrifiedHomePageshoppingChartButtonDisplayed Test************
+2018-02-24 23:56:22 INFO  HomePage:207 -  shoppingchart object is : [[RemoteWebDriver: chrome on MAC (ccc5e9abbb941f9f627623e7f3486fd2)] -> xpath: .//div[@class="col-sm-4 clearfix"]/div[@class='shopping_cart']/a[@ title='View my shopping cart']]
+2018-02-24 23:56:22 INFO  VerifyloginWithValidCredentails:46 - ***********Finish vrifiedHomePageshoppingChartButtonDisplayed Test************

@@ -5,9 +5,20 @@
     <classes>
       <class name="com.framework.automation.framework.homePage.HomePageDisplayVerification">
         <methods>
-          <include name="Verifysunglass"/>
+          <include name="VerifyFaded_T_shirt"/>
         </methods>
       </class> <!-- com.framework.automation.framework.homePage.HomePageDisplayVerification -->
     </classes>
   </test> <!-- Default test -->
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.framework.automation.framework.homePage.HomePageDisplayVerification">
+        <methods>
+          <include name="setup"/>
+          <include name="end"/>
+          <include name="VerifyFaded_T_shirt"/>
+        </methods>
+      </class> <!-- com.framework.automation.framework.homePage.HomePageDisplayVerification -->
+    </classes>
+  </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

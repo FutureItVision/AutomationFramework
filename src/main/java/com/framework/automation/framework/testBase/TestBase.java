@@ -2,10 +2,16 @@ package com.framework.automation.framework.testBase;
 
 import java.io.File;
 import java.io.IOException;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
 import java.util.concurrent.TimeUnit;
+
+import javax.imageio.IIOException;
 
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriverService;
@@ -14,16 +20,21 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Reporter;
+import org.testng.internal.Utils;
 
 import com.framework.automation.framework.dataReader.Excel_Reader;
+import com.framework.automation.framework.testlistner.Listener;
+import com.sun.jna.platform.FileUtils;
 
 public class TestBase {
 	public static final Logger log = Logger.getLogger(TestBase.class.getName());
-	public WebDriver driver;
+	public static WebDriver driver;
 	private static ChromeDriverService service;
 	String url = "http://automationpractice.com/index.php";
 	String browser = "chrome";
 	Excel_Reader excel_reader;
+	Listener list;
 
 	public void init() throws IOException {
 		selectBrowser(browser);
@@ -69,6 +80,24 @@ public class TestBase {
 	public void waitForElement(int timeoutInSeconds, WebElement element) {
 		WebDriverWait wait = new WebDriverWait(driver, timeoutInSeconds);
 		wait.until(ExpectedConditions.visibilityOf(element));
+	}
+	
+	
+	public void takeScreenShot(String name){
+		Calendar calendar=Calendar.getInstance();
+		SimpleDateFormat formater=new SimpleDateFormat("dd_MM_yyyy_hh_mm_ss");
+		File scrFile=((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+				try{
+			String reportDirectory=new File(System.getProperty("user.dir")).getAbsolutePath()+"/src/main/java/com/AutomationFramework/test/screenshot/";
+			File destFile=new File((String) reportDirectory+name+"_"+formater.format(calendar.getTime())+".png");
+		   Utils.copyFile(scrFile, destFile);
+		   Reporter.log("<a href='" +destFile.getAbsolutePath()+ "'> <image src='" +destFile.getAbsolutePath()+ "' height='100' width='100'/> </a>");
+				
+				}catch (Exception e) {
+			
+			e.printStackTrace();
+		
+		}
 	}
 
 }

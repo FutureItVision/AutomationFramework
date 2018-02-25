@@ -1,18 +1,25 @@
 package com.framework.automation.framework.applicationAction;
 
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Set;
+
 import org.apache.log4j.Logger;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 
 import com.framework.automation.framework.testBase.TestBase;
 
 public class HomePage extends TestBase {
 	public static final Logger log = Logger.getLogger(HomePage.class.getName());
-
-	WebDriver driver;
 
 	@FindBy(xpath = ".//nav/div[@class='header_user_info']/a['Sign in']")
 	WebElement signIn;
@@ -139,12 +146,41 @@ public class HomePage extends TestBase {
 	WebElement searchWatch;
 	@FindBy(xpath = ".//*[@id='center_column']/p['alert alert-warning']")
 	WebElement sunglass;
-
+   @FindBy(xpath="//div/a[@title='View my shopping cart']")
+   WebElement CartButton;
+   @FindBy(xpath="//li[2]//div[@class='right-block']//a[@title='Blouse' ]")
+   WebElement addCartBlouse;
+   @FindBy(xpath=".//span[@class='cross']")
+   WebElement addCartWindowCloseButton;
+   @FindBy(xpath=" .//*[@id='homefeatured']/li[2]/div[@class='product-container']")
+   WebElement addCartWindow;
+   @FindBy(xpath = ".//*[@class='button lnk_view btn btn-default'][@title='View']")
+   WebElement MoreButton;
+   @FindBy(xpath = ".//*[@id='center_column']/ul/li//div[@class='product-image-container']")
+   WebElement MoreButton1;
+   @FindBy(xpath="//*[@id='attributes']/fieldset[1]/div[@class='attribute_list']")
+   WebElement Addcartsize;
 	public HomePage(WebDriver driver) {
 		PageFactory.initElements(driver, this);
 
 	}
-
+//###########################Parameterize xpath#############################################################
+	
+	
+//	public void homepageFilterButton(String filetrName){
+//		
+//		driver.findElement(By.xpath(".//*[@id='block_top_menu']//a[contains(text(),'"+filetrName+"')]")).click();
+//		Assert.assertEquals(filetrName, true);
+//		log.info("Clicked on hompage filter button  "+filetrName+"displayed");
+//		
+//	}
+	
+	
+	public WebElement homepageFilterButton(WebDriver driver, String filetrName) {
+	    String homepageFilterButtonXpath = ".//*[@id='block_top_menu']//a[contains(text(),'White')]";
+	    return driver.findElement(By.xpath(homepageFilterButtonXpath.replace("White", filetrName)));
+	}
+	
 	public void logInToApplication(String emailAddress, String password) {
 		signIn.click();
 		log.info("Click signIn and object is : " + signIn.toString());
@@ -411,5 +447,73 @@ public class HomePage extends TestBase {
 			return false;
 		}
 	}
+	
+	public boolean adcartBlouse() {
+		try {
+			Thread.sleep(1000);
+			addCartWindow.isDisplayed();
+	        Actions action = new Actions(driver);
+           action.moveToElement(addCartWindow).moveToElement(addCartBlouse).click().build().perform();
+			return true;
+
+		} catch (Exception e) {
+			return false;
+		}
+	}
+	
+	
+	
+//	public boolean FadedT_ShirtAddToCart() {
+//		try {
+//		
+//			MoreButton1.click();
+//			WebDriverWait wait = new WebDriverWait(driver, 100);
+//		    WebElement element = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id='attributes']/fieldset[1]/div[@class='attribute_list'")));
+//		    element.click();
+//			
+////			WebDriverWait wait = new WebDriverWait(driver, 100);
+////			wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.xpath("//*[@id='attributes']/fieldset[1]/div[@class='attribute_list'")));
+////			driver.findElement(By.xpath(".//*[@id='group_1']/option[contains(text(),'L')]")).click();
+//			
+//		return true;
+//
+//		} catch (Exception e) {
+//		return false;
+//		}
+//		}
+	
+	
+	
+	public void FadedT_ShirtAddToCart(WebDriver driver) {
+		
+		
+			MoreButton1.click();
+			String mainWindow = driver.getWindowHandle();
+
+			//when click the below its opened in new tab
+			//driver.findElement(By.cssSelector("span.slds-align-middle")).click();
+			Set<String> handles = driver.getWindowHandles();
+			for (String handle : handles) {
+			    if (!handle.equals(mainWindow)) {
+			        driver.switchTo().window(handle);
+			        System.out.println(driver.getWindowHandles().size());
+			        break;
+			    }
+			}
+			WebDriverWait wait = new WebDriverWait(driver, 50);
+		    WebElement element = wait.until(ExpectedConditions.elementToBeClickable(By.id("group_1")));
+		    element.click();
+			
+//			WebDriverWait wait = new WebDriverWait(driver, 100);
+//			wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.xpath("//*[@id='attributes']/fieldset[1]/div[@class='attribute_list'")));
+//			driver.findElement(By.xpath(".//*[@id='group_1']/option[contains(text(),'L')]")).click();
+			
+		
+		}
+		
+		
+	
 
 }
+
+
