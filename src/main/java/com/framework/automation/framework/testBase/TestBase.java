@@ -1,12 +1,14 @@
 package com.framework.automation.framework.testBase;
 
 import java.io.File;
+import java.io.FileInputStream;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
+import java.util.Iterator;
+import java.util.Properties;
+import java.util.Set;
 import java.util.concurrent.TimeUnit;
-
-import javax.imageio.IIOException;
 
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
@@ -21,29 +23,38 @@ import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Reporter;
+import org.testng.annotations.Parameters;
 import org.testng.internal.Utils;
 
 import com.framework.automation.framework.dataReader.Excel_Reader;
 import com.framework.automation.framework.testlistner.Listener;
-import com.sun.jna.platform.FileUtils;
 
 public class TestBase {
 	public static final Logger log = Logger.getLogger(TestBase.class.getName());
-	public static WebDriver driver;
-	private static ChromeDriverService service;
-	String url = "http://automationpractice.com/index.php";
-	String browser = "chrome";
+	public  WebDriver driver;
+	private  ChromeDriverService service;
+	//String url = "http://automationpractice.com/index.php";
+	//String browser = "chrome";
 	Excel_Reader excel_reader;
 	Listener list;
+	
 
+	public Properties properties=new Properties();
 	public void init() throws IOException {
-		selectBrowser(browser);
-		getUrl(url);
+		rundata();
+		selectBrowser(properties.getProperty("browser"));
+		getUrl(properties.getProperty("url"));
 		String Log4jConfigPath = "log4j.properties";
 		PropertyConfigurator.configure(Log4jConfigPath);
 
 	}
 
+	public void rundata() throws IOException{
+		File file=new File(System.getProperty("user.dir")+"/src/main/java/com/AutomationFramework/config/config.properties");
+	    FileInputStream f=new FileInputStream(file);
+	    properties.load(f);
+	}
+	
 	public void selectBrowser(String browser) throws IOException {
 		if (browser.equalsIgnoreCase("chrome")) {
 
@@ -54,7 +65,7 @@ public class TestBase {
 			driver = new RemoteWebDriver(service.getUrl(), DesiredCapabilities.chrome());
 
 		} else if (browser.equalsIgnoreCase("firefox")) {
-			System.setProperty("webdriver.firefox.marionette", System.getProperty("user.dir") + "/driver/geckodriver");
+			System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir") + "/driver/geckodriver");
 
 			log.info("creating object of  " + browser);
 			driver = new FirefoxDriver();
@@ -99,5 +110,14 @@ public class TestBase {
 		
 		}
 	}
+	public Iterator<String> getAllWindows(){
+		Set<String> windows=driver.getWindowHandles();
+		Iterator<String> itr=windows.iterator();
+		return itr;
+	
+
+
+}
+
 
 }

@@ -1,7 +1,5 @@
 package com.framework.automation.framework.applicationAction;
 
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Set;
 
 import org.apache.log4j.Logger;
@@ -12,13 +10,13 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 
+import com.framework.automation.framework.testBase.CrossBrowserTestBase;
 import com.framework.automation.framework.testBase.TestBase;
 
-public class HomePage extends TestBase {
+public class HomePage extends CrossBrowserTestBase {
 	public static final Logger log = Logger.getLogger(HomePage.class.getName());
 
 	@FindBy(xpath = ".//nav/div[@class='header_user_info']/a['Sign in']")
@@ -160,6 +158,15 @@ public class HomePage extends TestBase {
    WebElement MoreButton1;
    @FindBy(xpath="//*[@id='attributes']/fieldset[1]/div[@class='attribute_list']")
    WebElement Addcartsize;
+	@FindBy(xpath = ".//*[@id='center_column']/p")
+	WebElement searchRing;
+	@FindBy(xpath = ".//*[@id='center_column']/p[\"alert alert-warning\"]")
+	WebElement searchjewelary;
+	@FindBy(xpath = ".//*[@id='center_column']/p[\"alert alert-warning\']")
+	WebElement  searchpopular ; 
+   @FindBy(xpath=".//*[@id='uniform-selectProductSort']")
+   WebElement sortBy;
+
 	public HomePage(WebDriver driver) {
 		PageFactory.initElements(driver, this);
 
@@ -181,6 +188,12 @@ public class HomePage extends TestBase {
 	    return driver.findElement(By.xpath(homepageFilterButtonXpath.replace("White", filetrName)));
 	}
 	
+	
+	public WebElement chooseDresses(WebDriver driver,String dressType){
+		String chooseDressesXpath=".//*[@id='categories_block_left']//a[contains(text(),'Evening Dresses')]";
+		return driver.findElement(By.xpath(chooseDressesXpath.replace("Evening Dresses",dressType)));
+		
+	}
 	public void logInToApplication(String emailAddress, String password) {
 		signIn.click();
 		log.info("Click signIn and object is : " + signIn.toString());
@@ -340,7 +353,7 @@ public class HomePage extends TestBase {
 
 	public boolean FollowUs() {
 		try {
-			waitForElement(300, FollowUs);
+			//waitForElement(300, FollowUs);
 			FollowUs.isDisplayed();
 			log.info(FollowUs);
 			return true;
@@ -463,24 +476,24 @@ public class HomePage extends TestBase {
 	
 	
 	
-//	public boolean FadedT_ShirtAddToCart() {
-//		try {
-//		
-//			MoreButton1.click();
+	public boolean FadedT_ShirtAddToCart() {
+		try {
+		
+			MoreButton1.click();
+			WebDriverWait wait = new WebDriverWait(driver, 100);
+		    WebElement element = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id='attributes']/fieldset[1]/div[@class='attribute_list'")));
+		    element.click();
+			
 //			WebDriverWait wait = new WebDriverWait(driver, 100);
-//		    WebElement element = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id='attributes']/fieldset[1]/div[@class='attribute_list'")));
-//		    element.click();
-//			
-////			WebDriverWait wait = new WebDriverWait(driver, 100);
-////			wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.xpath("//*[@id='attributes']/fieldset[1]/div[@class='attribute_list'")));
-////			driver.findElement(By.xpath(".//*[@id='group_1']/option[contains(text(),'L')]")).click();
-//			
-//		return true;
-//
-//		} catch (Exception e) {
-//		return false;
-//		}
-//		}
+//			wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.xpath("//*[@id='attributes']/fieldset[1]/div[@class='attribute_list'")));
+//			driver.findElement(By.xpath(".//*[@id='group_1']/option[contains(text(),'L')]")).click();
+			
+		return true;
+
+		} catch (Exception e) {
+		return false;
+		}
+		}
 	
 	
 	
@@ -500,7 +513,7 @@ public class HomePage extends TestBase {
 			        break;
 			    }
 			}
-			WebDriverWait wait = new WebDriverWait(driver, 50);
+			WebDriverWait wait = new WebDriverWait(driver,10);
 		    WebElement element = wait.until(ExpectedConditions.elementToBeClickable(By.id("group_1")));
 		    element.click();
 			
@@ -511,8 +524,59 @@ public class HomePage extends TestBase {
 		
 		}
 		
-		
 	
+		
+		public boolean searchjewelary() {
+			try {
+
+				searchjewelary.isDisplayed();
+				Assert.assertEquals(searchjewelary, searchjewelary);
+				log.info("Valid message is : " + searchjewelary.getText());
+				return true;
+
+			} catch (Exception e) {
+				return false;
+			}
+		}
+			public boolean verifypopular () {
+				try {
+					searchpopular.isDisplayed();
+					Assert.assertEquals("No results were found for your search",searchpopular );
+					log.info(searchpopular.getText());
+					return true;
+
+				} catch (Exception e) {
+					return false;		
+		
+		
+				}	
+		
+		
+		
+		
+		
+		}
+			public boolean SearchProductRing() {
+				try {
+
+                      searchRing.isDisplayed();
+					Assert.assertEquals(searchRing, searchRing);
+					log.info("Valid message is : " +searchRing.getText());
+					return true;
+
+				} catch (Exception e) {
+					return false;
+				}
+			}
+				
+			public void testn(){
+				sortBy.click();
+			}
+			
+			
+				
+			
+				
 
 }
 
