@@ -677,3 +677,1289 @@
 2018-01-27 13:25:05 INFO  HomePageDisplayVerification:164 - ***********sunglass************
 2018-01-27 13:25:06 INFO  HomePage:345 - Valid message is : No results were found for your search "sunglass"
 2018-01-27 13:25:06 INFO  HomePageDisplayVerification:168 - ***********Finish sunglass************
+<<<<<<< HEAD
+2018-01-27 22:51:15 INFO  HomePageDisplayVerification:173 - ***********watch************
+2018-01-27 22:51:16 INFO  HomePageDisplayVerification:177 - ***********Finish searchwatch************
+2018-02-16 15:44:31 INFO  VerifyloginWithValidCredentails:51 - ***********Starting validEmailforCreateAccount Test************
+2018-02-16 15:44:32 INFO  HomePage:174 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (9f62dab02e4d1d6bcca568467ff7966c)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-02-16 15:44:32 INFO  HomePage:176 - Enter valid EmailAddress : [[RemoteWebDriver: chrome on MAC (9f62dab02e4d1d6bcca568467ff7966c)] -> id: email_create]
+2018-02-16 15:44:32 INFO  HomePage:178 - Click submitCreateButton and object is : [[RemoteWebDriver: chrome on MAC (9f62dab02e4d1d6bcca568467ff7966c)] -> id: SubmitCreate]
+2018-02-16 15:44:32 INFO  HomePage:219 - Valid message is : AUTHENTICATION
+2018-02-16 15:44:33 INFO  VerifyloginWithValidCredentails:56 - ***********Finish validEmailforCreateAccount Test************
+2018-02-16 15:47:33 INFO  VerifyloginWithValidCredentails:51 - ***********Starting validEmailforCreateAccount Test************
+2018-02-16 15:47:34 INFO  HomePage:174 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (7cc197d7e1bf6a994904244d5b7819e9)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-02-16 15:47:34 INFO  HomePage:176 - Enter valid EmailAddress : [[RemoteWebDriver: chrome on MAC (7cc197d7e1bf6a994904244d5b7819e9)] -> id: email_create]
+2018-02-16 15:47:34 INFO  HomePage:178 - Click submitCreateButton and object is : [[RemoteWebDriver: chrome on MAC (7cc197d7e1bf6a994904244d5b7819e9)] -> id: SubmitCreate]
+2018-02-16 15:47:34 INFO  HomePage:219 - Valid message is : AUTHENTICATION
+2018-02-16 15:47:35 INFO  VerifyloginWithValidCredentails:56 - ***********Finish validEmailforCreateAccount Test************
+2018-02-16 15:52:55 INFO  VerifyloginWithValidCredentails:51 - ***********Starting validEmailforCreateAccount Test************
+2018-02-16 15:52:56 INFO  HomePage:174 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (7e4dd67478341391ca4ab46207e59b9f)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-02-16 15:52:56 INFO  HomePage:176 - Enter valid EmailAddress : [[RemoteWebDriver: chrome on MAC (7e4dd67478341391ca4ab46207e59b9f)] -> id: email_create]
+2018-02-16 15:52:56 INFO  HomePage:178 - Click submitCreateButton and object is : [[RemoteWebDriver: chrome on MAC (7e4dd67478341391ca4ab46207e59b9f)] -> id: SubmitCreate]
+2018-02-16 15:52:56 INFO  HomePage:219 - Valid message is : AUTHENTICATION
+2018-02-16 15:52:57 INFO  VerifyloginWithValidCredentails:56 - ***********Finish validEmailforCreateAccount Test************
+2018-02-16 16:06:10 INFO  VerifyloginWithValidCredentails:51 - ***********Starting validEmailforCreateAccount Test************
+2018-02-16 16:06:11 INFO  HomePage:174 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (3f919fbc279e7360f613ae4261578916)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-02-16 16:06:11 INFO  HomePage:176 - Enter valid EmailAddress : [[RemoteWebDriver: chrome on MAC (3f919fbc279e7360f613ae4261578916)] -> id: email_create]
+2018-02-16 16:06:11 INFO  HomePage:178 - Click submitCreateButton and object is : [[RemoteWebDriver: chrome on MAC (3f919fbc279e7360f613ae4261578916)] -> id: SubmitCreate]
+2018-02-16 16:06:11 INFO  HomePage:219 - Valid message is : AUTHENTICATION
+2018-02-16 16:06:12 INFO  VerifyloginWithValidCredentails:56 - ***********Finish validEmailforCreateAccount Test************
+2018-02-17 22:00:24 INFO  HomePageDisplayVerification:190 - *********** homepage women filter button work test start***********
+2018-02-17 22:01:23 INFO  HomePageDisplayVerification:190 - *********** homepage women filter button work test start***********
+2018-02-17 22:01:47 INFO  HomePageDisplayVerification:190 - *********** homepage women filter button work test start***********
+2018-02-17 22:04:08 INFO  HomePageDisplayVerification:190 - *********** homepage women filter button work test start***********
+2018-02-17 22:19:53 INFO  HomePageDisplayVerification:190 - *********** homepage women filter button work test start***********
+2018-02-17 22:23:09 INFO  HomePageDisplayVerification:190 - *********** homepage women filter button work test start***********
+2018-02-17 22:28:26 INFO  HomePageDisplayVerification:190 - *********** homepage women filter button work test start***********
+2018-02-17 22:53:37 INFO  HomePageDisplayVerification:190 - *********** homepage women filter button work test start***********
+2018-02-17 22:54:59 INFO  HomePageDisplayVerification:190 - *********** homepage women filter button work test start***********
+2018-02-17 23:05:15 INFO  HomePageDisplayVerification:190 - *********** homepage women filter button work test start***********
+2018-02-17 23:05:22 INFO  HomePageDisplayVerification:195 - *********homepage women filter button work test finish*********
+2018-02-17 23:11:57 INFO  HomePageDisplayVerification:190 - *********** homepage women filter button work test start***********
+2018-02-17 23:12:05 INFO  HomePageDisplayVerification:195 - *********homepage women filter button work test finish*********
+2018-02-18 10:40:21 INFO  HomePageDisplayVerification:190 - *********** homepage women filter button work test start***********
+2018-02-18 10:41:44 INFO  HomePageDisplayVerification:190 - *********** homepage women filter button work test start***********
+2018-02-18 10:42:12 INFO  HomePageDisplayVerification:190 - *********** homepage women filter button work test start***********
+2018-02-18 10:42:20 INFO  HomePageDisplayVerification:195 - *********homepage women filter button work test finish*********
+2018-02-22 23:20:45 INFO  HomePageDisplayVerification:200 - ***********Faded T_shirt************
+2018-02-22 23:28:14 INFO  HomePageDisplayVerification:200 - ***********Faded T_shirt************
+2018-02-22 23:34:36 INFO  HomePageDisplayVerification:200 - ***********Faded T_shirt************
+2018-02-22 23:42:05 INFO  HomePageDisplayVerification:200 - ***********Faded T_shirt************
+2018-02-22 23:45:28 INFO  HomePageDisplayVerification:200 - ***********Faded T_shirt************
+2018-02-23 00:01:29 INFO  HomePageDisplayVerification:200 - ***********Faded T_shirt************
+2018-02-23 00:03:17 INFO  HomePageDisplayVerification:200 - ***********Faded T_shirt************
+2018-02-23 00:06:10 INFO  HomePageDisplayVerification:200 - ***********Faded T_shirt************
+2018-02-23 00:09:18 INFO  HomePageDisplayVerification:200 - ***********Faded T_shirt************
+2018-02-23 00:11:16 INFO  HomePageDisplayVerification:200 - ***********Faded T_shirt************
+2018-02-23 00:12:58 INFO  HomePageDisplayVerification:200 - ***********Faded T_shirt************
+2018-02-23 00:23:10 INFO  HomePageDisplayVerification:200 - ***********Faded T_shirt************
+2018-02-23 00:23:49 INFO  HomePageDisplayVerification:200 - ***********Faded T_shirt************
+2018-02-23 00:25:59 INFO  HomePageDisplayVerification:200 - ***********Faded T_shirt************
+2018-02-23 00:27:05 INFO  HomePageDisplayVerification:200 - ***********Faded T_shirt************
+2018-02-23 00:28:04 INFO  HomePageDisplayVerification:200 - ***********Faded T_shirt************
+2018-02-23 00:30:20 INFO  HomePageDisplayVerification:200 - ***********Faded T_shirt************
+2018-02-23 00:31:07 INFO  HomePageDisplayVerification:200 - ***********Faded T_shirt************
+2018-02-23 00:31:09 INFO  HomePageDisplayVerification:206 - ***********Finish Faded_T_shirt test************
+2018-02-23 00:34:51 INFO  HomePageDisplayVerification:200 - ***********Faded T_shirt************
+2018-02-23 00:34:54 INFO  HomePageDisplayVerification:206 - ***********Finish Faded_T_shirt test************
+2018-02-23 00:37:21 INFO  HomePageDisplayVerification:200 - ***********Faded T_shirt************
+2018-02-23 00:37:24 INFO  HomePageDisplayVerification:206 - ***********Finish Faded_T_shirt test************
+2018-02-23 00:39:32 INFO  HomePageDisplayVerification:200 - ***********Faded T_shirt************
+2018-02-23 00:39:35 INFO  HomePageDisplayVerification:206 - ***********Finish Faded_T_shirt test************
+2018-02-23 00:41:22 INFO  HomePageDisplayVerification:200 - ***********Faded T_shirt************
+2018-02-23 00:41:25 INFO  HomePageDisplayVerification:206 - ***********Finish Faded_T_shirt test************
+2018-02-23 00:42:06 INFO  HomePageDisplayVerification:200 - ***********Faded T_shirt************
+2018-02-23 00:42:09 INFO  HomePageDisplayVerification:206 - ***********Finish Faded_T_shirt test************
+2018-02-23 00:43:08 INFO  HomePageDisplayVerification:200 - ***********Faded T_shirt************
+2018-02-23 00:43:10 INFO  HomePageDisplayVerification:206 - ***********Finish Faded_T_shirt test************
+2018-02-23 00:50:49 INFO  HomePageDisplayVerification:200 - ***********Faded T_shirt************
+2018-02-23 00:55:11 INFO  HomePageDisplayVerification:200 - ***********Faded T_shirt************
+2018-02-23 00:55:14 INFO  HomePageDisplayVerification:206 - ***********Finish Faded_T_shirt test************
+2018-02-23 01:17:07 INFO  HomePageDisplayVerification:200 - ***********Faded T_shirt************
+2018-02-23 01:17:10 INFO  HomePageDisplayVerification:206 - ***********Finish Faded_T_shirt test************
+2018-02-23 01:17:38 INFO  HomePageDisplayVerification:200 - ***********Faded T_shirt************
+2018-02-23 01:17:40 INFO  HomePageDisplayVerification:206 - ***********Finish Faded_T_shirt test************
+2018-02-23 01:18:21 INFO  HomePageDisplayVerification:200 - ***********Faded T_shirt************
+2018-02-23 01:18:23 INFO  HomePageDisplayVerification:206 - ***********Finish Faded_T_shirt test************
+2018-02-23 01:26:39 INFO  HomePageDisplayVerification:200 - ***********Faded T_shirt************
+2018-02-23 14:03:15 INFO  HomePageDisplayVerification:201 - ***********Faded T_shirt************
+2018-02-23 14:04:04 INFO  HomePageDisplayVerification:201 - ***********Faded T_shirt************
+2018-02-23 14:09:48 INFO  HomePageDisplayVerification:201 - ***********Faded T_shirt************
+2018-02-23 14:13:29 INFO  HomePageDisplayVerification:201 - ***********Faded T_shirt************
+2018-02-23 14:13:31 INFO  HomePageDisplayVerification:207 - ***********Finish Faded_T_shirt test************
+2018-02-23 14:15:58 INFO  HomePageDisplayVerification:201 - ***********Faded T_shirt************
+2018-02-23 14:16:00 INFO  HomePageDisplayVerification:207 - ***********Finish Faded_T_shirt test************
+2018-02-23 14:18:44 INFO  HomePageDisplayVerification:201 - ***********Faded T_shirt************
+2018-02-23 14:18:47 INFO  HomePageDisplayVerification:207 - ***********Finish Faded_T_shirt test************
+2018-02-23 14:21:28 INFO  HomePageDisplayVerification:201 - ***********Faded T_shirt************
+2018-02-23 14:21:31 INFO  HomePageDisplayVerification:207 - ***********Finish Faded_T_shirt test************
+2018-02-23 14:23:42 INFO  HomePageDisplayVerification:201 - ***********Faded T_shirt************
+2018-02-23 14:23:44 INFO  HomePageDisplayVerification:207 - ***********Finish Faded_T_shirt test************
+2018-02-23 14:24:38 INFO  HomePageDisplayVerification:201 - ***********Faded T_shirt************
+2018-02-23 14:24:41 INFO  HomePageDisplayVerification:207 - ***********Finish Faded_T_shirt test************
+2018-02-23 14:45:47 INFO  HomePageDisplayVerification:201 - ***********Faded T_shirt************
+2018-02-23 14:45:50 INFO  HomePageDisplayVerification:207 - ***********Finish Faded_T_shirt test************
+2018-02-23 14:55:22 INFO  HomePageDisplayVerification:201 - ***********Faded T_shirt************
+2018-02-23 15:02:14 INFO  HomePageDisplayVerification:201 - ***********Faded T_shirt************
+2018-02-23 15:02:17 INFO  HomePageDisplayVerification:207 - ***********Finish Faded_T_shirt test************
+2018-02-23 15:14:31 INFO  HomePageDisplayVerification:201 - ***********Faded T_shirt************
+2018-02-23 15:14:33 INFO  HomePageDisplayVerification:207 - ***********Finish Faded_T_shirt test************
+2018-02-23 15:17:53 INFO  HomePageDisplayVerification:201 - ***********Faded T_shirt************
+2018-02-23 15:17:55 INFO  HomePageDisplayVerification:207 - ***********Finish Faded_T_shirt test************
+2018-02-23 15:19:36 INFO  HomePageDisplayVerification:201 - ***********Faded T_shirt************
+2018-02-23 15:19:38 INFO  HomePageDisplayVerification:207 - ***********Finish Faded_T_shirt test************
+2018-02-23 15:31:49 INFO  HomePageDisplayVerification:201 - ***********Faded T_shirt************
+2018-02-23 15:31:52 INFO  HomePageDisplayVerification:207 - ***********Finish Faded_T_shirt test************
+2018-02-23 15:32:24 INFO  HomePageDisplayVerification:201 - ***********Faded T_shirt************
+2018-02-23 15:32:27 INFO  HomePageDisplayVerification:207 - ***********Finish Faded_T_shirt test************
+2018-02-23 15:34:23 INFO  HomePageDisplayVerification:157 - ***********CartLogo************
+2018-02-23 15:34:38 INFO  HomePageDisplayVerification:160 - ***********Finish CartLogo************
+2018-02-23 15:34:38 INFO  HomePageDisplayVerification:165 - ***********ChiffonDress************
+2018-02-23 15:34:38 INFO  HomePageDisplayVerification:201 - ***********Faded T_shirt************
+2018-02-23 15:34:38 INFO  HomePageDisplayVerification:191 - *********** homepage women filter button work test start***********
+2018-02-23 15:34:38 INFO  HomePageDisplayVerification:98 - ***********VerifyPrintedDressSearch************
+2018-02-23 15:34:38 INFO  HomePageDisplayVerification:78 - ***********tShirtSearch************
+2018-02-23 15:34:38 INFO  HomePageDisplayVerification:88 - ***********VerifyToptSearch************
+2018-02-23 15:34:38 INFO  HomePageDisplayVerification:108 - ***********Verifyemaillink************
+2018-02-23 15:34:38 INFO  HomePageDisplayVerification:111 - ***********Finish Verifyemaillink Test************
+2018-02-23 15:34:38 INFO  HomePageDisplayVerification:182 - ***********sunglass************
+2018-02-23 15:34:38 INFO  HomePageDisplayVerification:174 - ***********watch************
+2018-02-23 15:34:38 INFO  HomePageDisplayVerification:26 - ***********Verified WomendressButton Test************
+2018-02-23 15:34:38 INFO  HomePageDisplayVerification:29 - ***********Finish WomendressButton Test************
+2018-02-23 15:34:38 INFO  HomePageDisplayVerification:132 - ***********FacebookLogo************
+2018-02-23 15:34:38 INFO  HomePageDisplayVerification:136 - ***********Finish FacebookLogo************
+2018-02-23 15:34:38 INFO  HomePageDisplayVerification:149 - ***********YourLogo************
+2018-02-23 15:34:38 INFO  HomePageDisplayVerification:152 - ***********Finish YourLogo************
+2018-02-23 15:34:38 INFO  HomePageDisplayVerification:141 - ***********YoutubeLogo************
+2018-02-23 15:34:38 INFO  HomePageDisplayVerification:144 - ***********Finish YoutubeLogo************
+2018-02-23 15:34:38 INFO  HomePageDisplayVerification:116 - ***********Verifytwitterlink************
+2018-02-23 15:34:38 INFO  HomePageDisplayVerification:120 - ***********Finish Verifytwitterlink Test************
+2018-02-23 15:34:38 INFO  HomePageDisplayVerification:35 - ***********HomePageDisplayVerificationTest************
+2018-02-23 15:34:38 INFO  HomePageDisplayVerification:38 - ***********Finish vrifiedHomePageshoppingChartButtonDisplayed Test************
+2018-02-23 15:34:38 INFO  HomePageDisplayVerification:69 - ***********verifyInformationSpecialsTopSeller************
+2018-02-23 15:34:38 INFO  HomePageDisplayVerification:58 - ***********verifyNewsLetterInvitation************
+2018-02-23 15:34:38 INFO  HomePageDisplayVerification:43 - **********bestSellersButtonTest************
+2018-02-23 15:34:38 INFO  HomePageDisplayVerification:46 - *********** vrifybestSellersButtonInHomepgaeTest************
+2018-02-23 15:35:07 INFO  HomePageDisplayVerification:201 - ***********Faded T_shirt************
+2018-02-23 15:35:10 INFO  HomePageDisplayVerification:207 - ***********Finish Faded_T_shirt test************
+2018-02-23 15:40:25 INFO  HomePageDisplayVerification:201 - ***********Faded T_shirt************
+2018-02-23 15:40:28 INFO  HomePageDisplayVerification:207 - ***********Finish Faded_T_shirt test************
+2018-02-23 15:41:51 INFO  HomePageDisplayVerification:201 - ***********Faded T_shirt************
+2018-02-23 15:41:54 INFO  HomePageDisplayVerification:207 - ***********Finish Faded_T_shirt test************
+2018-02-23 15:42:46 INFO  HomePageDisplayVerification:201 - ***********Faded T_shirt************
+2018-02-23 15:42:49 INFO  HomePageDisplayVerification:207 - ***********Finish Faded_T_shirt test************
+2018-02-23 15:52:57 INFO  HomePageDisplayVerification:201 - ***********Faded T_shirt************
+2018-02-23 15:52:59 INFO  HomePageDisplayVerification:207 - ***********Finish Faded_T_shirt test************
+2018-02-23 15:53:24 INFO  HomePageDisplayVerification:201 - ***********Faded T_shirt************
+2018-02-23 15:53:26 INFO  HomePageDisplayVerification:207 - ***********Finish Faded_T_shirt test************
+2018-02-23 15:55:09 INFO  HomePageDisplayVerification:201 - ***********Faded T_shirt************
+2018-02-23 15:56:02 INFO  HomePageDisplayVerification:201 - ***********Faded T_shirt************
+2018-02-23 15:58:40 INFO  HomePageDisplayVerification:201 - ***********Faded T_shirt************
+2018-02-23 16:08:42 INFO  HomePageDisplayVerification:201 - ***********Faded T_shirt************
+2018-02-23 16:21:10 INFO  HomePageDisplayVerification:201 - ***********Faded T_shirt************
+2018-02-23 16:23:08 INFO  HomePageDisplayVerification:201 - ***********Faded T_shirt************
+2018-02-24 22:26:46 INFO  VerifyloginWithInvalidCredentails:25 - ***********Starting VerifyloginWithInvalidCredentails Test************
+2018-02-24 22:26:47 INFO  HomePage:186 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (99a20ea6849b3b9bb4136bb803b53f7a)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-02-24 22:26:47 INFO  HomePage:188 - Enterd login and object is : [[RemoteWebDriver: chrome on MAC (99a20ea6849b3b9bb4136bb803b53f7a)] -> id: email]
+2018-02-24 22:26:47 INFO  HomePage:190 - Enterd password and object is : [[RemoteWebDriver: chrome on MAC (99a20ea6849b3b9bb4136bb803b53f7a)] -> id: passwd]
+2018-02-24 22:26:48 INFO  HomePage:192 - Click submitButton and object is : [[RemoteWebDriver: chrome on MAC (99a20ea6849b3b9bb4136bb803b53f7a)] -> id: SubmitLogin]
+2018-02-24 22:26:48 INFO  HomePage:232 - Error message is : Authentication failed.
+2018-02-24 22:26:48 INFO  VerifyloginWithInvalidCredentails:30 - ***********Finish VerifyloginWithInvalidCredentails Test************
+2018-02-24 22:26:48 INFO  TestBase:51 - creating object of  chrome
+2018-02-24 22:26:49 INFO  TestBase:65 - navigating to http://automationpractice.com/index.php
+2018-02-24 22:26:51 INFO  VerifyloginWithValidCredentails:51 - ***********Starting validEmailforCreateAccount Test************
+2018-02-24 22:26:52 INFO  HomePage:197 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (e8c43d31a0de4342d118c7698551b833)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-02-24 22:26:52 INFO  HomePage:199 - Enter valid EmailAddress : [[RemoteWebDriver: chrome on MAC (e8c43d31a0de4342d118c7698551b833)] -> id: email_create]
+2018-02-24 22:26:52 INFO  HomePage:201 - Click submitCreateButton and object is : [[RemoteWebDriver: chrome on MAC (e8c43d31a0de4342d118c7698551b833)] -> id: SubmitCreate]
+2018-02-24 22:26:52 INFO  HomePage:242 - Valid message is : AUTHENTICATION
+2018-02-24 22:26:52 INFO  VerifyloginWithValidCredentails:56 - ***********Finish validEmailforCreateAccount Test************
+2018-02-24 22:26:52 INFO  VerifyloginWithValidCredentails:34 - ***********Starting verifyLoginWithValidCredentails Test************
+2018-02-24 22:26:53 INFO  HomePage:186 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (e8c43d31a0de4342d118c7698551b833)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-02-24 22:26:53 INFO  HomePage:188 - Enterd login and object is : [[RemoteWebDriver: chrome on MAC (e8c43d31a0de4342d118c7698551b833)] -> id: email]
+2018-02-24 22:26:53 INFO  HomePage:190 - Enterd password and object is : [[RemoteWebDriver: chrome on MAC (e8c43d31a0de4342d118c7698551b833)] -> id: passwd]
+2018-02-24 22:27:54 INFO  HomePage:192 - Click submitButton and object is : Proxy element for: DefaultElementLocator 'By.id: SubmitLogin'
+2018-02-24 22:27:54 INFO  HomePage:237 - Valid message is : k u
+2018-02-24 22:27:54 INFO  VerifyloginWithValidCredentails:38 - ***********Finish verifyLoginWithValidCredentails Test************
+2018-02-24 22:27:55 INFO  VerifyloginWithValidCredentails:64 - ***********Starting verifyLoginWithValidCredentails Test************
+2018-02-24 22:28:01 INFO  HomePage:186 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (e8c43d31a0de4342d118c7698551b833)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-02-24 22:49:32 INFO  VerifyloginWithInvalidCredentails:25 - ***********Starting VerifyloginWithInvalidCredentails Test************
+2018-02-24 22:49:33 INFO  HomePage:186 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (7a3a3b777fa8a124a2309a059f23f972)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-02-24 22:49:33 INFO  HomePage:188 - Enterd login and object is : [[RemoteWebDriver: chrome on MAC (7a3a3b777fa8a124a2309a059f23f972)] -> id: email]
+2018-02-24 22:49:33 INFO  HomePage:190 - Enterd password and object is : [[RemoteWebDriver: chrome on MAC (7a3a3b777fa8a124a2309a059f23f972)] -> id: passwd]
+2018-02-24 22:49:34 INFO  HomePage:192 - Click submitButton and object is : [[RemoteWebDriver: chrome on MAC (7a3a3b777fa8a124a2309a059f23f972)] -> id: SubmitLogin]
+2018-02-24 22:49:34 INFO  HomePage:232 - Error message is : Authentication failed.
+2018-02-24 22:49:34 INFO  VerifyloginWithInvalidCredentails:30 - ***********Finish VerifyloginWithInvalidCredentails Test************
+2018-02-24 22:49:34 INFO  TestBase:53 - creating object of  chrome
+2018-02-24 22:49:35 INFO  TestBase:67 - navigating to http://automationpractice.com/index.php
+2018-02-24 22:49:37 INFO  VerifyloginWithValidCredentails:51 - ***********Starting validEmailforCreateAccount Test************
+2018-02-24 22:49:38 INFO  HomePage:197 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (3e88581404ad7e8db0a1ff4314e580b3)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-02-24 22:49:38 INFO  HomePage:199 - Enter valid EmailAddress : [[RemoteWebDriver: chrome on MAC (3e88581404ad7e8db0a1ff4314e580b3)] -> id: email_create]
+2018-02-24 22:49:38 INFO  HomePage:201 - Click submitCreateButton and object is : [[RemoteWebDriver: chrome on MAC (3e88581404ad7e8db0a1ff4314e580b3)] -> id: SubmitCreate]
+2018-02-24 22:49:38 INFO  HomePage:242 - Valid message is : AUTHENTICATION
+2018-02-24 22:49:39 INFO  VerifyloginWithValidCredentails:56 - ***********Finish validEmailforCreateAccount Test************
+2018-02-24 22:49:39 INFO  VerifyloginWithValidCredentails:34 - ***********Starting verifyLoginWithValidCredentails Test************
+2018-02-24 22:49:39 INFO  HomePage:186 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (3e88581404ad7e8db0a1ff4314e580b3)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-02-24 22:49:40 INFO  HomePage:188 - Enterd login and object is : [[RemoteWebDriver: chrome on MAC (3e88581404ad7e8db0a1ff4314e580b3)] -> id: email]
+2018-02-24 22:49:40 INFO  HomePage:190 - Enterd password and object is : [[RemoteWebDriver: chrome on MAC (3e88581404ad7e8db0a1ff4314e580b3)] -> id: passwd]
+2018-02-24 22:50:41 INFO  HomePage:192 - Click submitButton and object is : Proxy element for: DefaultElementLocator 'By.id: SubmitLogin'
+2018-02-24 22:50:41 INFO  HomePage:237 - Valid message is : k u
+2018-02-24 22:50:41 INFO  VerifyloginWithValidCredentails:38 - ***********Finish verifyLoginWithValidCredentails Test************
+2018-02-24 22:50:41 INFO  VerifyloginWithValidCredentails:64 - ***********Starting verifyLoginWithValidCredentails Test************
+2018-02-24 22:50:47 INFO  HomePage:186 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (3e88581404ad7e8db0a1ff4314e580b3)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-02-24 22:51:48 INFO  VerifyloginWithValidCredentails:43 - ***********Starting vrifiedHomePageshoppingChartButtonDisplayed Test************
+2018-02-24 22:51:48 INFO  HomePage:207 -  shoppingchart object is : [[RemoteWebDriver: chrome on MAC (3e88581404ad7e8db0a1ff4314e580b3)] -> xpath: .//div[@class="col-sm-4 clearfix"]/div[@class='shopping_cart']/a[@ title='View my shopping cart']]
+2018-02-24 22:51:48 INFO  VerifyloginWithValidCredentails:46 - ***********Finish vrifiedHomePageshoppingChartButtonDisplayed Test************
+2018-02-24 23:39:32 INFO  VerifyloginWithInvalidCredentails:25 - ***********Starting VerifyloginWithInvalidCredentails Test************
+2018-02-24 23:39:33 INFO  HomePage:186 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (305bd750529ca86fef60d09a0784ad4b)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-02-24 23:39:33 INFO  HomePage:188 - Enterd login and object is : [[RemoteWebDriver: chrome on MAC (305bd750529ca86fef60d09a0784ad4b)] -> id: email]
+2018-02-24 23:39:33 INFO  HomePage:190 - Enterd password and object is : [[RemoteWebDriver: chrome on MAC (305bd750529ca86fef60d09a0784ad4b)] -> id: passwd]
+2018-02-24 23:39:34 INFO  HomePage:192 - Click submitButton and object is : [[RemoteWebDriver: chrome on MAC (305bd750529ca86fef60d09a0784ad4b)] -> id: SubmitLogin]
+2018-02-24 23:39:34 INFO  HomePage:232 - Error message is : Authentication failed.
+2018-02-24 23:39:34 INFO  VerifyloginWithInvalidCredentails:30 - ***********Finish VerifyloginWithInvalidCredentails Test************
+2018-02-24 23:39:35 INFO  TestBase:53 - creating object of  chrome
+2018-02-24 23:39:35 INFO  TestBase:67 - navigating to http://automationpractice.com/index.php
+2018-02-24 23:39:37 INFO  VerifyloginWithValidCredentails:51 - ***********Starting validEmailforCreateAccount Test************
+2018-02-24 23:39:38 INFO  HomePage:197 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (788fc12bcffd7efcdc0ea095762207ca)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-02-24 23:39:38 INFO  HomePage:199 - Enter valid EmailAddress : [[RemoteWebDriver: chrome on MAC (788fc12bcffd7efcdc0ea095762207ca)] -> id: email_create]
+2018-02-24 23:39:38 INFO  HomePage:201 - Click submitCreateButton and object is : [[RemoteWebDriver: chrome on MAC (788fc12bcffd7efcdc0ea095762207ca)] -> id: SubmitCreate]
+2018-02-24 23:39:38 INFO  HomePage:242 - Valid message is : AUTHENTICATION
+2018-02-24 23:39:39 INFO  VerifyloginWithValidCredentails:56 - ***********Finish validEmailforCreateAccount Test************
+2018-02-24 23:39:39 INFO  VerifyloginWithValidCredentails:34 - ***********Starting verifyLoginWithValidCredentails Test************
+2018-02-24 23:39:40 INFO  HomePage:186 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (788fc12bcffd7efcdc0ea095762207ca)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-02-24 23:39:40 INFO  HomePage:188 - Enterd login and object is : [[RemoteWebDriver: chrome on MAC (788fc12bcffd7efcdc0ea095762207ca)] -> id: email]
+2018-02-24 23:39:40 INFO  HomePage:190 - Enterd password and object is : [[RemoteWebDriver: chrome on MAC (788fc12bcffd7efcdc0ea095762207ca)] -> id: passwd]
+2018-02-24 23:40:41 INFO  HomePage:192 - Click submitButton and object is : Proxy element for: DefaultElementLocator 'By.id: SubmitLogin'
+2018-02-24 23:40:41 INFO  HomePage:237 - Valid message is : k u
+2018-02-24 23:40:41 INFO  VerifyloginWithValidCredentails:38 - ***********Finish verifyLoginWithValidCredentails Test************
+2018-02-24 23:40:42 INFO  VerifyloginWithValidCredentails:64 - ***********Starting verifyLoginWithValidCredentails Test************
+2018-02-24 23:40:43 INFO  HomePage:186 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (788fc12bcffd7efcdc0ea095762207ca)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-02-24 23:41:43 INFO  VerifyloginWithValidCredentails:43 - ***********Starting vrifiedHomePageshoppingChartButtonDisplayed Test************
+2018-02-24 23:41:43 INFO  HomePage:207 -  shoppingchart object is : [[RemoteWebDriver: chrome on MAC (788fc12bcffd7efcdc0ea095762207ca)] -> xpath: .//div[@class="col-sm-4 clearfix"]/div[@class='shopping_cart']/a[@ title='View my shopping cart']]
+2018-02-24 23:41:43 INFO  VerifyloginWithValidCredentails:46 - ***********Finish vrifiedHomePageshoppingChartButtonDisplayed Test************
+2018-02-24 23:51:48 INFO  VerifyloginWithInvalidCredentails:25 - ***********Starting VerifyloginWithInvalidCredentails Test************
+2018-02-24 23:52:24 INFO  VerifyloginWithInvalidCredentails:25 - ***********Starting VerifyloginWithInvalidCredentails Test************
+2018-02-24 23:52:25 INFO  HomePage:186 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (1a15ffc467a3ffe55d59b649127ee270)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-02-24 23:52:25 INFO  HomePage:188 - Enterd login and object is : [[RemoteWebDriver: chrome on MAC (1a15ffc467a3ffe55d59b649127ee270)] -> id: email]
+2018-02-24 23:52:25 INFO  HomePage:190 - Enterd password and object is : [[RemoteWebDriver: chrome on MAC (1a15ffc467a3ffe55d59b649127ee270)] -> id: passwd]
+2018-02-24 23:52:26 INFO  HomePage:192 - Click submitButton and object is : [[RemoteWebDriver: chrome on MAC (1a15ffc467a3ffe55d59b649127ee270)] -> id: SubmitLogin]
+2018-02-24 23:52:26 INFO  HomePage:232 - Error message is : Authentication failed.
+2018-02-24 23:52:26 INFO  VerifyloginWithInvalidCredentails:30 - ***********Finish VerifyloginWithInvalidCredentails Test************
+2018-02-24 23:53:48 INFO  VerifyloginWithInvalidCredentails:25 - ***********Starting VerifyloginWithInvalidCredentails Test************
+2018-02-24 23:53:54 INFO  HomePage:186 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (a501e693ee144c535b171c79d51aab18)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-02-24 23:53:55 INFO  HomePage:188 - Enterd login and object is : [[RemoteWebDriver: chrome on MAC (a501e693ee144c535b171c79d51aab18)] -> id: email]
+2018-02-24 23:53:55 INFO  HomePage:190 - Enterd password and object is : [[RemoteWebDriver: chrome on MAC (a501e693ee144c535b171c79d51aab18)] -> id: passwd]
+2018-02-24 23:54:00 INFO  HomePage:192 - Click submitButton and object is : [[RemoteWebDriver: chrome on MAC (a501e693ee144c535b171c79d51aab18)] -> id: SubmitLogin]
+2018-02-24 23:54:00 INFO  HomePage:232 - Error message is : Authentication failed.
+2018-02-24 23:54:00 INFO  VerifyloginWithInvalidCredentails:30 - ***********Finish VerifyloginWithInvalidCredentails Test************
+2018-02-24 23:54:01 INFO  TestBase:53 - creating object of  chrome
+2018-02-24 23:54:02 INFO  TestBase:67 - navigating to http://automationpractice.com/index.php
+2018-02-24 23:54:03 INFO  VerifyloginWithValidCredentails:51 - ***********Starting validEmailforCreateAccount Test************
+2018-02-24 23:54:09 INFO  HomePage:197 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (ccc5e9abbb941f9f627623e7f3486fd2)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-02-24 23:54:09 INFO  HomePage:199 - Enter valid EmailAddress : [[RemoteWebDriver: chrome on MAC (ccc5e9abbb941f9f627623e7f3486fd2)] -> id: email_create]
+2018-02-24 23:54:14 INFO  HomePage:201 - Click submitCreateButton and object is : [[RemoteWebDriver: chrome on MAC (ccc5e9abbb941f9f627623e7f3486fd2)] -> id: SubmitCreate]
+2018-02-24 23:54:14 INFO  HomePage:242 - Valid message is : AUTHENTICATION
+2018-02-24 23:54:15 INFO  VerifyloginWithValidCredentails:56 - ***********Finish validEmailforCreateAccount Test************
+2018-02-24 23:54:15 INFO  VerifyloginWithValidCredentails:34 - ***********Starting verifyLoginWithValidCredentails Test************
+2018-02-24 23:54:16 INFO  HomePage:186 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (ccc5e9abbb941f9f627623e7f3486fd2)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-02-24 23:54:16 INFO  HomePage:188 - Enterd login and object is : [[RemoteWebDriver: chrome on MAC (ccc5e9abbb941f9f627623e7f3486fd2)] -> id: email]
+2018-02-24 23:54:16 INFO  HomePage:190 - Enterd password and object is : [[RemoteWebDriver: chrome on MAC (ccc5e9abbb941f9f627623e7f3486fd2)] -> id: passwd]
+2018-02-24 23:55:19 INFO  HomePage:192 - Click submitButton and object is : Proxy element for: DefaultElementLocator 'By.id: SubmitLogin'
+2018-02-24 23:55:19 INFO  HomePage:237 - Valid message is : k u
+2018-02-24 23:55:19 INFO  VerifyloginWithValidCredentails:38 - ***********Finish verifyLoginWithValidCredentails Test************
+2018-02-24 23:55:20 INFO  VerifyloginWithValidCredentails:64 - ***********Starting verifyLoginWithValidCredentails Test************
+2018-02-24 23:55:21 INFO  HomePage:186 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (ccc5e9abbb941f9f627623e7f3486fd2)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-02-24 23:56:22 INFO  VerifyloginWithValidCredentails:43 - ***********Starting vrifiedHomePageshoppingChartButtonDisplayed Test************
+2018-02-24 23:56:22 INFO  HomePage:207 -  shoppingchart object is : [[RemoteWebDriver: chrome on MAC (ccc5e9abbb941f9f627623e7f3486fd2)] -> xpath: .//div[@class="col-sm-4 clearfix"]/div[@class='shopping_cart']/a[@ title='View my shopping cart']]
+2018-02-24 23:56:22 INFO  VerifyloginWithValidCredentails:46 - ***********Finish vrifiedHomePageshoppingChartButtonDisplayed Test************
+=======
+2018-01-28 10:10:24 INFO  HomePageDisplayVerification:189 - ***********searchjewelary************
+2018-01-28 10:10:25 INFO  HomePage:424 - Valid message is : No results were found for your search "jewelary"
+2018-01-28 10:10:25 INFO  HomePageDisplayVerification:193 - ***********Finish searchjewelary************
+2018-01-28 10:50:37 INFO  VerifyloginWithInvalidCredentails:35 - **********ring************
+2018-01-28 10:50:38 INFO  HomePage:436 - Valid message is : No results were found for your search "ring"
+2018-01-28 10:50:38 INFO  VerifyloginWithInvalidCredentails:39 - ***********Finish ring***********
+>>>>>>> 96066c10f603ddd0adf6e198da0eeb18e33bb7fe
+2018-03-04 01:00:42 INFO  HomePageDisplayVerification:211 - ***********Faded T_shirt************
+2018-03-04 01:06:00 INFO  HomePageDisplayVerification:211 - ***********Faded T_shirt************
+2018-03-04 01:11:09 INFO  HomePageDisplayVerification:211 - ***********Faded T_shirt************
+2018-03-04 01:11:47 INFO  HomePageDisplayVerification:211 - ***********Faded T_shirt************
+2018-03-04 01:13:17 INFO  HomePageDisplayVerification:211 - ***********Faded T_shirt************
+2018-03-04 09:15:25 INFO  HomePageDisplayVerification:211 - ***********Faded T_shirt************
+2018-03-04 09:15:54 INFO  HomePageDisplayVerification:211 - ***********Faded T_shirt************
+2018-03-04 09:16:34 INFO  HomePageDisplayVerification:211 - ***********Faded T_shirt************
+2018-03-09 21:04:01 INFO  HomePageDisplayVerification:202 - *********** homepage women filter button work test start***********
+2018-03-09 21:04:08 INFO  HomePageDisplayVerification:207 - *********homepage women filter button work test finish*********
+2018-03-09 21:09:08 INFO  HomePageDisplayVerification:202 - *********** homepage women filter button work test start***********
+2018-03-09 21:09:15 INFO  HomePageDisplayVerification:207 - *********homepage women filter button work test finish*********
+2018-03-09 21:10:12 INFO  HomePageDisplayVerification:202 - *********** homepage women filter button work test start***********
+2018-03-09 21:10:18 INFO  HomePageDisplayVerification:207 - *********homepage women filter button work test finish*********
+2018-03-09 21:25:04 INFO  HomePageDisplayVerification:202 - *********** homepage women filter button work test start***********
+2018-03-09 21:25:11 INFO  HomePageDisplayVerification:207 - *********homepage women filter button work test finish*********
+2018-03-09 21:29:35 INFO  HomePageDisplayVerification:202 - *********** homepage women filter button work test start***********
+2018-03-09 21:29:42 INFO  HomePageDisplayVerification:207 - *********homepage women filter button work test finish*********
+2018-03-09 21:39:48 INFO  HomePageDisplayVerification:202 - *********** homepage women filter button work test start***********
+2018-03-09 21:39:55 INFO  HomePageDisplayVerification:207 - *********homepage women filter button work test finish*********
+2018-03-09 21:41:10 INFO  HomePageDisplayVerification:202 - *********** homepage women filter button work test start***********
+2018-03-09 21:41:17 INFO  HomePageDisplayVerification:207 - *********homepage women filter button work test finish*********
+2018-03-09 21:42:45 INFO  HomePageDisplayVerification:202 - *********** homepage women filter button work test start***********
+2018-03-09 21:42:52 INFO  HomePageDisplayVerification:207 - *********homepage women filter button work test finish*********
+2018-03-09 21:44:54 INFO  HomePageDisplayVerification:202 - *********** homepage women filter button work test start***********
+2018-03-09 21:45:00 INFO  HomePageDisplayVerification:207 - *********homepage women filter button work test finish*********
+2018-03-09 21:54:55 INFO  HomePageDisplayVerification:202 - *********** homepage women filter button work test start***********
+2018-03-09 21:55:02 INFO  HomePageDisplayVerification:207 - *********homepage women filter button work test finish*********
+2018-03-09 22:07:23 INFO  HomePageDisplayVerification:202 - *********** homepage women filter button work test start***********
+2018-03-09 22:07:30 INFO  HomePageDisplayVerification:207 - *********homepage women filter button work test finish*********
+2018-03-09 22:08:10 INFO  HomePageDisplayVerification:202 - *********** homepage women filter button work test start***********
+2018-03-09 22:08:17 INFO  HomePageDisplayVerification:207 - *********homepage women filter button work test finish*********
+2018-03-09 22:11:52 INFO  HomePageDisplayVerification:202 - *********** homepage women filter button work test start***********
+2018-03-09 22:11:58 INFO  HomePageDisplayVerification:207 - *********homepage women filter button work test finish*********
+2018-03-09 22:14:43 INFO  HomePageDisplayVerification:185 - ***********sunglass************
+2018-03-09 22:14:49 INFO  HomePage:452 - Valid message is : No results were found for your search "sunglass"
+2018-03-09 22:14:49 INFO  HomePageDisplayVerification:189 - ***********Finish sunglass************
+2018-03-09 22:17:52 INFO  HomePageDisplayVerification:193 - ***********searchjewelary************
+2018-03-09 22:17:59 INFO  HomePage:530 - Valid message is : No results were found for your search "jewelary"
+2018-03-09 22:17:59 INFO  HomePageDisplayVerification:197 - ***********Finish searchjewelary************
+2018-03-09 22:20:49 INFO  HomePageDisplayVerification:159 - ***********CartLogo************
+2018-03-09 22:21:50 INFO  HomePageDisplayVerification:162 - ***********Finish CartLogo************
+2018-03-09 22:23:46 INFO  HomePageDisplayVerification:176 - ***********watch************
+2018-03-09 22:23:48 INFO  HomePageDisplayVerification:180 - ***********Finish searchwatch************
+2018-03-09 22:31:51 INFO  HomePageDisplayVerification:203 - *********** homepage women filter button work test start***********
+2018-03-09 22:31:58 INFO  HomePageDisplayVerification:208 - *********homepage women filter button work test finish*********
+2018-03-10 07:07:31 INFO  HomePageDisplayVerification:195 - ***********searchjewelary************
+2018-03-10 07:07:32 INFO  HomePage:530 - Valid message is : No results were found for your search "jewelary"
+2018-03-10 07:07:32 INFO  HomePageDisplayVerification:199 - ***********Finish searchjewelary************
+2018-03-10 07:08:29 INFO  HomePageDisplayVerification:178 - ***********watch************
+2018-03-10 07:08:30 INFO  HomePageDisplayVerification:182 - ***********Finish searchwatch************
+2018-03-10 07:19:23 INFO  VerifyloginWithInvalidCredentails:35 - **********ring************
+2018-03-10 07:19:24 INFO  HomePage:560 - Valid message is : No results were found for your search "ring"
+2018-03-10 07:19:24 INFO  VerifyloginWithInvalidCredentails:39 - ***********Finish ring***********
+2018-03-10 07:19:25 INFO  VerifyloginWithInvalidCredentails:45 - ***********popular************
+2018-03-10 07:19:26 INFO  VerifyloginWithInvalidCredentails:49 - ***********Finish searchpopular************
+2018-03-10 07:19:26 INFO  VerifyloginWithInvalidCredentails:25 - ***********Starting VerifyloginWithInvalidCredentails Test************
+2018-03-10 07:19:27 INFO  HomePage:195 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (36e28285448d86c9cc00ac4d3c253cad)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-03-10 07:19:27 INFO  HomePage:197 - Enterd login and object is : [[RemoteWebDriver: chrome on MAC (36e28285448d86c9cc00ac4d3c253cad)] -> id: email]
+2018-03-10 07:19:27 INFO  HomePage:199 - Enterd password and object is : [[RemoteWebDriver: chrome on MAC (36e28285448d86c9cc00ac4d3c253cad)] -> id: passwd]
+2018-03-10 07:19:28 INFO  HomePage:201 - Click submitButton and object is : [[RemoteWebDriver: chrome on MAC (36e28285448d86c9cc00ac4d3c253cad)] -> id: SubmitLogin]
+2018-03-10 07:19:28 INFO  HomePage:241 - Error message is : Authentication failed.
+2018-03-10 07:19:28 INFO  VerifyloginWithInvalidCredentails:30 - ***********Finish VerifyloginWithInvalidCredentails Test************
+2018-03-10 07:19:30 INFO  TestBase:55 - creating object of  chrome
+2018-03-10 07:19:31 INFO  TestBase:69 - navigating to http://automationpractice.com/index.php
+2018-03-10 07:19:33 INFO  VerifyloginWithValidCredentails:51 - ***********Starting validEmailforCreateAccount Test************
+2018-03-10 07:19:34 INFO  HomePage:206 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (0cf88a1c31bb0721891d4d37f4edc9c1)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-03-10 07:19:34 INFO  HomePage:208 - Enter valid EmailAddress : [[RemoteWebDriver: chrome on MAC (0cf88a1c31bb0721891d4d37f4edc9c1)] -> id: email_create]
+2018-03-10 07:19:34 INFO  HomePage:210 - Click submitCreateButton and object is : [[RemoteWebDriver: chrome on MAC (0cf88a1c31bb0721891d4d37f4edc9c1)] -> id: SubmitCreate]
+2018-03-10 07:19:34 INFO  HomePage:251 - Valid message is : AUTHENTICATION
+2018-03-10 07:19:34 INFO  VerifyloginWithValidCredentails:56 - ***********Finish validEmailforCreateAccount Test************
+2018-03-10 07:19:35 INFO  VerifyloginWithValidCredentails:34 - ***********Starting verifyLoginWithValidCredentails Test************
+2018-03-10 07:19:36 INFO  HomePage:195 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (0cf88a1c31bb0721891d4d37f4edc9c1)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-03-10 07:19:36 INFO  HomePage:197 - Enterd login and object is : [[RemoteWebDriver: chrome on MAC (0cf88a1c31bb0721891d4d37f4edc9c1)] -> id: email]
+2018-03-10 07:19:36 INFO  HomePage:199 - Enterd password and object is : [[RemoteWebDriver: chrome on MAC (0cf88a1c31bb0721891d4d37f4edc9c1)] -> id: passwd]
+2018-03-10 07:26:47 INFO  VerifyloginWithInvalidCredentails:35 - **********ring************
+2018-03-10 07:26:48 INFO  HomePage:560 - Valid message is : No results were found for your search "ring"
+2018-03-10 07:26:48 INFO  VerifyloginWithInvalidCredentails:39 - ***********Finish ring***********
+2018-03-10 07:26:49 INFO  VerifyloginWithInvalidCredentails:45 - ***********popular************
+2018-03-10 07:26:49 INFO  VerifyloginWithInvalidCredentails:49 - ***********Finish searchpopular************
+2018-03-10 07:26:50 INFO  VerifyloginWithInvalidCredentails:25 - ***********Starting VerifyloginWithInvalidCredentails Test************
+2018-03-10 07:26:51 INFO  HomePage:195 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (038f3b150433e0f8eeb2b2840fc95329)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-03-10 07:26:51 INFO  HomePage:197 - Enterd login and object is : [[RemoteWebDriver: chrome on MAC (038f3b150433e0f8eeb2b2840fc95329)] -> id: email]
+2018-03-10 07:26:51 INFO  HomePage:199 - Enterd password and object is : [[RemoteWebDriver: chrome on MAC (038f3b150433e0f8eeb2b2840fc95329)] -> id: passwd]
+2018-03-10 07:26:51 INFO  HomePage:201 - Click submitButton and object is : [[RemoteWebDriver: chrome on MAC (038f3b150433e0f8eeb2b2840fc95329)] -> id: SubmitLogin]
+2018-03-10 07:26:51 INFO  HomePage:241 - Error message is : Authentication failed.
+2018-03-10 07:26:51 INFO  VerifyloginWithInvalidCredentails:30 - ***********Finish VerifyloginWithInvalidCredentails Test************
+2018-03-10 07:26:52 INFO  TestBase:55 - creating object of  chrome
+2018-03-10 07:26:53 INFO  TestBase:69 - navigating to http://automationpractice.com/index.php
+2018-03-10 07:26:55 INFO  VerifyloginWithValidCredentails:51 - ***********Starting validEmailforCreateAccount Test************
+2018-03-10 07:26:56 INFO  HomePage:206 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (345f4814abac0d11bed743ab30e3dd68)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-03-10 07:26:56 INFO  HomePage:208 - Enter valid EmailAddress : [[RemoteWebDriver: chrome on MAC (345f4814abac0d11bed743ab30e3dd68)] -> id: email_create]
+2018-03-10 07:26:56 INFO  HomePage:210 - Click submitCreateButton and object is : [[RemoteWebDriver: chrome on MAC (345f4814abac0d11bed743ab30e3dd68)] -> id: SubmitCreate]
+2018-03-10 07:26:56 INFO  HomePage:251 - Valid message is : AUTHENTICATION
+2018-03-10 07:26:56 INFO  VerifyloginWithValidCredentails:56 - ***********Finish validEmailforCreateAccount Test************
+2018-03-10 07:26:57 INFO  VerifyloginWithValidCredentails:34 - ***********Starting verifyLoginWithValidCredentails Test************
+2018-03-10 07:26:58 INFO  HomePage:195 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (345f4814abac0d11bed743ab30e3dd68)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-03-10 07:26:58 INFO  HomePage:197 - Enterd login and object is : [[RemoteWebDriver: chrome on MAC (345f4814abac0d11bed743ab30e3dd68)] -> id: email]
+2018-03-10 07:26:58 INFO  HomePage:199 - Enterd password and object is : [[RemoteWebDriver: chrome on MAC (345f4814abac0d11bed743ab30e3dd68)] -> id: passwd]
+2018-03-10 07:27:59 INFO  HomePage:201 - Click submitButton and object is : Proxy element for: DefaultElementLocator 'By.id: SubmitLogin'
+2018-03-10 07:27:59 INFO  HomePage:246 - Valid message is : k u
+2018-03-10 07:27:59 INFO  VerifyloginWithValidCredentails:38 - ***********Finish verifyLoginWithValidCredentails Test************
+2018-03-10 07:28:00 INFO  VerifyloginWithValidCredentails:64 - ***********Starting verifyLoginWithValidCredentails Test************
+2018-03-10 07:28:00 INFO  HomePage:195 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (345f4814abac0d11bed743ab30e3dd68)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-03-10 07:29:01 INFO  VerifyloginWithValidCredentails:43 - ***********Starting vrifiedHomePageshoppingChartButtonDisplayed Test************
+2018-03-10 07:29:01 INFO  HomePage:216 -  shoppingchart object is : [[RemoteWebDriver: chrome on MAC (345f4814abac0d11bed743ab30e3dd68)] -> xpath: .//div[@class="col-sm-4 clearfix"]/div[@class='shopping_cart']/a[@ title='View my shopping cart']]
+2018-03-10 07:29:01 INFO  VerifyloginWithValidCredentails:46 - ***********Finish vrifiedHomePageshoppingChartButtonDisplayed Test************
+2018-03-10 07:46:29 INFO  VerifyloginWithInvalidCredentails:35 - **********ring************
+2018-03-10 07:46:30 INFO  HomePage:560 - Valid message is : No results were found for your search "ring"
+2018-03-10 07:46:30 INFO  VerifyloginWithInvalidCredentails:39 - ***********Finish ring***********
+2018-03-10 07:46:31 INFO  VerifyloginWithInvalidCredentails:45 - ***********popular************
+2018-03-10 07:46:32 INFO  VerifyloginWithInvalidCredentails:49 - ***********Finish searchpopular************
+2018-03-10 07:46:32 INFO  VerifyloginWithInvalidCredentails:25 - ***********Starting VerifyloginWithInvalidCredentails Test************
+2018-03-10 07:46:33 INFO  HomePage:195 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (d7be9e21701b8e21799109faedaed541)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-03-10 07:46:33 INFO  HomePage:197 - Enterd login and object is : [[RemoteWebDriver: chrome on MAC (d7be9e21701b8e21799109faedaed541)] -> id: email]
+2018-03-10 07:46:33 INFO  HomePage:199 - Enterd password and object is : [[RemoteWebDriver: chrome on MAC (d7be9e21701b8e21799109faedaed541)] -> id: passwd]
+2018-03-10 07:46:34 INFO  HomePage:201 - Click submitButton and object is : [[RemoteWebDriver: chrome on MAC (d7be9e21701b8e21799109faedaed541)] -> id: SubmitLogin]
+2018-03-10 07:46:34 INFO  HomePage:241 - Error message is : Authentication failed.
+2018-03-10 07:46:34 INFO  VerifyloginWithInvalidCredentails:30 - ***********Finish VerifyloginWithInvalidCredentails Test************
+2018-03-10 07:46:34 INFO  TestBase:55 - creating object of  chrome
+2018-03-10 07:46:35 INFO  TestBase:69 - navigating to http://automationpractice.com/index.php
+2018-03-10 07:46:37 INFO  VerifyloginWithValidCredentails:51 - ***********Starting validEmailforCreateAccount Test************
+2018-03-10 07:46:38 INFO  HomePage:206 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (eb80b03854cccd523ca0bb6810f65080)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-03-10 07:46:38 INFO  HomePage:208 - Enter valid EmailAddress : [[RemoteWebDriver: chrome on MAC (eb80b03854cccd523ca0bb6810f65080)] -> id: email_create]
+2018-03-10 07:46:38 INFO  HomePage:210 - Click submitCreateButton and object is : [[RemoteWebDriver: chrome on MAC (eb80b03854cccd523ca0bb6810f65080)] -> id: SubmitCreate]
+2018-03-10 07:46:38 INFO  HomePage:251 - Valid message is : AUTHENTICATION
+2018-03-10 07:46:39 INFO  VerifyloginWithValidCredentails:56 - ***********Finish validEmailforCreateAccount Test************
+2018-03-10 07:46:39 INFO  VerifyloginWithValidCredentails:34 - ***********Starting verifyLoginWithValidCredentails Test************
+2018-03-10 07:46:40 INFO  HomePage:195 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (eb80b03854cccd523ca0bb6810f65080)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-03-10 07:46:40 INFO  HomePage:197 - Enterd login and object is : [[RemoteWebDriver: chrome on MAC (eb80b03854cccd523ca0bb6810f65080)] -> id: email]
+2018-03-10 07:46:40 INFO  HomePage:199 - Enterd password and object is : [[RemoteWebDriver: chrome on MAC (eb80b03854cccd523ca0bb6810f65080)] -> id: passwd]
+2018-03-10 07:47:41 INFO  HomePage:201 - Click submitButton and object is : Proxy element for: DefaultElementLocator 'By.id: SubmitLogin'
+2018-03-10 07:47:41 INFO  HomePage:246 - Valid message is : k u
+2018-03-10 07:47:41 INFO  VerifyloginWithValidCredentails:38 - ***********Finish verifyLoginWithValidCredentails Test************
+2018-03-10 07:47:42 INFO  VerifyloginWithValidCredentails:64 - ***********Starting verifyLoginWithValidCredentails Test************
+2018-03-10 07:47:43 INFO  HomePage:195 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (eb80b03854cccd523ca0bb6810f65080)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-03-10 07:48:43 INFO  VerifyloginWithValidCredentails:43 - ***********Starting vrifiedHomePageshoppingChartButtonDisplayed Test************
+2018-03-10 07:48:43 INFO  HomePage:216 -  shoppingchart object is : [[RemoteWebDriver: chrome on MAC (eb80b03854cccd523ca0bb6810f65080)] -> xpath: .//div[@class="col-sm-4 clearfix"]/div[@class='shopping_cart']/a[@ title='View my shopping cart']]
+2018-03-10 07:48:43 INFO  VerifyloginWithValidCredentails:46 - ***********Finish vrifiedHomePageshoppingChartButtonDisplayed Test************
+2018-03-10 23:07:17 INFO  HomePageDisplayVerification:232 - *********** VerifysortByButtonSelectOption test start***********
+2018-03-10 23:07:18 INFO  HomePage:272 - [[RemoteWebDriver: chrome on MAC (ca7d0eb98676a4df9ec9283c17e78add)] -> xpath: .//*[@id='columns']/div[@class='breadcrumb clearfix']]
+2018-03-10 23:07:19 INFO  HomePageDisplayVerification:238 - *********VerifysortByButtonSelectOption test finish*********
+2018-03-10 23:09:14 INFO  HomePageDisplayVerification:232 - *********** VerifysortByButtonSelectOption test start***********
+2018-03-10 23:09:16 INFO  HomePage:272 - [[RemoteWebDriver: chrome on MAC (d3761d38dc98a51e91538dc01ce0b07b)] -> xpath: .//*[@id='columns']/div[@class='breadcrumb clearfix']]
+2018-03-10 23:10:32 INFO  HomePageDisplayVerification:232 - *********** VerifysortByButtonSelectOption test start***********
+2018-03-10 23:10:34 INFO  HomePage:272 - [[RemoteWebDriver: chrome on MAC (26497594bc4d30a4c5a2a0e0023a1ad0)] -> xpath: .//*[@id='columns']/div[@class='breadcrumb clearfix']]
+2018-03-10 23:10:57 INFO  HomePageDisplayVerification:239 - *********VerifysortByButtonSelectOption test finish*********
+2018-03-10 23:13:00 INFO  HomePageDisplayVerification:232 - *********** VerifysortByButtonSelectOption test start***********
+2018-03-10 23:13:01 INFO  HomePage:272 - [[RemoteWebDriver: chrome on MAC (e41c798c7be03a898809c3747f030a4c)] -> xpath: .//*[@id='columns']/div[@class='breadcrumb clearfix']]
+2018-03-10 23:14:42 INFO  HomePageDisplayVerification:239 - *********VerifysortByButtonSelectOption test finish*********
+2018-03-10 23:24:51 INFO  HomePageDisplayVerification:232 - *********** VerifysortByButtonSelectOption test start***********
+2018-03-10 23:24:52 INFO  HomePage:272 - [[RemoteWebDriver: chrome on MAC (548bbf26c1eaf40437bdea81bf7ae545)] -> xpath: .//*[@id='columns']/div[@class='breadcrumb clearfix']]
+2018-03-10 23:26:04 INFO  HomePageDisplayVerification:232 - *********** VerifysortByButtonSelectOption test start***********
+2018-03-10 23:26:05 INFO  HomePage:272 - [[RemoteWebDriver: chrome on MAC (f39ec42145965218908f9d281a5848e3)] -> xpath: .//*[@id='columns']/div[@class='breadcrumb clearfix']]
+2018-03-10 23:26:06 INFO  HomePageDisplayVerification:239 - *********VerifysortByButtonSelectOption test finish*********
+2018-03-10 23:31:17 INFO  HomePageDisplayVerification:232 - *********** VerifysortByButtonSelectOption test start***********
+2018-03-10 23:31:18 INFO  HomePage:272 - [[RemoteWebDriver: chrome on MAC (220abbc1eed50aae77a92f7381d0fb57)] -> xpath: .//*[@id='columns']/div[@class='breadcrumb clearfix']]
+2018-03-10 23:31:19 INFO  HomePageDisplayVerification:239 - *********VerifysortByButtonSelectOption test finish*********
+2018-03-10 23:31:32 INFO  HomePageDisplayVerification:232 - *********** VerifysortByButtonSelectOption test start***********
+2018-03-10 23:31:34 INFO  HomePage:272 - [[RemoteWebDriver: chrome on MAC (66475453db973cba635a4019caa97e72)] -> xpath: .//*[@id='columns']/div[@class='breadcrumb clearfix']]
+2018-03-10 23:31:34 INFO  HomePageDisplayVerification:239 - *********VerifysortByButtonSelectOption test finish*********
+2018-03-10 23:32:15 INFO  HomePageDisplayVerification:232 - *********** VerifysortByButtonSelectOption test start***********
+2018-03-10 23:32:16 INFO  HomePage:272 - [[RemoteWebDriver: chrome on MAC (211ccbe13b0d96d1bb5faf8014c101ac)] -> xpath: .//*[@id='columns']/div[@class='breadcrumb clearfix']]
+2018-03-10 23:32:16 INFO  HomePageDisplayVerification:239 - *********VerifysortByButtonSelectOption test finish*********
+2018-03-10 23:32:58 INFO  HomePageDisplayVerification:232 - *********** VerifysortByButtonSelectOption test start***********
+2018-03-10 23:32:59 INFO  HomePage:272 - [[RemoteWebDriver: chrome on MAC (bab9eca80744f8c4e81d324d2a783179)] -> xpath: .//*[@id='columns']/div[@class='breadcrumb clearfix']]
+2018-03-10 23:33:10 INFO  HomePageDisplayVerification:239 - *********VerifysortByButtonSelectOption test finish*********
+2018-03-17 22:42:56 INFO  VerifyloginWithInvalidCredentails:35 - **********ring************
+2018-03-17 22:42:56 INFO  VerifyloginWithInvalidCredentails:35 - **********ring************
+2018-03-17 22:42:56 INFO  VerifyloginWithInvalidCredentails:35 - **********ring************
+2018-03-17 22:42:56 INFO  VerifyloginWithInvalidCredentails:35 - **********ring************
+2018-03-17 22:42:56 INFO  VerifyloginWithInvalidCredentails:45 - ***********popular************
+2018-03-17 22:42:56 INFO  VerifyloginWithInvalidCredentails:45 - ***********popular************
+2018-03-17 22:42:56 INFO  VerifyloginWithInvalidCredentails:45 - ***********popular************
+2018-03-17 22:42:56 INFO  VerifyloginWithInvalidCredentails:45 - ***********popular************
+2018-03-17 22:42:56 INFO  VerifyloginWithInvalidCredentails:25 - ***********Starting VerifyloginWithInvalidCredentails Test************
+2018-03-17 22:42:57 INFO  HomePage:202 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (d2a5fed43d0caba3af9bded18ce64d29)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-03-17 22:42:58 INFO  VerifyloginWithInvalidCredentails:25 - ***********Starting VerifyloginWithInvalidCredentails Test************
+2018-03-17 22:42:59 INFO  HomePage:202 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (d2a5fed43d0caba3af9bded18ce64d29)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-03-17 22:42:59 INFO  VerifyloginWithInvalidCredentails:25 - ***********Starting VerifyloginWithInvalidCredentails Test************
+2018-03-17 22:42:59 INFO  HomePage:202 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (d2a5fed43d0caba3af9bded18ce64d29)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-03-17 22:43:00 INFO  VerifyloginWithInvalidCredentails:25 - ***********Starting VerifyloginWithInvalidCredentails Test************
+2018-03-17 22:43:00 INFO  HomePage:202 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (d2a5fed43d0caba3af9bded18ce64d29)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-03-17 22:43:01 INFO  TestBase:55 - creating object of  chrome
+2018-03-17 22:43:02 INFO  TestBase:69 - navigating to http://automationpractice.com/index.php
+2018-03-17 22:43:04 INFO  VerifyloginWithValidCredentails:51 - ***********Starting validEmailforCreateAccount Test************
+2018-03-17 22:43:05 INFO  HomePage:213 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (f6d820592e644b7bfc2aec1c475ed78d)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-03-17 22:43:05 INFO  VerifyloginWithValidCredentails:51 - ***********Starting validEmailforCreateAccount Test************
+2018-03-17 22:43:05 INFO  HomePage:213 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (f6d820592e644b7bfc2aec1c475ed78d)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-03-17 22:43:06 INFO  VerifyloginWithValidCredentails:51 - ***********Starting validEmailforCreateAccount Test************
+2018-03-17 22:43:06 INFO  HomePage:213 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (f6d820592e644b7bfc2aec1c475ed78d)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-03-17 22:43:06 INFO  VerifyloginWithValidCredentails:51 - ***********Starting validEmailforCreateAccount Test************
+2018-03-17 22:43:07 INFO  HomePage:213 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (f6d820592e644b7bfc2aec1c475ed78d)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-03-17 22:43:07 INFO  VerifyloginWithValidCredentails:34 - ***********Starting verifyLoginWithValidCredentails Test************
+2018-03-17 22:43:08 INFO  HomePage:202 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (f6d820592e644b7bfc2aec1c475ed78d)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-03-17 22:43:09 INFO  VerifyloginWithValidCredentails:34 - ***********Starting verifyLoginWithValidCredentails Test************
+2018-03-17 22:43:10 INFO  HomePage:202 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (f6d820592e644b7bfc2aec1c475ed78d)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-03-17 22:43:10 INFO  VerifyloginWithValidCredentails:34 - ***********Starting verifyLoginWithValidCredentails Test************
+2018-03-17 22:43:11 INFO  HomePage:202 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (f6d820592e644b7bfc2aec1c475ed78d)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-03-17 22:43:11 INFO  VerifyloginWithValidCredentails:34 - ***********Starting verifyLoginWithValidCredentails Test************
+2018-03-17 22:43:12 INFO  HomePage:202 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (f6d820592e644b7bfc2aec1c475ed78d)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-03-17 22:43:12 INFO  VerifyloginWithValidCredentails:64 - ***********Starting verifyLoginWithValidCredentails Test************
+2018-03-17 22:43:13 INFO  HomePage:202 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (f6d820592e644b7bfc2aec1c475ed78d)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-03-17 22:43:13 INFO  VerifyloginWithValidCredentails:64 - ***********Starting verifyLoginWithValidCredentails Test************
+2018-03-17 22:43:19 INFO  HomePage:202 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (f6d820592e644b7bfc2aec1c475ed78d)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-03-17 22:43:19 INFO  VerifyloginWithValidCredentails:64 - ***********Starting verifyLoginWithValidCredentails Test************
+2018-03-17 22:43:20 INFO  HomePage:202 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (f6d820592e644b7bfc2aec1c475ed78d)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-03-17 22:43:20 INFO  VerifyloginWithValidCredentails:64 - ***********Starting verifyLoginWithValidCredentails Test************
+2018-03-17 22:43:21 INFO  HomePage:202 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (f6d820592e644b7bfc2aec1c475ed78d)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-03-17 22:43:21 INFO  VerifyloginWithValidCredentails:43 - ***********Starting vrifiedHomePageshoppingChartButtonDisplayed Test************
+2018-03-17 22:43:21 INFO  HomePage:223 -  shoppingchart object is : [[RemoteWebDriver: chrome on MAC (f6d820592e644b7bfc2aec1c475ed78d)] -> xpath: .//div[@class="col-sm-4 clearfix"]/div[@class='shopping_cart']/a[@ title='View my shopping cart']]
+2018-03-17 22:43:21 INFO  VerifyloginWithValidCredentails:46 - ***********Finish vrifiedHomePageshoppingChartButtonDisplayed Test************
+2018-03-17 22:44:33 INFO  VerifyloginWithInvalidCredentails:35 - **********ring************
+2018-03-17 22:44:34 INFO  VerifyloginWithInvalidCredentails:35 - **********ring************
+2018-03-17 22:44:34 INFO  VerifyloginWithInvalidCredentails:35 - **********ring************
+2018-03-17 22:44:34 INFO  VerifyloginWithInvalidCredentails:35 - **********ring************
+2018-03-17 22:44:34 INFO  VerifyloginWithInvalidCredentails:45 - ***********popular************
+2018-03-17 22:44:34 INFO  VerifyloginWithInvalidCredentails:45 - ***********popular************
+2018-03-17 22:44:34 INFO  VerifyloginWithInvalidCredentails:45 - ***********popular************
+2018-03-17 22:44:34 INFO  VerifyloginWithInvalidCredentails:45 - ***********popular************
+2018-03-17 22:44:34 INFO  VerifyloginWithInvalidCredentails:25 - ***********Starting VerifyloginWithInvalidCredentails Test************
+2018-03-17 22:44:35 INFO  HomePage:202 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (015893bcf3eb041e7b9b01e8e9fd80e4)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-03-17 22:44:35 INFO  VerifyloginWithInvalidCredentails:25 - ***********Starting VerifyloginWithInvalidCredentails Test************
+2018-03-17 22:44:36 INFO  HomePage:202 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (015893bcf3eb041e7b9b01e8e9fd80e4)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-03-17 22:44:36 INFO  VerifyloginWithInvalidCredentails:25 - ***********Starting VerifyloginWithInvalidCredentails Test************
+2018-03-17 22:44:37 INFO  HomePage:202 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (015893bcf3eb041e7b9b01e8e9fd80e4)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-03-17 22:44:37 INFO  VerifyloginWithInvalidCredentails:25 - ***********Starting VerifyloginWithInvalidCredentails Test************
+2018-03-17 22:44:38 INFO  HomePage:202 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (015893bcf3eb041e7b9b01e8e9fd80e4)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-03-17 22:44:38 INFO  TestBase:55 - creating object of  chrome
+2018-03-17 22:44:38 INFO  TestBase:69 - navigating to http://automationpractice.com/index.php
+2018-03-17 22:47:13 INFO  VerifyloginWithInvalidCredentails:35 - **********ring************
+2018-03-17 22:47:13 INFO  VerifyloginWithInvalidCredentails:35 - **********ring************
+2018-03-17 22:47:13 INFO  VerifyloginWithInvalidCredentails:35 - **********ring************
+2018-03-17 22:47:13 INFO  VerifyloginWithInvalidCredentails:35 - **********ring************
+2018-03-17 22:47:13 INFO  VerifyloginWithInvalidCredentails:45 - ***********popular************
+2018-03-17 22:47:13 INFO  VerifyloginWithInvalidCredentails:45 - ***********popular************
+2018-03-17 22:47:13 INFO  VerifyloginWithInvalidCredentails:45 - ***********popular************
+2018-03-17 22:47:13 INFO  VerifyloginWithInvalidCredentails:45 - ***********popular************
+2018-03-17 22:47:13 INFO  VerifyloginWithInvalidCredentails:25 - ***********Starting VerifyloginWithInvalidCredentails Test************
+2018-03-17 22:47:14 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (d47d0e97237a26ab823f0bc9e173313d)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-03-17 22:47:14 INFO  VerifyloginWithInvalidCredentails:25 - ***********Starting VerifyloginWithInvalidCredentails Test************
+2018-03-17 22:47:15 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (d47d0e97237a26ab823f0bc9e173313d)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-03-17 22:47:15 INFO  VerifyloginWithInvalidCredentails:25 - ***********Starting VerifyloginWithInvalidCredentails Test************
+2018-03-17 22:47:16 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (d47d0e97237a26ab823f0bc9e173313d)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-03-17 22:47:16 INFO  VerifyloginWithInvalidCredentails:25 - ***********Starting VerifyloginWithInvalidCredentails Test************
+2018-03-17 22:47:17 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (d47d0e97237a26ab823f0bc9e173313d)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-03-17 22:47:18 INFO  TestBase:55 - creating object of  chrome
+2018-03-17 22:47:18 INFO  TestBase:69 - navigating to http://automationpractice.com/index.php
+2018-03-17 22:47:20 INFO  VerifyloginWithValidCredentails:51 - ***********Starting validEmailforCreateAccount Test************
+2018-03-17 22:47:21 INFO  HomePage:209 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (0751dfda8e824834a1bfec44c9ed46ab)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-03-17 22:47:21 INFO  VerifyloginWithValidCredentails:51 - ***********Starting validEmailforCreateAccount Test************
+2018-03-17 22:47:22 INFO  HomePage:209 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (0751dfda8e824834a1bfec44c9ed46ab)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-03-17 22:47:22 INFO  VerifyloginWithValidCredentails:51 - ***********Starting validEmailforCreateAccount Test************
+2018-03-17 22:47:23 INFO  HomePage:209 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (0751dfda8e824834a1bfec44c9ed46ab)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-03-17 22:47:23 INFO  VerifyloginWithValidCredentails:51 - ***********Starting validEmailforCreateAccount Test************
+2018-03-17 22:47:25 INFO  HomePage:209 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (0751dfda8e824834a1bfec44c9ed46ab)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-03-17 22:47:25 INFO  VerifyloginWithValidCredentails:34 - ***********Starting verifyLoginWithValidCredentails Test************
+2018-03-17 22:47:26 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (0751dfda8e824834a1bfec44c9ed46ab)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-03-17 22:47:26 INFO  VerifyloginWithValidCredentails:34 - ***********Starting verifyLoginWithValidCredentails Test************
+2018-03-17 22:47:26 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (0751dfda8e824834a1bfec44c9ed46ab)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-03-17 22:47:26 INFO  VerifyloginWithValidCredentails:34 - ***********Starting verifyLoginWithValidCredentails Test************
+2018-03-17 22:47:27 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (0751dfda8e824834a1bfec44c9ed46ab)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-03-17 22:47:28 INFO  VerifyloginWithValidCredentails:34 - ***********Starting verifyLoginWithValidCredentails Test************
+2018-03-17 22:47:28 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (0751dfda8e824834a1bfec44c9ed46ab)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-03-17 22:47:29 INFO  VerifyloginWithValidCredentails:64 - ***********Starting verifyLoginWithValidCredentails Test************
+2018-03-17 22:47:35 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (0751dfda8e824834a1bfec44c9ed46ab)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-03-17 22:47:35 INFO  VerifyloginWithValidCredentails:64 - ***********Starting verifyLoginWithValidCredentails Test************
+2018-03-17 22:47:41 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (0751dfda8e824834a1bfec44c9ed46ab)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-03-17 22:47:41 INFO  VerifyloginWithValidCredentails:64 - ***********Starting verifyLoginWithValidCredentails Test************
+2018-03-17 22:47:47 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (0751dfda8e824834a1bfec44c9ed46ab)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-03-17 22:47:47 INFO  VerifyloginWithValidCredentails:64 - ***********Starting verifyLoginWithValidCredentails Test************
+2018-03-17 22:47:53 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (0751dfda8e824834a1bfec44c9ed46ab)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-03-17 22:47:53 INFO  VerifyloginWithValidCredentails:43 - ***********Starting vrifiedHomePageshoppingChartButtonDisplayed Test************
+2018-03-17 22:47:53 INFO  HomePage:219 -  shoppingchart object is : [[RemoteWebDriver: chrome on MAC (0751dfda8e824834a1bfec44c9ed46ab)] -> xpath: .//div[@class="col-sm-4 clearfix"]/div[@class='shopping_cart']/a[@ title='View my shopping cart']]
+2018-03-17 22:47:53 INFO  VerifyloginWithValidCredentails:46 - ***********Finish vrifiedHomePageshoppingChartButtonDisplayed Test************
+2018-03-17 22:51:16 INFO  VerifyloginWithValidCredentails:51 - ***********Starting validEmailforCreateAccount Test************
+2018-03-17 22:51:16 INFO  VerifyloginWithInvalidCredentails:35 - **********ring************
+2018-03-17 22:51:16 INFO  VerifyloginWithInvalidCredentails:35 - **********ring************
+2018-03-17 22:51:16 INFO  VerifyloginWithInvalidCredentails:35 - **********ring************
+2018-03-17 22:51:16 INFO  VerifyloginWithInvalidCredentails:35 - **********ring************
+2018-03-17 22:51:16 INFO  VerifyloginWithInvalidCredentails:45 - ***********popular************
+2018-03-17 22:51:16 INFO  VerifyloginWithInvalidCredentails:45 - ***********popular************
+2018-03-17 22:51:16 INFO  VerifyloginWithInvalidCredentails:45 - ***********popular************
+2018-03-17 22:51:16 INFO  VerifyloginWithInvalidCredentails:45 - ***********popular************
+2018-03-17 22:51:16 INFO  VerifyloginWithInvalidCredentails:25 - ***********Starting VerifyloginWithInvalidCredentails Test************
+2018-03-17 22:51:17 INFO  HomePage:209 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (92aa10f8b593829bb7756debc3176f63)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-03-17 22:51:17 INFO  VerifyloginWithValidCredentails:51 - ***********Starting validEmailforCreateAccount Test************
+2018-03-17 22:51:17 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (9d5bc815eca92599dda042ee827ed717)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-03-17 22:51:17 INFO  VerifyloginWithInvalidCredentails:25 - ***********Starting VerifyloginWithInvalidCredentails Test************
+2018-03-17 22:51:18 INFO  HomePage:209 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (92aa10f8b593829bb7756debc3176f63)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-03-17 22:51:18 INFO  VerifyloginWithValidCredentails:51 - ***********Starting validEmailforCreateAccount Test************
+2018-03-17 22:51:18 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (9d5bc815eca92599dda042ee827ed717)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-03-17 22:51:18 INFO  VerifyloginWithInvalidCredentails:25 - ***********Starting VerifyloginWithInvalidCredentails Test************
+2018-03-17 22:51:19 INFO  HomePage:209 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (92aa10f8b593829bb7756debc3176f63)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-03-17 22:51:19 INFO  VerifyloginWithValidCredentails:51 - ***********Starting validEmailforCreateAccount Test************
+2018-03-17 22:51:20 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (9d5bc815eca92599dda042ee827ed717)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-03-17 22:51:20 INFO  VerifyloginWithInvalidCredentails:25 - ***********Starting VerifyloginWithInvalidCredentails Test************
+2018-03-17 22:51:20 INFO  HomePage:209 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (92aa10f8b593829bb7756debc3176f63)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-03-17 22:51:20 INFO  VerifyloginWithValidCredentails:34 - ***********Starting verifyLoginWithValidCredentails Test************
+2018-03-17 22:51:21 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (9d5bc815eca92599dda042ee827ed717)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-03-17 22:51:21 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (92aa10f8b593829bb7756debc3176f63)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-03-17 22:51:21 INFO  VerifyloginWithValidCredentails:34 - ***********Starting verifyLoginWithValidCredentails Test************
+2018-03-17 22:51:22 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (92aa10f8b593829bb7756debc3176f63)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-03-17 22:51:22 INFO  VerifyloginWithValidCredentails:34 - ***********Starting verifyLoginWithValidCredentails Test************
+2018-03-17 22:51:23 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (92aa10f8b593829bb7756debc3176f63)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-03-17 22:51:23 INFO  VerifyloginWithValidCredentails:34 - ***********Starting verifyLoginWithValidCredentails Test************
+2018-03-17 22:51:24 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (92aa10f8b593829bb7756debc3176f63)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-03-17 22:51:24 INFO  VerifyloginWithValidCredentails:64 - ***********Starting verifyLoginWithValidCredentails Test************
+2018-03-17 22:51:25 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (92aa10f8b593829bb7756debc3176f63)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-03-17 22:51:25 INFO  VerifyloginWithValidCredentails:64 - ***********Starting verifyLoginWithValidCredentails Test************
+2018-03-17 22:51:26 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (92aa10f8b593829bb7756debc3176f63)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-03-17 22:51:26 INFO  VerifyloginWithValidCredentails:64 - ***********Starting verifyLoginWithValidCredentails Test************
+2018-03-17 22:51:27 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (92aa10f8b593829bb7756debc3176f63)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-03-17 22:51:27 INFO  VerifyloginWithValidCredentails:64 - ***********Starting verifyLoginWithValidCredentails Test************
+2018-03-17 22:51:28 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (92aa10f8b593829bb7756debc3176f63)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-03-17 22:51:28 INFO  VerifyloginWithValidCredentails:43 - ***********Starting vrifiedHomePageshoppingChartButtonDisplayed Test************
+2018-03-17 22:51:28 INFO  HomePage:219 -  shoppingchart object is : [[RemoteWebDriver: chrome on MAC (92aa10f8b593829bb7756debc3176f63)] -> xpath: .//div[@class="col-sm-4 clearfix"]/div[@class='shopping_cart']/a[@ title='View my shopping cart']]
+2018-03-17 22:51:28 INFO  VerifyloginWithValidCredentails:46 - ***********Finish vrifiedHomePageshoppingChartButtonDisplayed Test************
+2018-03-17 22:53:15 INFO  TestBase:55 - creating object of  chrome
+2018-03-17 22:53:16 INFO  TestBase:69 - navigating to http://automationpractice.com/index.php
+2018-03-17 22:53:16 INFO  VerifyloginWithValidCredentails:51 - ***********Starting validEmailforCreateAccount Test************
+2018-03-17 22:53:17 INFO  HomePage:209 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (975fa4f6cc14d8610e5d5d7695ea3f38)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-03-17 22:53:17 INFO  VerifyloginWithValidCredentails:51 - ***********Starting validEmailforCreateAccount Test************
+2018-03-17 22:53:18 INFO  VerifyloginWithInvalidCredentails:35 - **********ring************
+2018-03-17 22:53:18 INFO  VerifyloginWithInvalidCredentails:35 - **********ring************
+2018-03-17 22:53:18 INFO  VerifyloginWithInvalidCredentails:35 - **********ring************
+2018-03-17 22:53:18 INFO  VerifyloginWithInvalidCredentails:35 - **********ring************
+2018-03-17 22:53:18 INFO  VerifyloginWithInvalidCredentails:45 - ***********popular************
+2018-03-17 22:53:18 INFO  VerifyloginWithInvalidCredentails:45 - ***********popular************
+2018-03-17 22:53:18 INFO  VerifyloginWithInvalidCredentails:45 - ***********popular************
+2018-03-17 22:53:18 INFO  VerifyloginWithInvalidCredentails:45 - ***********popular************
+2018-03-17 22:53:18 INFO  VerifyloginWithInvalidCredentails:25 - ***********Starting VerifyloginWithInvalidCredentails Test************
+2018-03-17 22:53:18 INFO  HomePage:209 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (975fa4f6cc14d8610e5d5d7695ea3f38)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-03-17 22:53:18 INFO  VerifyloginWithValidCredentails:51 - ***********Starting validEmailforCreateAccount Test************
+2018-03-17 22:53:19 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (fadab5d96034bdf93d52a20c16c9e3d8)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-03-17 22:53:19 INFO  HomePage:209 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (975fa4f6cc14d8610e5d5d7695ea3f38)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-03-17 22:53:20 INFO  VerifyloginWithInvalidCredentails:25 - ***********Starting VerifyloginWithInvalidCredentails Test************
+2018-03-17 22:53:20 INFO  VerifyloginWithValidCredentails:51 - ***********Starting validEmailforCreateAccount Test************
+2018-03-17 22:53:21 INFO  HomePage:209 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (975fa4f6cc14d8610e5d5d7695ea3f38)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-03-17 22:53:21 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (fadab5d96034bdf93d52a20c16c9e3d8)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-03-17 22:53:21 INFO  VerifyloginWithValidCredentails:34 - ***********Starting verifyLoginWithValidCredentails Test************
+2018-03-17 22:53:21 INFO  VerifyloginWithInvalidCredentails:25 - ***********Starting VerifyloginWithInvalidCredentails Test************
+2018-03-17 22:53:22 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (975fa4f6cc14d8610e5d5d7695ea3f38)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-03-17 22:53:22 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (fadab5d96034bdf93d52a20c16c9e3d8)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-03-17 22:53:22 INFO  VerifyloginWithValidCredentails:34 - ***********Starting verifyLoginWithValidCredentails Test************
+2018-03-17 22:53:22 INFO  VerifyloginWithInvalidCredentails:25 - ***********Starting VerifyloginWithInvalidCredentails Test************
+2018-03-17 22:53:24 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (975fa4f6cc14d8610e5d5d7695ea3f38)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-03-17 22:53:24 INFO  VerifyloginWithValidCredentails:34 - ***********Starting verifyLoginWithValidCredentails Test************
+2018-03-17 22:53:24 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (fadab5d96034bdf93d52a20c16c9e3d8)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-03-17 22:53:24 INFO  VerifyloginWithValidCredentails:51 - ***********Starting validEmailforCreateAccount Test************
+2018-03-17 22:53:25 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (975fa4f6cc14d8610e5d5d7695ea3f38)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-03-17 22:53:25 INFO  VerifyloginWithValidCredentails:34 - ***********Starting verifyLoginWithValidCredentails Test************
+2018-03-17 22:53:25 INFO  HomePage:209 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (81eda84c00ec169d5bc858537f5aaa38)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-03-17 22:53:25 INFO  VerifyloginWithValidCredentails:34 - ***********Starting verifyLoginWithValidCredentails Test************
+2018-03-17 22:53:28 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (975fa4f6cc14d8610e5d5d7695ea3f38)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-03-17 22:53:28 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (81eda84c00ec169d5bc858537f5aaa38)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-03-17 22:53:28 INFO  VerifyloginWithValidCredentails:64 - ***********Starting verifyLoginWithValidCredentails Test************
+2018-03-17 22:53:28 INFO  VerifyloginWithValidCredentails:64 - ***********Starting verifyLoginWithValidCredentails Test************
+2018-03-17 22:53:29 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (975fa4f6cc14d8610e5d5d7695ea3f38)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-03-17 22:53:29 INFO  VerifyloginWithValidCredentails:64 - ***********Starting verifyLoginWithValidCredentails Test************
+2018-03-17 22:53:30 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (81eda84c00ec169d5bc858537f5aaa38)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-03-17 22:53:30 INFO  VerifyloginWithValidCredentails:64 - ***********Starting verifyLoginWithValidCredentails Test************
+2018-03-17 22:53:30 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (975fa4f6cc14d8610e5d5d7695ea3f38)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-03-17 22:53:30 INFO  VerifyloginWithValidCredentails:64 - ***********Starting verifyLoginWithValidCredentails Test************
+2018-03-17 22:53:31 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (81eda84c00ec169d5bc858537f5aaa38)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-03-17 22:53:31 INFO  VerifyloginWithValidCredentails:43 - ***********Starting vrifiedHomePageshoppingChartButtonDisplayed Test************
+2018-03-17 22:53:31 INFO  HomePage:219 -  shoppingchart object is : [[RemoteWebDriver: chrome on MAC (81eda84c00ec169d5bc858537f5aaa38)] -> xpath: .//div[@class="col-sm-4 clearfix"]/div[@class='shopping_cart']/a[@ title='View my shopping cart']]
+2018-03-17 22:53:31 INFO  VerifyloginWithValidCredentails:46 - ***********Finish vrifiedHomePageshoppingChartButtonDisplayed Test************
+2018-03-17 22:53:31 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (975fa4f6cc14d8610e5d5d7695ea3f38)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-03-17 22:53:31 INFO  VerifyloginWithValidCredentails:43 - ***********Starting vrifiedHomePageshoppingChartButtonDisplayed Test************
+2018-03-17 22:53:31 INFO  HomePage:219 -  shoppingchart object is : [[RemoteWebDriver: chrome on MAC (975fa4f6cc14d8610e5d5d7695ea3f38)] -> xpath: .//div[@class="col-sm-4 clearfix"]/div[@class='shopping_cart']/a[@ title='View my shopping cart']]
+2018-03-17 22:53:31 INFO  VerifyloginWithValidCredentails:46 - ***********Finish vrifiedHomePageshoppingChartButtonDisplayed Test************
+2018-03-17 22:54:26 INFO  VerifyloginWithValidCredentails:51 - ***********Starting validEmailforCreateAccount Test************
+2018-03-17 22:54:26 INFO  VerifyloginWithInvalidCredentails:35 - **********ring************
+2018-03-17 22:54:26 INFO  VerifyloginWithInvalidCredentails:35 - **********ring************
+2018-03-17 22:54:26 INFO  VerifyloginWithInvalidCredentails:35 - **********ring************
+2018-03-17 22:54:26 INFO  VerifyloginWithInvalidCredentails:35 - **********ring************
+2018-03-17 22:54:26 INFO  VerifyloginWithInvalidCredentails:45 - ***********popular************
+2018-03-17 22:54:26 INFO  VerifyloginWithInvalidCredentails:45 - ***********popular************
+2018-03-17 22:54:26 INFO  VerifyloginWithInvalidCredentails:45 - ***********popular************
+2018-03-17 22:54:26 INFO  VerifyloginWithInvalidCredentails:45 - ***********popular************
+2018-03-17 22:54:26 INFO  VerifyloginWithInvalidCredentails:25 - ***********Starting VerifyloginWithInvalidCredentails Test************
+2018-03-17 22:54:27 INFO  HomePage:209 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (d0e911eb4b7afd47e3d6dc04b2044b39)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-03-17 22:54:27 INFO  VerifyloginWithValidCredentails:51 - ***********Starting validEmailforCreateAccount Test************
+2018-03-17 22:54:28 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (1b1f19fade8f890136413d4cb3ba6cd1)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-03-17 22:54:28 INFO  VerifyloginWithInvalidCredentails:25 - ***********Starting VerifyloginWithInvalidCredentails Test************
+2018-03-17 22:54:29 INFO  HomePage:209 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (d0e911eb4b7afd47e3d6dc04b2044b39)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-03-17 22:54:29 INFO  VerifyloginWithValidCredentails:51 - ***********Starting validEmailforCreateAccount Test************
+2018-03-17 22:54:29 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (1b1f19fade8f890136413d4cb3ba6cd1)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-03-17 22:54:29 INFO  VerifyloginWithInvalidCredentails:25 - ***********Starting VerifyloginWithInvalidCredentails Test************
+2018-03-17 22:54:30 INFO  HomePage:209 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (d0e911eb4b7afd47e3d6dc04b2044b39)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-03-17 22:54:30 INFO  VerifyloginWithValidCredentails:51 - ***********Starting validEmailforCreateAccount Test************
+2018-03-17 22:54:30 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (1b1f19fade8f890136413d4cb3ba6cd1)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-03-17 22:54:30 INFO  VerifyloginWithInvalidCredentails:25 - ***********Starting VerifyloginWithInvalidCredentails Test************
+2018-03-17 22:54:31 INFO  HomePage:209 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (d0e911eb4b7afd47e3d6dc04b2044b39)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-03-17 22:54:31 INFO  VerifyloginWithValidCredentails:34 - ***********Starting verifyLoginWithValidCredentails Test************
+2018-03-17 22:54:32 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (1b1f19fade8f890136413d4cb3ba6cd1)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-03-17 22:54:32 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (d0e911eb4b7afd47e3d6dc04b2044b39)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-03-17 22:54:32 INFO  VerifyloginWithValidCredentails:34 - ***********Starting verifyLoginWithValidCredentails Test************
+2018-03-17 22:54:33 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (d0e911eb4b7afd47e3d6dc04b2044b39)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-03-17 22:54:33 INFO  VerifyloginWithValidCredentails:34 - ***********Starting verifyLoginWithValidCredentails Test************
+2018-03-17 22:54:34 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (d0e911eb4b7afd47e3d6dc04b2044b39)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-03-17 22:54:34 INFO  VerifyloginWithValidCredentails:34 - ***********Starting verifyLoginWithValidCredentails Test************
+2018-03-17 22:54:35 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (d0e911eb4b7afd47e3d6dc04b2044b39)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-03-17 22:54:36 INFO  VerifyloginWithValidCredentails:64 - ***********Starting verifyLoginWithValidCredentails Test************
+2018-03-17 22:54:37 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (d0e911eb4b7afd47e3d6dc04b2044b39)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-03-17 22:54:37 INFO  VerifyloginWithValidCredentails:64 - ***********Starting verifyLoginWithValidCredentails Test************
+2018-03-17 22:54:38 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (d0e911eb4b7afd47e3d6dc04b2044b39)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-03-17 22:54:38 INFO  VerifyloginWithValidCredentails:64 - ***********Starting verifyLoginWithValidCredentails Test************
+2018-03-17 22:54:39 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (d0e911eb4b7afd47e3d6dc04b2044b39)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-03-17 22:54:39 INFO  VerifyloginWithValidCredentails:64 - ***********Starting verifyLoginWithValidCredentails Test************
+2018-03-17 22:54:40 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (d0e911eb4b7afd47e3d6dc04b2044b39)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-03-17 22:54:40 INFO  VerifyloginWithValidCredentails:43 - ***********Starting vrifiedHomePageshoppingChartButtonDisplayed Test************
+2018-03-17 22:54:40 INFO  HomePage:219 -  shoppingchart object is : [[RemoteWebDriver: chrome on MAC (d0e911eb4b7afd47e3d6dc04b2044b39)] -> xpath: .//div[@class="col-sm-4 clearfix"]/div[@class='shopping_cart']/a[@ title='View my shopping cart']]
+2018-03-17 22:54:40 INFO  VerifyloginWithValidCredentails:46 - ***********Finish vrifiedHomePageshoppingChartButtonDisplayed Test************
+2018-03-17 22:56:41 INFO  VerifyloginWithInvalidCredentails:35 - **********ring************
+2018-03-17 22:56:41 INFO  VerifyloginWithInvalidCredentails:35 - **********ring************
+2018-03-17 22:56:41 INFO  VerifyloginWithInvalidCredentails:35 - **********ring************
+2018-03-17 22:56:41 INFO  VerifyloginWithInvalidCredentails:35 - **********ring************
+2018-03-17 22:56:41 INFO  VerifyloginWithInvalidCredentails:45 - ***********popular************
+2018-03-17 22:56:41 INFO  VerifyloginWithInvalidCredentails:45 - ***********popular************
+2018-03-17 22:56:41 INFO  VerifyloginWithInvalidCredentails:45 - ***********popular************
+2018-03-17 22:56:41 INFO  VerifyloginWithInvalidCredentails:45 - ***********popular************
+2018-03-17 22:56:41 INFO  VerifyloginWithInvalidCredentails:25 - ***********Starting VerifyloginWithInvalidCredentails Test************
+2018-03-17 22:56:41 INFO  VerifyloginWithValidCredentails:51 - ***********Starting validEmailforCreateAccount Test************
+2018-03-17 22:56:42 INFO  HomePage:202 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (e3f1ae90b76a1384ffe2e93e0b9cae69)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-03-17 22:56:42 INFO  VerifyloginWithInvalidCredentails:25 - ***********Starting VerifyloginWithInvalidCredentails Test************
+2018-03-17 22:56:42 INFO  HomePage:213 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (9c59aaba5e1a77eaef8ed245b4ba2af8)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-03-17 22:56:42 INFO  VerifyloginWithValidCredentails:51 - ***********Starting validEmailforCreateAccount Test************
+2018-03-17 22:56:49 INFO  HomePage:202 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (e3f1ae90b76a1384ffe2e93e0b9cae69)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-03-17 22:56:49 INFO  HomePage:213 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (9c59aaba5e1a77eaef8ed245b4ba2af8)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-03-17 22:56:49 INFO  VerifyloginWithInvalidCredentails:25 - ***********Starting VerifyloginWithInvalidCredentails Test************
+2018-03-17 22:56:49 INFO  VerifyloginWithValidCredentails:51 - ***********Starting validEmailforCreateAccount Test************
+2018-03-17 22:56:55 INFO  HomePage:202 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (e3f1ae90b76a1384ffe2e93e0b9cae69)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-03-17 22:56:55 INFO  HomePage:213 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (9c59aaba5e1a77eaef8ed245b4ba2af8)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-03-17 22:56:55 INFO  VerifyloginWithInvalidCredentails:25 - ***********Starting VerifyloginWithInvalidCredentails Test************
+2018-03-17 22:56:55 INFO  VerifyloginWithValidCredentails:51 - ***********Starting validEmailforCreateAccount Test************
+2018-03-17 22:56:57 INFO  HomePage:202 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (e3f1ae90b76a1384ffe2e93e0b9cae69)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-03-17 22:56:57 INFO  HomePage:213 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (9c59aaba5e1a77eaef8ed245b4ba2af8)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-03-17 22:56:57 INFO  VerifyloginWithValidCredentails:34 - ***********Starting verifyLoginWithValidCredentails Test************
+2018-03-17 22:56:58 INFO  HomePage:202 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (9c59aaba5e1a77eaef8ed245b4ba2af8)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-03-17 22:56:58 INFO  VerifyloginWithValidCredentails:34 - ***********Starting verifyLoginWithValidCredentails Test************
+2018-03-17 22:57:04 INFO  HomePage:202 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (9c59aaba5e1a77eaef8ed245b4ba2af8)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-03-17 22:57:04 INFO  VerifyloginWithValidCredentails:34 - ***********Starting verifyLoginWithValidCredentails Test************
+2018-03-17 22:57:07 INFO  HomePage:202 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (9c59aaba5e1a77eaef8ed245b4ba2af8)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-03-17 22:57:07 INFO  VerifyloginWithValidCredentails:34 - ***********Starting verifyLoginWithValidCredentails Test************
+2018-03-17 22:57:08 INFO  HomePage:202 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (9c59aaba5e1a77eaef8ed245b4ba2af8)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-03-17 22:57:08 INFO  VerifyloginWithValidCredentails:64 - ***********Starting verifyLoginWithValidCredentails Test************
+2018-03-17 22:57:09 INFO  HomePage:202 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (9c59aaba5e1a77eaef8ed245b4ba2af8)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-03-17 22:57:09 INFO  VerifyloginWithValidCredentails:64 - ***********Starting verifyLoginWithValidCredentails Test************
+2018-03-17 22:57:14 INFO  HomePage:202 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (9c59aaba5e1a77eaef8ed245b4ba2af8)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-03-17 22:57:14 INFO  VerifyloginWithValidCredentails:64 - ***********Starting verifyLoginWithValidCredentails Test************
+2018-03-17 22:57:16 INFO  HomePage:202 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (9c59aaba5e1a77eaef8ed245b4ba2af8)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-03-17 22:57:16 INFO  VerifyloginWithValidCredentails:64 - ***********Starting verifyLoginWithValidCredentails Test************
+2018-03-17 22:57:17 INFO  HomePage:202 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (9c59aaba5e1a77eaef8ed245b4ba2af8)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-03-17 22:57:18 INFO  VerifyloginWithValidCredentails:43 - ***********Starting vrifiedHomePageshoppingChartButtonDisplayed Test************
+2018-03-17 22:57:18 INFO  HomePage:223 -  shoppingchart object is : [[RemoteWebDriver: chrome on MAC (9c59aaba5e1a77eaef8ed245b4ba2af8)] -> xpath: .//div[@class="col-sm-4 clearfix"]/div[@class='shopping_cart']/a[@ title='View my shopping cart']]
+2018-03-17 22:57:18 INFO  VerifyloginWithValidCredentails:46 - ***********Finish vrifiedHomePageshoppingChartButtonDisplayed Test************
+2018-03-17 23:25:50 INFO  HomePageDisplayVerification:30 - ***********Verified WomendressButton Test************
+2018-03-17 23:25:51 INFO  HomePage:268 - [[RemoteWebDriver: chrome on MAC (8c4d621e0bb8e0f50aebb617ba1c44af)] -> xpath: .//*[@id='columns']/div[@class='breadcrumb clearfix']]
+2018-03-17 23:25:51 INFO  HomePageDisplayVerification:33 - ***********Finish WomendressButton Test************
+2018-03-18 10:38:03 INFO  VerifyloginWithInvalidCredentails:35 - **********ring************
+2018-03-18 10:38:03 INFO  VerifyloginWithInvalidCredentails:35 - **********ring************
+2018-03-18 10:38:03 INFO  VerifyloginWithInvalidCredentails:35 - **********ring************
+2018-03-18 10:38:03 INFO  VerifyloginWithInvalidCredentails:35 - **********ring************
+2018-03-18 10:38:03 INFO  VerifyloginWithInvalidCredentails:45 - ***********popular************
+2018-03-18 10:38:03 INFO  VerifyloginWithInvalidCredentails:45 - ***********popular************
+2018-03-18 10:38:03 INFO  VerifyloginWithInvalidCredentails:45 - ***********popular************
+2018-03-18 10:38:03 INFO  VerifyloginWithInvalidCredentails:45 - ***********popular************
+2018-03-18 10:38:03 INFO  VerifyloginWithInvalidCredentails:25 - ***********Starting VerifyloginWithInvalidCredentails Test************
+2018-03-18 10:38:04 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (90ef27f7d9e38350f51d47bc7a839207)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-03-18 10:38:04 INFO  VerifyloginWithInvalidCredentails:25 - ***********Starting VerifyloginWithInvalidCredentails Test************
+2018-03-18 10:38:05 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (90ef27f7d9e38350f51d47bc7a839207)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-03-18 10:38:05 INFO  VerifyloginWithInvalidCredentails:25 - ***********Starting VerifyloginWithInvalidCredentails Test************
+2018-03-18 10:38:06 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (90ef27f7d9e38350f51d47bc7a839207)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-03-18 10:38:06 INFO  VerifyloginWithInvalidCredentails:25 - ***********Starting VerifyloginWithInvalidCredentails Test************
+2018-03-18 10:38:08 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (90ef27f7d9e38350f51d47bc7a839207)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-03-18 10:38:08 INFO  TestBase:67 - creating object of  chrome
+2018-03-18 10:38:09 INFO  TestBase:81 - navigating to http://automationpractice.com/index.php
+2018-03-18 10:38:10 INFO  VerifyloginWithValidCredentails:51 - ***********Starting validEmailforCreateAccount Test************
+2018-03-18 10:38:16 INFO  HomePage:209 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (8aa54e834b408d88c5997052f85445f9)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-03-18 10:38:16 INFO  VerifyloginWithValidCredentails:51 - ***********Starting validEmailforCreateAccount Test************
+2018-03-18 10:38:22 INFO  HomePage:209 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (8aa54e834b408d88c5997052f85445f9)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-03-18 10:38:22 INFO  VerifyloginWithValidCredentails:51 - ***********Starting validEmailforCreateAccount Test************
+2018-03-18 10:38:28 INFO  HomePage:209 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (8aa54e834b408d88c5997052f85445f9)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-03-18 10:38:28 INFO  VerifyloginWithValidCredentails:51 - ***********Starting validEmailforCreateAccount Test************
+2018-03-18 10:39:01 INFO  VerifyloginWithInvalidCredentails:35 - **********ring************
+2018-03-18 10:39:01 INFO  VerifyloginWithInvalidCredentails:35 - **********ring************
+2018-03-18 10:39:01 INFO  VerifyloginWithInvalidCredentails:35 - **********ring************
+2018-03-18 10:39:01 INFO  VerifyloginWithValidCredentails:51 - ***********Starting validEmailforCreateAccount Test************
+2018-03-18 10:39:01 INFO  VerifyloginWithInvalidCredentails:35 - **********ring************
+2018-03-18 10:39:01 INFO  VerifyloginWithInvalidCredentails:45 - ***********popular************
+2018-03-18 10:39:01 INFO  VerifyloginWithInvalidCredentails:45 - ***********popular************
+2018-03-18 10:39:01 INFO  VerifyloginWithInvalidCredentails:45 - ***********popular************
+2018-03-18 10:39:01 INFO  VerifyloginWithInvalidCredentails:45 - ***********popular************
+2018-03-18 10:39:01 INFO  VerifyloginWithInvalidCredentails:25 - ***********Starting VerifyloginWithInvalidCredentails Test************
+2018-03-18 10:39:02 INFO  HomePage:209 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (bcaa4310677747bdab7e0af81fd9c0ef)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-03-18 10:39:02 INFO  VerifyloginWithValidCredentails:51 - ***********Starting validEmailforCreateAccount Test************
+2018-03-18 10:39:03 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (6200bfd0f4dd4d24468d7487e41aaa66)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-03-18 10:39:03 INFO  VerifyloginWithInvalidCredentails:25 - ***********Starting VerifyloginWithInvalidCredentails Test************
+2018-03-18 10:39:04 INFO  HomePage:209 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (bcaa4310677747bdab7e0af81fd9c0ef)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-03-18 10:39:04 INFO  VerifyloginWithValidCredentails:51 - ***********Starting validEmailforCreateAccount Test************
+2018-03-18 10:39:04 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (6200bfd0f4dd4d24468d7487e41aaa66)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-03-18 10:39:04 INFO  VerifyloginWithInvalidCredentails:25 - ***********Starting VerifyloginWithInvalidCredentails Test************
+2018-03-18 10:39:05 INFO  HomePage:209 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (bcaa4310677747bdab7e0af81fd9c0ef)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-03-18 10:39:05 INFO  VerifyloginWithValidCredentails:51 - ***********Starting validEmailforCreateAccount Test************
+2018-03-18 10:39:05 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (6200bfd0f4dd4d24468d7487e41aaa66)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-03-18 10:39:05 INFO  VerifyloginWithInvalidCredentails:25 - ***********Starting VerifyloginWithInvalidCredentails Test************
+2018-03-18 10:39:06 INFO  HomePage:209 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (bcaa4310677747bdab7e0af81fd9c0ef)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-03-18 10:39:06 INFO  VerifyloginWithValidCredentails:34 - ***********Starting verifyLoginWithValidCredentails Test************
+2018-03-18 10:39:07 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (6200bfd0f4dd4d24468d7487e41aaa66)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-03-18 10:39:07 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (bcaa4310677747bdab7e0af81fd9c0ef)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-03-18 10:39:07 INFO  VerifyloginWithValidCredentails:34 - ***********Starting verifyLoginWithValidCredentails Test************
+2018-03-18 10:39:08 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (bcaa4310677747bdab7e0af81fd9c0ef)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-03-18 10:39:08 INFO  VerifyloginWithValidCredentails:34 - ***********Starting verifyLoginWithValidCredentails Test************
+2018-03-18 10:39:09 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (bcaa4310677747bdab7e0af81fd9c0ef)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-03-18 10:39:09 INFO  VerifyloginWithValidCredentails:34 - ***********Starting verifyLoginWithValidCredentails Test************
+2018-03-18 10:39:10 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (bcaa4310677747bdab7e0af81fd9c0ef)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-03-18 10:39:11 INFO  VerifyloginWithValidCredentails:64 - ***********Starting verifyLoginWithValidCredentails Test************
+2018-03-18 10:39:12 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (bcaa4310677747bdab7e0af81fd9c0ef)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-03-18 10:39:12 INFO  VerifyloginWithValidCredentails:64 - ***********Starting verifyLoginWithValidCredentails Test************
+2018-03-18 10:39:13 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (bcaa4310677747bdab7e0af81fd9c0ef)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-03-18 10:39:13 INFO  VerifyloginWithValidCredentails:64 - ***********Starting verifyLoginWithValidCredentails Test************
+2018-03-18 10:39:14 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (bcaa4310677747bdab7e0af81fd9c0ef)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-03-18 10:39:14 INFO  VerifyloginWithValidCredentails:64 - ***********Starting verifyLoginWithValidCredentails Test************
+2018-03-18 10:39:18 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (bcaa4310677747bdab7e0af81fd9c0ef)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-03-18 10:39:18 INFO  VerifyloginWithValidCredentails:43 - ***********Starting vrifiedHomePageshoppingChartButtonDisplayed Test************
+2018-03-18 10:39:18 INFO  HomePage:219 -  shoppingchart object is : [[RemoteWebDriver: chrome on MAC (bcaa4310677747bdab7e0af81fd9c0ef)] -> xpath: .//div[@class="col-sm-4 clearfix"]/div[@class='shopping_cart']/a[@ title='View my shopping cart']]
+2018-03-18 10:39:18 INFO  VerifyloginWithValidCredentails:46 - ***********Finish vrifiedHomePageshoppingChartButtonDisplayed Test************
+2018-03-18 10:39:46 INFO  VerifyloginWithInvalidCredentails:35 - **********ring************
+2018-03-18 10:39:46 INFO  VerifyloginWithInvalidCredentails:35 - **********ring************
+2018-03-18 10:39:46 INFO  VerifyloginWithInvalidCredentails:35 - **********ring************
+2018-03-18 10:39:46 INFO  VerifyloginWithInvalidCredentails:35 - **********ring************
+2018-03-18 10:39:47 INFO  VerifyloginWithInvalidCredentails:45 - ***********popular************
+2018-03-18 10:39:47 INFO  VerifyloginWithInvalidCredentails:45 - ***********popular************
+2018-03-18 10:39:47 INFO  VerifyloginWithInvalidCredentails:45 - ***********popular************
+2018-03-18 10:39:47 INFO  VerifyloginWithInvalidCredentails:45 - ***********popular************
+2018-03-18 10:39:47 INFO  VerifyloginWithInvalidCredentails:25 - ***********Starting VerifyloginWithInvalidCredentails Test************
+2018-03-18 10:39:48 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (3555df19768288d7c28ed1c3283e4de6)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-03-18 10:39:48 INFO  VerifyloginWithInvalidCredentails:25 - ***********Starting VerifyloginWithInvalidCredentails Test************
+2018-03-18 10:39:48 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (3555df19768288d7c28ed1c3283e4de6)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-03-18 10:39:48 INFO  VerifyloginWithInvalidCredentails:25 - ***********Starting VerifyloginWithInvalidCredentails Test************
+2018-03-18 10:39:49 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (3555df19768288d7c28ed1c3283e4de6)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-03-18 10:39:49 INFO  VerifyloginWithInvalidCredentails:25 - ***********Starting VerifyloginWithInvalidCredentails Test************
+2018-03-18 10:39:50 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (3555df19768288d7c28ed1c3283e4de6)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-03-18 10:39:50 INFO  TestBase:67 - creating object of  chrome
+2018-03-18 10:39:51 INFO  TestBase:81 - navigating to http://automationpractice.com/index.php
+2018-03-18 10:39:53 INFO  VerifyloginWithValidCredentails:51 - ***********Starting validEmailforCreateAccount Test************
+2018-03-18 10:39:54 INFO  HomePage:209 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (3921b2b50e08e4575e2d5a161cda8057)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-03-18 10:39:54 INFO  VerifyloginWithValidCredentails:51 - ***********Starting validEmailforCreateAccount Test************
+2018-03-18 10:39:55 INFO  HomePage:209 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (3921b2b50e08e4575e2d5a161cda8057)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-03-18 10:39:55 INFO  VerifyloginWithValidCredentails:51 - ***********Starting validEmailforCreateAccount Test************
+2018-03-18 10:39:56 INFO  HomePage:209 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (3921b2b50e08e4575e2d5a161cda8057)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-03-18 10:39:56 INFO  VerifyloginWithValidCredentails:51 - ***********Starting validEmailforCreateAccount Test************
+2018-03-18 10:39:56 INFO  HomePage:209 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (3921b2b50e08e4575e2d5a161cda8057)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-03-18 10:39:57 INFO  VerifyloginWithValidCredentails:34 - ***********Starting verifyLoginWithValidCredentails Test************
+2018-03-18 10:39:57 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (3921b2b50e08e4575e2d5a161cda8057)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-03-18 10:39:57 INFO  VerifyloginWithValidCredentails:34 - ***********Starting verifyLoginWithValidCredentails Test************
+2018-03-18 10:39:58 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (3921b2b50e08e4575e2d5a161cda8057)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-03-18 10:39:58 INFO  VerifyloginWithValidCredentails:34 - ***********Starting verifyLoginWithValidCredentails Test************
+2018-03-18 10:39:59 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (3921b2b50e08e4575e2d5a161cda8057)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-03-18 10:39:59 INFO  VerifyloginWithValidCredentails:34 - ***********Starting verifyLoginWithValidCredentails Test************
+2018-03-18 10:40:00 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (3921b2b50e08e4575e2d5a161cda8057)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-03-18 10:40:00 INFO  VerifyloginWithValidCredentails:64 - ***********Starting verifyLoginWithValidCredentails Test************
+2018-03-18 10:40:01 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (3921b2b50e08e4575e2d5a161cda8057)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-03-18 10:40:01 INFO  VerifyloginWithValidCredentails:64 - ***********Starting verifyLoginWithValidCredentails Test************
+2018-03-18 10:40:02 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (3921b2b50e08e4575e2d5a161cda8057)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-03-18 10:40:02 INFO  VerifyloginWithValidCredentails:64 - ***********Starting verifyLoginWithValidCredentails Test************
+2018-03-18 10:40:03 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (3921b2b50e08e4575e2d5a161cda8057)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-03-18 10:40:03 INFO  VerifyloginWithValidCredentails:64 - ***********Starting verifyLoginWithValidCredentails Test************
+2018-03-18 10:40:04 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (3921b2b50e08e4575e2d5a161cda8057)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-03-18 10:40:04 INFO  VerifyloginWithValidCredentails:43 - ***********Starting vrifiedHomePageshoppingChartButtonDisplayed Test************
+2018-03-18 10:40:04 INFO  HomePage:219 -  shoppingchart object is : [[RemoteWebDriver: chrome on MAC (3921b2b50e08e4575e2d5a161cda8057)] -> xpath: .//div[@class="col-sm-4 clearfix"]/div[@class='shopping_cart']/a[@ title='View my shopping cart']]
+2018-03-18 10:40:04 INFO  VerifyloginWithValidCredentails:46 - ***********Finish vrifiedHomePageshoppingChartButtonDisplayed Test************
+2018-03-18 10:41:39 INFO  VerifyloginWithInvalidCredentails:35 - **********ring************
+2018-03-18 10:41:39 INFO  VerifyloginWithInvalidCredentails:35 - **********ring************
+2018-03-18 10:41:39 INFO  VerifyloginWithInvalidCredentails:35 - **********ring************
+2018-03-18 10:41:39 INFO  VerifyloginWithInvalidCredentails:35 - **********ring************
+2018-03-18 10:41:39 INFO  VerifyloginWithInvalidCredentails:45 - ***********popular************
+2018-03-18 10:41:39 INFO  VerifyloginWithInvalidCredentails:45 - ***********popular************
+2018-03-18 10:41:39 INFO  VerifyloginWithInvalidCredentails:45 - ***********popular************
+2018-03-18 10:41:39 INFO  VerifyloginWithInvalidCredentails:45 - ***********popular************
+2018-03-18 10:41:39 INFO  VerifyloginWithInvalidCredentails:25 - ***********Starting VerifyloginWithInvalidCredentails Test************
+2018-03-18 10:41:39 INFO  VerifyloginWithValidCredentails:51 - ***********Starting validEmailforCreateAccount Test************
+2018-03-18 10:41:40 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (538e3ea166c0eaf5da5a0006a50b39a0)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-03-18 10:41:40 INFO  VerifyloginWithInvalidCredentails:25 - ***********Starting VerifyloginWithInvalidCredentails Test************
+2018-03-18 10:41:41 INFO  HomePage:209 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (f6271e3ef6712f6ddd32e4bcb4a963dd)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-03-18 10:41:41 INFO  VerifyloginWithValidCredentails:51 - ***********Starting validEmailforCreateAccount Test************
+2018-03-18 10:41:41 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (538e3ea166c0eaf5da5a0006a50b39a0)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-03-18 10:41:41 INFO  VerifyloginWithInvalidCredentails:25 - ***********Starting VerifyloginWithInvalidCredentails Test************
+2018-03-18 10:41:42 INFO  HomePage:209 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (f6271e3ef6712f6ddd32e4bcb4a963dd)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-03-18 10:41:42 INFO  VerifyloginWithValidCredentails:51 - ***********Starting validEmailforCreateAccount Test************
+2018-03-18 10:41:43 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (538e3ea166c0eaf5da5a0006a50b39a0)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-03-18 10:41:43 INFO  VerifyloginWithInvalidCredentails:25 - ***********Starting VerifyloginWithInvalidCredentails Test************
+2018-03-18 10:41:43 INFO  HomePage:209 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (f6271e3ef6712f6ddd32e4bcb4a963dd)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-03-18 10:41:43 INFO  VerifyloginWithValidCredentails:51 - ***********Starting validEmailforCreateAccount Test************
+2018-03-18 10:41:44 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (538e3ea166c0eaf5da5a0006a50b39a0)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-03-18 10:41:44 INFO  HomePage:209 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (f6271e3ef6712f6ddd32e4bcb4a963dd)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-03-18 10:41:44 INFO  VerifyloginWithValidCredentails:34 - ***********Starting verifyLoginWithValidCredentails Test************
+2018-03-18 10:41:45 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (f6271e3ef6712f6ddd32e4bcb4a963dd)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-03-18 10:41:45 INFO  VerifyloginWithValidCredentails:34 - ***********Starting verifyLoginWithValidCredentails Test************
+2018-03-18 10:41:46 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (f6271e3ef6712f6ddd32e4bcb4a963dd)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-03-18 10:41:46 INFO  VerifyloginWithValidCredentails:34 - ***********Starting verifyLoginWithValidCredentails Test************
+2018-03-18 10:41:47 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (f6271e3ef6712f6ddd32e4bcb4a963dd)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-03-18 10:41:47 INFO  VerifyloginWithValidCredentails:34 - ***********Starting verifyLoginWithValidCredentails Test************
+2018-03-18 10:41:47 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (f6271e3ef6712f6ddd32e4bcb4a963dd)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-03-18 10:41:48 INFO  VerifyloginWithValidCredentails:64 - ***********Starting verifyLoginWithValidCredentails Test************
+2018-03-18 10:41:49 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (f6271e3ef6712f6ddd32e4bcb4a963dd)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-03-18 10:41:49 INFO  VerifyloginWithValidCredentails:64 - ***********Starting verifyLoginWithValidCredentails Test************
+2018-03-18 10:41:50 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (f6271e3ef6712f6ddd32e4bcb4a963dd)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-03-18 10:41:50 INFO  VerifyloginWithValidCredentails:64 - ***********Starting verifyLoginWithValidCredentails Test************
+2018-03-18 10:41:51 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (f6271e3ef6712f6ddd32e4bcb4a963dd)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-03-18 10:41:51 INFO  VerifyloginWithValidCredentails:64 - ***********Starting verifyLoginWithValidCredentails Test************
+2018-03-18 10:41:52 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (f6271e3ef6712f6ddd32e4bcb4a963dd)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-03-18 10:41:52 INFO  VerifyloginWithValidCredentails:43 - ***********Starting vrifiedHomePageshoppingChartButtonDisplayed Test************
+2018-03-18 10:41:52 INFO  HomePage:219 -  shoppingchart object is : [[RemoteWebDriver: chrome on MAC (f6271e3ef6712f6ddd32e4bcb4a963dd)] -> xpath: .//div[@class="col-sm-4 clearfix"]/div[@class='shopping_cart']/a[@ title='View my shopping cart']]
+2018-03-18 10:41:52 INFO  VerifyloginWithValidCredentails:46 - ***********Finish vrifiedHomePageshoppingChartButtonDisplayed Test************
+2018-03-18 11:12:18 INFO  VerifyloginWithInvalidCredentails:35 - **********ring************
+2018-03-30 22:05:32 INFO  VerifyloginWithInvalidCredentails:49 - ***********popular************
+2018-03-30 22:07:47 INFO  VerifyloginWithInvalidCredentails:49 - ***********popular************
+2018-03-30 22:08:17 INFO  VerifyloginWithInvalidCredentails:49 - ***********popular************
+2018-04-06 22:34:10 INFO  VerifyloginWithValidCredentails:51 - ***********Starting validEmailforCreateAccount Test************
+2018-04-06 22:34:10 INFO  VerifyloginWithInvalidCredentails:41 - **********ring************
+2018-04-06 22:34:11 INFO  VerifyloginWithInvalidCredentails:41 - **********ring************
+2018-04-06 22:34:11 INFO  VerifyloginWithInvalidCredentails:41 - **********ring************
+2018-04-06 22:34:11 INFO  VerifyloginWithInvalidCredentails:41 - **********ring************
+2018-04-06 22:34:11 INFO  VerifyloginWithInvalidCredentails:31 - ***********Starting VerifyloginWithInvalidCredentails Test************
+2018-04-06 22:34:12 INFO  HomePage:209 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (75ef505bc226e36d298d2d33bc71493e)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-04-06 22:34:12 INFO  VerifyloginWithValidCredentails:51 - ***********Starting validEmailforCreateAccount Test************
+2018-04-06 22:34:12 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (fb47230f79fe16e8b5dfa910b5b2a9ea)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-04-06 22:34:12 INFO  VerifyloginWithInvalidCredentails:31 - ***********Starting VerifyloginWithInvalidCredentails Test************
+2018-04-06 22:34:13 INFO  HomePage:209 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (75ef505bc226e36d298d2d33bc71493e)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-04-06 22:34:13 INFO  VerifyloginWithValidCredentails:51 - ***********Starting validEmailforCreateAccount Test************
+2018-04-06 22:34:13 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (fb47230f79fe16e8b5dfa910b5b2a9ea)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-04-06 22:34:13 INFO  VerifyloginWithInvalidCredentails:31 - ***********Starting VerifyloginWithInvalidCredentails Test************
+2018-04-06 22:34:14 INFO  HomePage:209 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (75ef505bc226e36d298d2d33bc71493e)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-04-06 22:34:14 INFO  VerifyloginWithValidCredentails:51 - ***********Starting validEmailforCreateAccount Test************
+2018-04-06 22:34:14 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (fb47230f79fe16e8b5dfa910b5b2a9ea)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-04-06 22:34:14 INFO  VerifyloginWithInvalidCredentails:31 - ***********Starting VerifyloginWithInvalidCredentails Test************
+2018-04-06 22:34:15 INFO  HomePage:209 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (75ef505bc226e36d298d2d33bc71493e)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-04-06 22:34:16 INFO  VerifyloginWithValidCredentails:34 - ***********Starting verifyLoginWithValidCredentails Test************
+2018-04-06 22:34:16 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (fb47230f79fe16e8b5dfa910b5b2a9ea)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-04-06 22:34:17 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (75ef505bc226e36d298d2d33bc71493e)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-04-06 22:34:17 INFO  VerifyloginWithValidCredentails:34 - ***********Starting verifyLoginWithValidCredentails Test************
+2018-04-06 22:34:18 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (75ef505bc226e36d298d2d33bc71493e)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-04-06 22:34:18 INFO  VerifyloginWithValidCredentails:34 - ***********Starting verifyLoginWithValidCredentails Test************
+2018-04-06 22:34:18 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (75ef505bc226e36d298d2d33bc71493e)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-04-06 22:34:19 INFO  VerifyloginWithValidCredentails:34 - ***********Starting verifyLoginWithValidCredentails Test************
+2018-04-06 22:34:20 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (75ef505bc226e36d298d2d33bc71493e)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-04-06 22:34:20 INFO  VerifyloginWithValidCredentails:64 - ***********Starting verifyLoginWithValidCredentails Test************
+2018-04-06 22:34:21 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (75ef505bc226e36d298d2d33bc71493e)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-04-06 22:34:21 INFO  VerifyloginWithValidCredentails:64 - ***********Starting verifyLoginWithValidCredentails Test************
+2018-04-06 22:34:22 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (75ef505bc226e36d298d2d33bc71493e)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-04-06 22:34:22 INFO  VerifyloginWithValidCredentails:64 - ***********Starting verifyLoginWithValidCredentails Test************
+2018-04-06 22:34:23 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (75ef505bc226e36d298d2d33bc71493e)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-04-06 22:34:23 INFO  VerifyloginWithValidCredentails:64 - ***********Starting verifyLoginWithValidCredentails Test************
+2018-04-06 22:34:24 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (75ef505bc226e36d298d2d33bc71493e)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-04-06 22:34:25 INFO  VerifyloginWithValidCredentails:43 - ***********Starting vrifiedHomePageshoppingChartButtonDisplayed Test************
+2018-04-06 22:34:25 INFO  HomePage:219 -  shoppingchart object is : [[RemoteWebDriver: chrome on MAC (75ef505bc226e36d298d2d33bc71493e)] -> xpath: .//div[@class="col-sm-4 clearfix"]/div[@class='shopping_cart']/a[@ title='View my shopping cart']]
+2018-04-06 22:34:25 INFO  VerifyloginWithValidCredentails:46 - ***********Finish vrifiedHomePageshoppingChartButtonDisplayed Test************
+2018-04-06 22:36:09 INFO  VerifyloginWithInvalidCredentails:41 - **********ring************
+2018-04-06 22:36:09 INFO  VerifyloginWithValidCredentails:51 - ***********Starting validEmailforCreateAccount Test************
+2018-04-06 22:36:10 INFO  VerifyloginWithInvalidCredentails:41 - **********ring************
+2018-04-06 22:36:10 INFO  VerifyloginWithInvalidCredentails:41 - **********ring************
+2018-04-06 22:36:10 INFO  VerifyloginWithInvalidCredentails:41 - **********ring************
+2018-04-06 22:36:10 INFO  VerifyloginWithInvalidCredentails:31 - ***********Starting VerifyloginWithInvalidCredentails Test************
+2018-04-06 22:36:11 INFO  HomePage:209 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (8fc2181b08111a76e17578f408a40b8b)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-04-06 22:36:11 INFO  VerifyloginWithValidCredentails:51 - ***********Starting validEmailforCreateAccount Test************
+2018-04-06 22:36:11 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (d70c686be9e03939adf84e5eb0bb34c5)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-04-06 22:36:11 INFO  VerifyloginWithInvalidCredentails:31 - ***********Starting VerifyloginWithInvalidCredentails Test************
+2018-04-06 22:36:12 INFO  HomePage:209 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (8fc2181b08111a76e17578f408a40b8b)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-04-06 22:36:13 INFO  VerifyloginWithValidCredentails:51 - ***********Starting validEmailforCreateAccount Test************
+2018-04-06 22:36:13 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (d70c686be9e03939adf84e5eb0bb34c5)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-04-06 22:36:13 INFO  VerifyloginWithInvalidCredentails:31 - ***********Starting VerifyloginWithInvalidCredentails Test************
+2018-04-06 22:43:14 INFO  VerifyloginWithValidCredentails:51 - ***********Starting validEmailforCreateAccount Test************
+2018-04-06 22:43:14 INFO  VerifyloginWithInvalidCredentails:41 - **********ring************
+2018-04-06 22:43:14 INFO  VerifyloginWithInvalidCredentails:41 - **********ring************
+2018-04-06 22:43:14 INFO  VerifyloginWithInvalidCredentails:41 - **********ring************
+2018-04-06 22:43:14 INFO  VerifyloginWithInvalidCredentails:41 - **********ring************
+2018-04-06 22:43:14 INFO  VerifyloginWithInvalidCredentails:31 - ***********Starting VerifyloginWithInvalidCredentails Test************
+2018-04-06 22:43:16 INFO  HomePage:209 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (804f6a01b668b3ad31943eae654aa79a)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-04-06 22:43:16 INFO  VerifyloginWithValidCredentails:51 - ***********Starting validEmailforCreateAccount Test************
+2018-04-06 22:43:16 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (ef9292eaa8256beac566961d2bb27e21)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-04-06 22:43:16 INFO  VerifyloginWithInvalidCredentails:31 - ***********Starting VerifyloginWithInvalidCredentails Test************
+2018-04-06 22:43:17 INFO  HomePage:209 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (804f6a01b668b3ad31943eae654aa79a)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-04-06 22:43:17 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (ef9292eaa8256beac566961d2bb27e21)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-04-06 22:43:17 INFO  VerifyloginWithValidCredentails:51 - ***********Starting validEmailforCreateAccount Test************
+2018-04-06 22:43:17 INFO  VerifyloginWithInvalidCredentails:31 - ***********Starting VerifyloginWithInvalidCredentails Test************
+2018-04-06 22:43:19 INFO  HomePage:209 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (804f6a01b668b3ad31943eae654aa79a)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-04-06 22:43:19 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (ef9292eaa8256beac566961d2bb27e21)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-04-06 22:43:19 INFO  VerifyloginWithValidCredentails:51 - ***********Starting validEmailforCreateAccount Test************
+2018-04-06 22:43:19 INFO  VerifyloginWithInvalidCredentails:31 - ***********Starting VerifyloginWithInvalidCredentails Test************
+2018-04-06 22:43:20 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (ef9292eaa8256beac566961d2bb27e21)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-04-06 22:43:20 INFO  HomePage:209 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (804f6a01b668b3ad31943eae654aa79a)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-04-06 22:43:21 INFO  VerifyloginWithValidCredentails:34 - ***********Starting verifyLoginWithValidCredentails Test************
+2018-04-06 22:43:22 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (804f6a01b668b3ad31943eae654aa79a)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-04-06 22:43:22 INFO  VerifyloginWithValidCredentails:34 - ***********Starting verifyLoginWithValidCredentails Test************
+2018-04-06 22:43:23 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (804f6a01b668b3ad31943eae654aa79a)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-04-06 22:43:23 INFO  VerifyloginWithValidCredentails:34 - ***********Starting verifyLoginWithValidCredentails Test************
+2018-04-06 22:43:24 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (804f6a01b668b3ad31943eae654aa79a)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-04-06 22:43:24 INFO  VerifyloginWithValidCredentails:34 - ***********Starting verifyLoginWithValidCredentails Test************
+2018-04-06 22:43:25 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (804f6a01b668b3ad31943eae654aa79a)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-04-06 22:43:26 INFO  VerifyloginWithValidCredentails:64 - ***********Starting verifyLoginWithValidCredentails Test************
+2018-04-06 22:43:27 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (804f6a01b668b3ad31943eae654aa79a)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-04-06 22:43:27 INFO  VerifyloginWithValidCredentails:64 - ***********Starting verifyLoginWithValidCredentails Test************
+2018-04-06 22:43:28 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (804f6a01b668b3ad31943eae654aa79a)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-04-06 22:43:28 INFO  VerifyloginWithValidCredentails:64 - ***********Starting verifyLoginWithValidCredentails Test************
+2018-04-06 22:43:29 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (804f6a01b668b3ad31943eae654aa79a)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-04-06 22:43:29 INFO  VerifyloginWithValidCredentails:64 - ***********Starting verifyLoginWithValidCredentails Test************
+2018-04-06 22:43:30 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (804f6a01b668b3ad31943eae654aa79a)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-04-06 22:43:30 INFO  VerifyloginWithValidCredentails:43 - ***********Starting vrifiedHomePageshoppingChartButtonDisplayed Test************
+2018-04-06 22:43:30 INFO  HomePage:219 -  shoppingchart object is : [[RemoteWebDriver: chrome on MAC (804f6a01b668b3ad31943eae654aa79a)] -> xpath: .//div[@class="col-sm-4 clearfix"]/div[@class='shopping_cart']/a[@ title='View my shopping cart']]
+2018-04-06 22:43:30 INFO  VerifyloginWithValidCredentails:46 - ***********Finish vrifiedHomePageshoppingChartButtonDisplayed Test************
+2018-04-06 22:44:28 INFO  VerifyloginWithValidCredentails:51 - ***********Starting validEmailforCreateAccount Test************
+2018-04-06 22:44:28 INFO  VerifyloginWithInvalidCredentails:41 - **********ring************
+2018-04-06 22:44:28 INFO  VerifyloginWithInvalidCredentails:41 - **********ring************
+2018-04-06 22:44:28 INFO  VerifyloginWithInvalidCredentails:41 - **********ring************
+2018-04-06 22:44:28 INFO  VerifyloginWithInvalidCredentails:41 - **********ring************
+2018-04-06 22:44:28 INFO  VerifyloginWithInvalidCredentails:31 - ***********Starting VerifyloginWithInvalidCredentails Test************
+2018-04-06 22:44:29 INFO  HomePage:209 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (1caf519c2a0f24bd402119dc8048aa1b)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-04-06 22:44:30 INFO  VerifyloginWithValidCredentails:51 - ***********Starting validEmailforCreateAccount Test************
+2018-04-06 22:44:30 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (55b357b75fb1f264763d79ba9688c7a1)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-04-06 22:44:30 INFO  VerifyloginWithInvalidCredentails:31 - ***********Starting VerifyloginWithInvalidCredentails Test************
+2018-04-06 22:44:31 INFO  HomePage:209 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (1caf519c2a0f24bd402119dc8048aa1b)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-04-06 22:44:31 INFO  VerifyloginWithValidCredentails:51 - ***********Starting validEmailforCreateAccount Test************
+2018-04-06 22:44:31 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (55b357b75fb1f264763d79ba9688c7a1)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-04-06 22:44:31 INFO  VerifyloginWithInvalidCredentails:31 - ***********Starting VerifyloginWithInvalidCredentails Test************
+2018-04-06 22:44:32 INFO  HomePage:209 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (1caf519c2a0f24bd402119dc8048aa1b)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-04-06 22:44:32 INFO  VerifyloginWithValidCredentails:51 - ***********Starting validEmailforCreateAccount Test************
+2018-04-06 22:44:33 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (55b357b75fb1f264763d79ba9688c7a1)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-04-06 22:44:33 INFO  VerifyloginWithInvalidCredentails:31 - ***********Starting VerifyloginWithInvalidCredentails Test************
+2018-04-06 22:44:33 INFO  HomePage:209 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (1caf519c2a0f24bd402119dc8048aa1b)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-04-06 22:44:33 INFO  VerifyloginWithValidCredentails:34 - ***********Starting verifyLoginWithValidCredentails Test************
+2018-04-06 22:44:34 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (55b357b75fb1f264763d79ba9688c7a1)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-04-06 22:44:34 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (1caf519c2a0f24bd402119dc8048aa1b)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-04-06 22:44:35 INFO  VerifyloginWithValidCredentails:34 - ***********Starting verifyLoginWithValidCredentails Test************
+2018-04-06 22:44:35 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (1caf519c2a0f24bd402119dc8048aa1b)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-04-06 22:44:36 INFO  VerifyloginWithValidCredentails:34 - ***********Starting verifyLoginWithValidCredentails Test************
+2018-04-06 22:44:36 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (1caf519c2a0f24bd402119dc8048aa1b)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-04-06 22:44:36 INFO  VerifyloginWithValidCredentails:34 - ***********Starting verifyLoginWithValidCredentails Test************
+2018-04-06 22:44:37 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (1caf519c2a0f24bd402119dc8048aa1b)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-04-06 22:44:38 INFO  VerifyloginWithValidCredentails:64 - ***********Starting verifyLoginWithValidCredentails Test************
+2018-04-06 22:44:39 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (1caf519c2a0f24bd402119dc8048aa1b)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-04-06 22:44:39 INFO  VerifyloginWithValidCredentails:64 - ***********Starting verifyLoginWithValidCredentails Test************
+2018-04-06 22:44:40 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (1caf519c2a0f24bd402119dc8048aa1b)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-04-06 22:44:40 INFO  VerifyloginWithValidCredentails:64 - ***********Starting verifyLoginWithValidCredentails Test************
+2018-04-06 22:44:41 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (1caf519c2a0f24bd402119dc8048aa1b)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-04-06 22:44:41 INFO  VerifyloginWithValidCredentails:64 - ***********Starting verifyLoginWithValidCredentails Test************
+2018-04-06 22:44:41 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (1caf519c2a0f24bd402119dc8048aa1b)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-04-06 22:44:42 INFO  VerifyloginWithValidCredentails:43 - ***********Starting vrifiedHomePageshoppingChartButtonDisplayed Test************
+2018-04-06 22:44:42 INFO  HomePage:219 -  shoppingchart object is : [[RemoteWebDriver: chrome on MAC (1caf519c2a0f24bd402119dc8048aa1b)] -> xpath: .//div[@class="col-sm-4 clearfix"]/div[@class='shopping_cart']/a[@ title='View my shopping cart']]
+2018-04-06 22:44:42 INFO  VerifyloginWithValidCredentails:46 - ***********Finish vrifiedHomePageshoppingChartButtonDisplayed Test************
+2018-04-06 22:46:16 INFO  VerifyloginWithValidCredentails:51 - ***********Starting validEmailforCreateAccount Test************
+2018-04-06 22:46:16 INFO  VerifyloginWithInvalidCredentails:41 - **********ring************
+2018-04-06 22:46:17 INFO  VerifyloginWithInvalidCredentails:41 - **********ring************
+2018-04-06 22:46:17 INFO  VerifyloginWithInvalidCredentails:41 - **********ring************
+2018-04-06 22:46:17 INFO  VerifyloginWithInvalidCredentails:41 - **********ring************
+2018-04-06 22:46:17 INFO  VerifyloginWithInvalidCredentails:31 - ***********Starting VerifyloginWithInvalidCredentails Test************
+2018-04-06 22:46:18 INFO  HomePage:209 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (89c34c893fa8664eb4bbb560cf12228d)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-04-06 22:46:18 INFO  VerifyloginWithValidCredentails:51 - ***********Starting validEmailforCreateAccount Test************
+2018-04-06 22:46:18 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (bfd0af99f98e8b601fa070f78c16c5cb)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-04-06 22:46:18 INFO  VerifyloginWithInvalidCredentails:31 - ***********Starting VerifyloginWithInvalidCredentails Test************
+2018-04-06 22:46:19 INFO  HomePage:209 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (89c34c893fa8664eb4bbb560cf12228d)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-04-06 22:46:19 INFO  VerifyloginWithValidCredentails:51 - ***********Starting validEmailforCreateAccount Test************
+2018-04-06 22:46:19 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (bfd0af99f98e8b601fa070f78c16c5cb)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-04-06 22:46:19 INFO  VerifyloginWithInvalidCredentails:31 - ***********Starting VerifyloginWithInvalidCredentails Test************
+2018-04-06 22:46:20 INFO  HomePage:209 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (89c34c893fa8664eb4bbb560cf12228d)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-04-06 22:46:20 INFO  VerifyloginWithValidCredentails:51 - ***********Starting validEmailforCreateAccount Test************
+2018-04-06 22:46:21 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (bfd0af99f98e8b601fa070f78c16c5cb)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-04-06 22:46:21 INFO  VerifyloginWithInvalidCredentails:31 - ***********Starting VerifyloginWithInvalidCredentails Test************
+2018-04-06 22:46:22 INFO  HomePage:209 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (89c34c893fa8664eb4bbb560cf12228d)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-04-06 22:46:22 INFO  VerifyloginWithValidCredentails:34 - ***********Starting verifyLoginWithValidCredentails Test************
+2018-04-06 22:46:22 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (bfd0af99f98e8b601fa070f78c16c5cb)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-04-06 22:47:05 INFO  VerifyloginWithValidCredentails:51 - ***********Starting validEmailforCreateAccount Test************
+2018-04-06 22:47:06 INFO  VerifyloginWithInvalidCredentails:41 - **********ring************
+2018-04-06 22:47:06 INFO  VerifyloginWithInvalidCredentails:41 - **********ring************
+2018-04-06 22:47:06 INFO  VerifyloginWithInvalidCredentails:41 - **********ring************
+2018-04-06 22:47:06 INFO  VerifyloginWithInvalidCredentails:41 - **********ring************
+2018-04-06 22:47:06 INFO  VerifyloginWithInvalidCredentails:31 - ***********Starting VerifyloginWithInvalidCredentails Test************
+2018-04-06 22:47:07 INFO  HomePage:209 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (d8ae9dab6ce578ee65d827d388c4fc66)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-04-06 22:47:07 INFO  VerifyloginWithValidCredentails:51 - ***********Starting validEmailforCreateAccount Test************
+2018-04-06 22:47:07 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (8947cdcbded5d901ad70884567fd3c3d)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-04-06 22:47:07 INFO  VerifyloginWithInvalidCredentails:31 - ***********Starting VerifyloginWithInvalidCredentails Test************
+2018-04-06 22:47:08 INFO  HomePage:209 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (d8ae9dab6ce578ee65d827d388c4fc66)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-04-06 22:47:08 INFO  VerifyloginWithValidCredentails:51 - ***********Starting validEmailforCreateAccount Test************
+2018-04-06 22:47:11 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (8947cdcbded5d901ad70884567fd3c3d)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-04-06 22:47:11 INFO  HomePage:209 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (d8ae9dab6ce578ee65d827d388c4fc66)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-04-06 22:47:11 INFO  VerifyloginWithInvalidCredentails:31 - ***********Starting VerifyloginWithInvalidCredentails Test************
+2018-04-06 22:47:11 INFO  VerifyloginWithValidCredentails:51 - ***********Starting validEmailforCreateAccount Test************
+2018-04-06 22:47:18 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (8947cdcbded5d901ad70884567fd3c3d)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-04-06 22:47:18 INFO  HomePage:209 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (d8ae9dab6ce578ee65d827d388c4fc66)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-04-06 22:47:18 INFO  VerifyloginWithInvalidCredentails:31 - ***********Starting VerifyloginWithInvalidCredentails Test************
+2018-04-06 22:47:18 INFO  VerifyloginWithValidCredentails:34 - ***********Starting verifyLoginWithValidCredentails Test************
+2018-04-06 22:47:24 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (d8ae9dab6ce578ee65d827d388c4fc66)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-04-06 22:47:24 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (8947cdcbded5d901ad70884567fd3c3d)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-04-06 22:47:24 INFO  VerifyloginWithValidCredentails:34 - ***********Starting verifyLoginWithValidCredentails Test************
+2018-04-06 22:47:25 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (d8ae9dab6ce578ee65d827d388c4fc66)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-04-06 22:47:25 INFO  VerifyloginWithValidCredentails:34 - ***********Starting verifyLoginWithValidCredentails Test************
+2018-04-06 22:47:26 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (d8ae9dab6ce578ee65d827d388c4fc66)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-04-06 22:47:26 INFO  VerifyloginWithValidCredentails:34 - ***********Starting verifyLoginWithValidCredentails Test************
+2018-04-06 22:47:27 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (d8ae9dab6ce578ee65d827d388c4fc66)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-04-06 22:47:27 INFO  VerifyloginWithValidCredentails:64 - ***********Starting verifyLoginWithValidCredentails Test************
+2018-04-06 22:47:28 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (d8ae9dab6ce578ee65d827d388c4fc66)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-04-06 22:47:28 INFO  VerifyloginWithValidCredentails:64 - ***********Starting verifyLoginWithValidCredentails Test************
+2018-04-06 22:47:30 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (d8ae9dab6ce578ee65d827d388c4fc66)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-04-06 22:47:30 INFO  VerifyloginWithValidCredentails:64 - ***********Starting verifyLoginWithValidCredentails Test************
+2018-04-06 22:47:31 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (d8ae9dab6ce578ee65d827d388c4fc66)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-04-06 22:47:31 INFO  VerifyloginWithValidCredentails:64 - ***********Starting verifyLoginWithValidCredentails Test************
+2018-04-06 22:47:32 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (d8ae9dab6ce578ee65d827d388c4fc66)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-04-06 22:47:32 INFO  VerifyloginWithValidCredentails:43 - ***********Starting vrifiedHomePageshoppingChartButtonDisplayed Test************
+2018-04-06 22:47:32 INFO  HomePage:219 -  shoppingchart object is : [[RemoteWebDriver: chrome on MAC (d8ae9dab6ce578ee65d827d388c4fc66)] -> xpath: .//div[@class="col-sm-4 clearfix"]/div[@class='shopping_cart']/a[@ title='View my shopping cart']]
+2018-04-06 22:47:32 INFO  VerifyloginWithValidCredentails:46 - ***********Finish vrifiedHomePageshoppingChartButtonDisplayed Test************
+2018-04-06 23:10:30 INFO  VerifyloginWithValidCredentails:51 - ***********Starting validEmailforCreateAccount Test************
+2018-04-06 23:10:30 INFO  VerifyloginWithInvalidCredentails:41 - **********ring************
+2018-04-06 23:10:30 INFO  VerifyloginWithInvalidCredentails:41 - **********ring************
+2018-04-06 23:10:30 INFO  VerifyloginWithInvalidCredentails:41 - **********ring************
+2018-04-06 23:10:30 INFO  VerifyloginWithInvalidCredentails:41 - **********ring************
+2018-04-06 23:10:30 INFO  VerifyloginWithInvalidCredentails:31 - ***********Starting VerifyloginWithInvalidCredentails Test************
+2018-04-06 23:10:32 INFO  HomePage:209 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (4f5dceb153e6b1ddc1d9d0836a2e2df4)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-04-06 23:10:32 INFO  VerifyloginWithValidCredentails:51 - ***********Starting validEmailforCreateAccount Test************
+2018-04-06 23:10:32 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (d5bd931f5104f2e8fa8cb91e695faa31)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-04-06 23:10:32 INFO  VerifyloginWithInvalidCredentails:31 - ***********Starting VerifyloginWithInvalidCredentails Test************
+2018-04-06 23:10:33 INFO  HomePage:209 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (4f5dceb153e6b1ddc1d9d0836a2e2df4)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-04-06 23:10:33 INFO  VerifyloginWithValidCredentails:51 - ***********Starting validEmailforCreateAccount Test************
+2018-04-06 23:10:33 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (d5bd931f5104f2e8fa8cb91e695faa31)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-04-06 23:10:33 INFO  VerifyloginWithInvalidCredentails:31 - ***********Starting VerifyloginWithInvalidCredentails Test************
+2018-04-06 23:10:34 INFO  HomePage:209 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (4f5dceb153e6b1ddc1d9d0836a2e2df4)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-04-06 23:10:34 INFO  VerifyloginWithValidCredentails:51 - ***********Starting validEmailforCreateAccount Test************
+2018-04-06 23:10:34 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (d5bd931f5104f2e8fa8cb91e695faa31)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-04-06 23:10:35 INFO  VerifyloginWithInvalidCredentails:31 - ***********Starting VerifyloginWithInvalidCredentails Test************
+2018-04-06 23:10:40 INFO  HomePage:209 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (4f5dceb153e6b1ddc1d9d0836a2e2df4)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-04-06 23:10:41 INFO  VerifyloginWithValidCredentails:34 - ***********Starting verifyLoginWithValidCredentails Test************
+2018-04-06 23:10:41 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (d5bd931f5104f2e8fa8cb91e695faa31)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-04-06 23:10:46 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (4f5dceb153e6b1ddc1d9d0836a2e2df4)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-04-06 23:10:46 INFO  VerifyloginWithValidCredentails:34 - ***********Starting verifyLoginWithValidCredentails Test************
+2018-04-06 23:10:52 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (4f5dceb153e6b1ddc1d9d0836a2e2df4)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-04-06 23:10:52 INFO  VerifyloginWithValidCredentails:34 - ***********Starting verifyLoginWithValidCredentails Test************
+2018-04-06 23:10:58 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (4f5dceb153e6b1ddc1d9d0836a2e2df4)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-04-06 23:10:58 INFO  VerifyloginWithValidCredentails:34 - ***********Starting verifyLoginWithValidCredentails Test************
+2018-04-06 23:11:04 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (4f5dceb153e6b1ddc1d9d0836a2e2df4)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-04-06 23:11:05 INFO  VerifyloginWithValidCredentails:64 - ***********Starting verifyLoginWithValidCredentails Test************
+2018-04-06 23:11:11 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (4f5dceb153e6b1ddc1d9d0836a2e2df4)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-04-06 23:11:11 INFO  VerifyloginWithValidCredentails:64 - ***********Starting verifyLoginWithValidCredentails Test************
+2018-04-06 23:11:17 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (4f5dceb153e6b1ddc1d9d0836a2e2df4)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-04-06 23:11:17 INFO  VerifyloginWithValidCredentails:64 - ***********Starting verifyLoginWithValidCredentails Test************
+2018-04-06 23:11:22 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (4f5dceb153e6b1ddc1d9d0836a2e2df4)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-04-06 23:11:23 INFO  VerifyloginWithValidCredentails:64 - ***********Starting verifyLoginWithValidCredentails Test************
+2018-04-06 23:11:29 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (4f5dceb153e6b1ddc1d9d0836a2e2df4)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-04-06 23:11:29 INFO  VerifyloginWithValidCredentails:43 - ***********Starting vrifiedHomePageshoppingChartButtonDisplayed Test************
+2018-04-06 23:11:29 INFO  HomePage:219 -  shoppingchart object is : [[RemoteWebDriver: chrome on MAC (4f5dceb153e6b1ddc1d9d0836a2e2df4)] -> xpath: .//div[@class="col-sm-4 clearfix"]/div[@class='shopping_cart']/a[@ title='View my shopping cart']]
+2018-04-06 23:11:29 INFO  VerifyloginWithValidCredentails:46 - ***********Finish vrifiedHomePageshoppingChartButtonDisplayed Test************
+2018-04-06 23:11:45 INFO  VerifyloginWithValidCredentails:51 - ***********Starting validEmailforCreateAccount Test************
+2018-04-06 23:11:45 INFO  VerifyloginWithInvalidCredentails:41 - **********ring************
+2018-04-06 23:11:45 INFO  VerifyloginWithInvalidCredentails:41 - **********ring************
+2018-04-06 23:11:45 INFO  VerifyloginWithInvalidCredentails:41 - **********ring************
+2018-04-06 23:11:45 INFO  VerifyloginWithInvalidCredentails:41 - **********ring************
+2018-04-06 23:11:45 INFO  VerifyloginWithInvalidCredentails:31 - ***********Starting VerifyloginWithInvalidCredentails Test************
+2018-04-06 23:11:46 INFO  HomePage:209 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (a952296542ba31913a338530b2fc78dc)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-04-06 23:11:46 INFO  VerifyloginWithValidCredentails:51 - ***********Starting validEmailforCreateAccount Test************
+2018-04-06 23:11:46 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (65072a4f5f28fb45546d2484b78869eb)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-04-06 23:11:46 INFO  VerifyloginWithInvalidCredentails:31 - ***********Starting VerifyloginWithInvalidCredentails Test************
+2018-04-06 23:11:48 INFO  HomePage:209 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (a952296542ba31913a338530b2fc78dc)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-04-06 23:11:48 INFO  VerifyloginWithValidCredentails:51 - ***********Starting validEmailforCreateAccount Test************
+2018-04-06 23:11:48 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (65072a4f5f28fb45546d2484b78869eb)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-04-06 23:11:48 INFO  VerifyloginWithInvalidCredentails:31 - ***********Starting VerifyloginWithInvalidCredentails Test************
+2018-04-06 23:11:49 INFO  HomePage:209 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (a952296542ba31913a338530b2fc78dc)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-04-06 23:11:49 INFO  VerifyloginWithValidCredentails:51 - ***********Starting validEmailforCreateAccount Test************
+2018-04-06 23:11:54 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (65072a4f5f28fb45546d2484b78869eb)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-04-06 23:11:54 INFO  VerifyloginWithInvalidCredentails:31 - ***********Starting VerifyloginWithInvalidCredentails Test************
+2018-04-06 23:11:55 INFO  HomePage:209 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (a952296542ba31913a338530b2fc78dc)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-04-06 23:11:55 INFO  VerifyloginWithValidCredentails:34 - ***********Starting verifyLoginWithValidCredentails Test************
+2018-04-06 23:12:00 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (65072a4f5f28fb45546d2484b78869eb)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-04-06 23:12:01 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (a952296542ba31913a338530b2fc78dc)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-04-06 23:12:01 INFO  VerifyloginWithValidCredentails:34 - ***********Starting verifyLoginWithValidCredentails Test************
+2018-04-06 23:12:07 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (a952296542ba31913a338530b2fc78dc)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-04-06 23:12:07 INFO  VerifyloginWithValidCredentails:34 - ***********Starting verifyLoginWithValidCredentails Test************
+2018-04-06 23:12:13 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (a952296542ba31913a338530b2fc78dc)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-04-06 23:12:13 INFO  VerifyloginWithValidCredentails:34 - ***********Starting verifyLoginWithValidCredentails Test************
+2018-04-06 23:12:19 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (a952296542ba31913a338530b2fc78dc)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-04-06 23:12:19 INFO  VerifyloginWithValidCredentails:64 - ***********Starting verifyLoginWithValidCredentails Test************
+2018-04-06 23:12:25 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (a952296542ba31913a338530b2fc78dc)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-04-06 23:12:25 INFO  VerifyloginWithValidCredentails:64 - ***********Starting verifyLoginWithValidCredentails Test************
+2018-04-06 23:12:31 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (a952296542ba31913a338530b2fc78dc)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-04-06 23:12:31 INFO  VerifyloginWithValidCredentails:64 - ***********Starting verifyLoginWithValidCredentails Test************
+2018-04-06 23:12:37 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (a952296542ba31913a338530b2fc78dc)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-04-06 23:12:37 INFO  VerifyloginWithValidCredentails:64 - ***********Starting verifyLoginWithValidCredentails Test************
+2018-04-06 23:12:38 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (a952296542ba31913a338530b2fc78dc)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-04-06 23:12:38 INFO  VerifyloginWithValidCredentails:43 - ***********Starting vrifiedHomePageshoppingChartButtonDisplayed Test************
+2018-04-06 23:12:38 INFO  HomePage:219 -  shoppingchart object is : [[RemoteWebDriver: chrome on MAC (a952296542ba31913a338530b2fc78dc)] -> xpath: .//div[@class="col-sm-4 clearfix"]/div[@class='shopping_cart']/a[@ title='View my shopping cart']]
+2018-04-06 23:12:38 INFO  VerifyloginWithValidCredentails:46 - ***********Finish vrifiedHomePageshoppingChartButtonDisplayed Test************
+2018-04-06 23:24:04 INFO  VerifyloginWithValidCredentails:51 - ***********Starting validEmailforCreateAccount Test************
+2018-04-06 23:24:05 INFO  VerifyloginWithInvalidCredentails:41 - **********ring************
+2018-04-06 23:24:05 INFO  VerifyloginWithInvalidCredentails:41 - **********ring************
+2018-04-06 23:24:05 INFO  VerifyloginWithInvalidCredentails:41 - **********ring************
+2018-04-06 23:24:05 INFO  HomePage:209 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (893148f0569e95451eb7e849ebb06582)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-04-06 23:24:05 INFO  VerifyloginWithInvalidCredentails:41 - **********ring************
+2018-04-06 23:24:05 INFO  VerifyloginWithInvalidCredentails:31 - ***********Starting VerifyloginWithInvalidCredentails Test************
+2018-04-06 23:24:05 INFO  VerifyloginWithValidCredentails:51 - ***********Starting validEmailforCreateAccount Test************
+2018-04-06 23:24:07 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (82efd51ba62403eb0acd2a4e479e8aef)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-04-06 23:24:07 INFO  VerifyloginWithInvalidCredentails:31 - ***********Starting VerifyloginWithInvalidCredentails Test************
+2018-04-06 23:24:07 INFO  HomePage:209 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (893148f0569e95451eb7e849ebb06582)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-04-06 23:24:08 INFO  VerifyloginWithValidCredentails:51 - ***********Starting validEmailforCreateAccount Test************
+2018-04-06 23:24:14 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (82efd51ba62403eb0acd2a4e479e8aef)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-04-06 23:24:14 INFO  HomePage:209 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (893148f0569e95451eb7e849ebb06582)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-04-06 23:24:14 INFO  VerifyloginWithInvalidCredentails:31 - ***********Starting VerifyloginWithInvalidCredentails Test************
+2018-04-06 23:24:14 INFO  VerifyloginWithValidCredentails:51 - ***********Starting validEmailforCreateAccount Test************
+2018-04-06 23:24:20 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (82efd51ba62403eb0acd2a4e479e8aef)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-04-06 23:24:20 INFO  HomePage:209 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (893148f0569e95451eb7e849ebb06582)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-04-06 23:24:20 INFO  VerifyloginWithInvalidCredentails:31 - ***********Starting VerifyloginWithInvalidCredentails Test************
+2018-04-06 23:24:20 INFO  VerifyloginWithValidCredentails:34 - ***********Starting verifyLoginWithValidCredentails Test************
+2018-04-06 23:24:26 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (893148f0569e95451eb7e849ebb06582)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-04-06 23:24:27 INFO  VerifyloginWithValidCredentails:34 - ***********Starting verifyLoginWithValidCredentails Test************
+2018-04-06 23:24:27 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (82efd51ba62403eb0acd2a4e479e8aef)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-04-06 23:24:32 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (893148f0569e95451eb7e849ebb06582)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-04-06 23:24:32 INFO  VerifyloginWithValidCredentails:34 - ***********Starting verifyLoginWithValidCredentails Test************
+2018-04-06 23:24:39 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (893148f0569e95451eb7e849ebb06582)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-04-06 23:24:39 INFO  VerifyloginWithValidCredentails:34 - ***********Starting verifyLoginWithValidCredentails Test************
+2018-04-06 23:24:45 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (893148f0569e95451eb7e849ebb06582)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-04-06 23:24:45 INFO  VerifyloginWithValidCredentails:64 - ***********Starting verifyLoginWithValidCredentails Test************
+2018-04-06 23:24:51 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (893148f0569e95451eb7e849ebb06582)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-04-06 23:24:51 INFO  VerifyloginWithValidCredentails:64 - ***********Starting verifyLoginWithValidCredentails Test************
+2018-04-06 23:24:57 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (893148f0569e95451eb7e849ebb06582)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-04-06 23:24:57 INFO  VerifyloginWithValidCredentails:64 - ***********Starting verifyLoginWithValidCredentails Test************
+2018-04-06 23:25:03 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (893148f0569e95451eb7e849ebb06582)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-04-06 23:25:03 INFO  VerifyloginWithValidCredentails:64 - ***********Starting verifyLoginWithValidCredentails Test************
+2018-04-06 23:25:10 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (893148f0569e95451eb7e849ebb06582)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-04-06 23:25:10 INFO  VerifyloginWithValidCredentails:43 - ***********Starting vrifiedHomePageshoppingChartButtonDisplayed Test************
+2018-04-06 23:25:10 INFO  HomePage:219 -  shoppingchart object is : [[RemoteWebDriver: chrome on MAC (893148f0569e95451eb7e849ebb06582)] -> xpath: .//div[@class="col-sm-4 clearfix"]/div[@class='shopping_cart']/a[@ title='View my shopping cart']]
+2018-04-06 23:25:10 INFO  VerifyloginWithValidCredentails:46 - ***********Finish vrifiedHomePageshoppingChartButtonDisplayed Test************
+2018-04-06 23:30:10 INFO  VerifyloginWithValidCredentails:51 - ***********Starting validEmailforCreateAccount Test************
+2018-04-06 23:30:10 INFO  VerifyloginWithInvalidCredentails:41 - **********ring************
+2018-04-06 23:30:10 INFO  VerifyloginWithInvalidCredentails:41 - **********ring************
+2018-04-06 23:30:11 INFO  VerifyloginWithInvalidCredentails:41 - **********ring************
+2018-04-06 23:30:11 INFO  VerifyloginWithInvalidCredentails:41 - **********ring************
+2018-04-06 23:30:11 INFO  VerifyloginWithInvalidCredentails:31 - ***********Starting VerifyloginWithInvalidCredentails Test************
+2018-04-06 23:30:12 INFO  HomePage:209 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (600030980bf78a30548572a114c3afe0)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-04-06 23:30:12 INFO  VerifyloginWithValidCredentails:51 - ***********Starting validEmailforCreateAccount Test************
+2018-04-06 23:30:12 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (6205bd0427df7a994787822797731937)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-04-06 23:30:12 INFO  VerifyloginWithInvalidCredentails:31 - ***********Starting VerifyloginWithInvalidCredentails Test************
+2018-04-06 23:30:13 INFO  HomePage:209 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (600030980bf78a30548572a114c3afe0)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-04-06 23:30:13 INFO  VerifyloginWithValidCredentails:51 - ***********Starting validEmailforCreateAccount Test************
+2018-04-06 23:30:14 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (6205bd0427df7a994787822797731937)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-04-06 23:30:14 INFO  VerifyloginWithInvalidCredentails:31 - ***********Starting VerifyloginWithInvalidCredentails Test************
+2018-04-06 23:30:15 INFO  HomePage:209 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (600030980bf78a30548572a114c3afe0)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-04-06 23:30:15 INFO  VerifyloginWithValidCredentails:51 - ***********Starting validEmailforCreateAccount Test************
+2018-04-06 23:30:15 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (6205bd0427df7a994787822797731937)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-04-06 23:30:15 INFO  VerifyloginWithInvalidCredentails:31 - ***********Starting VerifyloginWithInvalidCredentails Test************
+2018-04-06 23:30:16 INFO  HomePage:209 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (600030980bf78a30548572a114c3afe0)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-04-06 23:30:16 INFO  VerifyloginWithValidCredentails:34 - ***********Starting verifyLoginWithValidCredentails Test************
+2018-04-06 23:30:16 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (6205bd0427df7a994787822797731937)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-04-06 23:30:17 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (600030980bf78a30548572a114c3afe0)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-04-06 23:30:17 INFO  VerifyloginWithValidCredentails:34 - ***********Starting verifyLoginWithValidCredentails Test************
+2018-04-06 23:30:18 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (600030980bf78a30548572a114c3afe0)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-04-06 23:30:18 INFO  VerifyloginWithValidCredentails:34 - ***********Starting verifyLoginWithValidCredentails Test************
+2018-04-06 23:30:19 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (600030980bf78a30548572a114c3afe0)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-04-06 23:30:19 INFO  VerifyloginWithValidCredentails:34 - ***********Starting verifyLoginWithValidCredentails Test************
+2018-04-06 23:30:20 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (600030980bf78a30548572a114c3afe0)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-04-06 23:30:21 INFO  VerifyloginWithValidCredentails:64 - ***********Starting verifyLoginWithValidCredentails Test************
+2018-04-06 23:30:22 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (600030980bf78a30548572a114c3afe0)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-04-06 23:30:22 INFO  VerifyloginWithValidCredentails:64 - ***********Starting verifyLoginWithValidCredentails Test************
+2018-04-06 23:30:23 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (600030980bf78a30548572a114c3afe0)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-04-06 23:30:23 INFO  VerifyloginWithValidCredentails:64 - ***********Starting verifyLoginWithValidCredentails Test************
+2018-04-06 23:30:24 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (600030980bf78a30548572a114c3afe0)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-04-06 23:30:24 INFO  VerifyloginWithValidCredentails:64 - ***********Starting verifyLoginWithValidCredentails Test************
+2018-04-06 23:30:25 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (600030980bf78a30548572a114c3afe0)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-04-06 23:30:25 INFO  VerifyloginWithValidCredentails:43 - ***********Starting vrifiedHomePageshoppingChartButtonDisplayed Test************
+2018-04-06 23:30:25 INFO  HomePage:219 -  shoppingchart object is : [[RemoteWebDriver: chrome on MAC (600030980bf78a30548572a114c3afe0)] -> xpath: .//div[@class="col-sm-4 clearfix"]/div[@class='shopping_cart']/a[@ title='View my shopping cart']]
+2018-04-06 23:30:25 INFO  VerifyloginWithValidCredentails:46 - ***********Finish vrifiedHomePageshoppingChartButtonDisplayed Test************
+2018-04-06 23:31:03 INFO  VerifyloginWithInvalidCredentails:41 - **********ring************
+2018-04-06 23:31:03 INFO  VerifyloginWithInvalidCredentails:41 - **********ring************
+2018-04-06 23:31:03 INFO  VerifyloginWithInvalidCredentails:41 - **********ring************
+2018-04-06 23:31:03 INFO  VerifyloginWithInvalidCredentails:41 - **********ring************
+2018-04-06 23:31:03 INFO  VerifyloginWithInvalidCredentails:31 - ***********Starting VerifyloginWithInvalidCredentails Test************
+2018-04-06 23:31:03 INFO  VerifyloginWithValidCredentails:51 - ***********Starting validEmailforCreateAccount Test************
+2018-04-06 23:31:05 INFO  HomePage:209 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (ae38eee6d70abdac039349004eaa603c)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-04-06 23:31:05 INFO  VerifyloginWithValidCredentails:51 - ***********Starting validEmailforCreateAccount Test************
+2018-04-06 23:31:05 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (c6c96a27bc307cde66db3a9a4e4bd672)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-04-06 23:31:05 INFO  VerifyloginWithInvalidCredentails:31 - ***********Starting VerifyloginWithInvalidCredentails Test************
+2018-04-06 23:31:06 INFO  HomePage:209 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (ae38eee6d70abdac039349004eaa603c)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-04-06 23:31:06 INFO  VerifyloginWithValidCredentails:51 - ***********Starting validEmailforCreateAccount Test************
+2018-04-06 23:31:06 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (c6c96a27bc307cde66db3a9a4e4bd672)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-04-06 23:31:06 INFO  VerifyloginWithInvalidCredentails:31 - ***********Starting VerifyloginWithInvalidCredentails Test************
+2018-04-06 23:31:07 INFO  HomePage:209 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (ae38eee6d70abdac039349004eaa603c)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-04-06 23:31:07 INFO  VerifyloginWithValidCredentails:51 - ***********Starting validEmailforCreateAccount Test************
+2018-04-06 23:31:07 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (c6c96a27bc307cde66db3a9a4e4bd672)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-04-06 23:31:07 INFO  VerifyloginWithInvalidCredentails:31 - ***********Starting VerifyloginWithInvalidCredentails Test************
+2018-04-06 23:31:09 INFO  HomePage:209 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (ae38eee6d70abdac039349004eaa603c)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-04-06 23:31:09 INFO  VerifyloginWithValidCredentails:34 - ***********Starting verifyLoginWithValidCredentails Test************
+2018-04-06 23:31:09 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (c6c96a27bc307cde66db3a9a4e4bd672)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-04-06 23:31:10 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (ae38eee6d70abdac039349004eaa603c)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-04-06 23:31:10 INFO  VerifyloginWithValidCredentails:34 - ***********Starting verifyLoginWithValidCredentails Test************
+2018-04-06 23:31:11 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (ae38eee6d70abdac039349004eaa603c)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-04-06 23:31:11 INFO  VerifyloginWithValidCredentails:34 - ***********Starting verifyLoginWithValidCredentails Test************
+2018-04-06 23:31:12 INFO  HomePage:198 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (ae38eee6d70abdac039349004eaa603c)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]
+2018-04-06 23:31:12 INFO  VerifyloginWithValidCredentails:34 - ***********Starting verifyLoginWithValidCredentails Test************
+2018-04-06 23:31:12 INFO  VerifyloginWithValidCredentails:64 - ***********Starting verifyLoginWithValidCredentails Test************
+2018-04-06 23:31:12 INFO  VerifyloginWithValidCredentails:64 - ***********Starting verifyLoginWithValidCredentails Test************
+2018-04-06 23:31:12 INFO  VerifyloginWithValidCredentails:64 - ***********Starting verifyLoginWithValidCredentails Test************
+2018-04-06 23:31:12 INFO  VerifyloginWithValidCredentails:64 - ***********Starting verifyLoginWithValidCredentails Test************
+2018-04-06 23:31:12 INFO  VerifyloginWithValidCredentails:43 - ***********Starting vrifiedHomePageshoppingChartButtonDisplayed Test************
+2018-04-06 23:31:12 INFO  VerifyloginWithValidCredentails:46 - ***********Finish vrifiedHomePageshoppingChartButtonDisplayed Test************
+2018-04-07 22:51:05 INFO  HomePageDisplayVerification:28 - ***********Verified WomendressButton Test************
+2018-04-07 22:51:06 INFO  HomePage:268 - [[RemoteWebDriver: chrome on MAC (9088a46667dc29fb7a23b5cc160e9754)] -> xpath: .//*[@id='columns']/div[@class='breadcrumb clearfix']]
+2018-04-07 22:51:06 INFO  HomePageDisplayVerification:31 - ***********Finish WomendressButton Test************

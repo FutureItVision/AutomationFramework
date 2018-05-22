@@ -52,6 +52,7 @@ public class VerifyloginWithValidCredentails extends TestBase {
 		homepage = new HomePage(driver);
 		homepage.correctCreateAccount("automation@gmil.com");
 		Assert.assertEquals(homepage.validCreateAccount(), "AUTHENTICATION");
+		takeScreenShot("validEmailforCreateAccount_");
 		log.info("***********Finish validEmailforCreateAccount Test************");
 	}
 
