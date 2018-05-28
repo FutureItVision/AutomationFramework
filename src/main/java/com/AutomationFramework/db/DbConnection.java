@@ -15,7 +15,7 @@ public class DbConnection {
 		Connection conn = null;
 
 		// Object of Statement. It is used to create a Statement to execute the
-		// query
+		
 		Statement stmt = null;
 
 		// Object of ResultSet => 'It maintains a cursor that points to the
