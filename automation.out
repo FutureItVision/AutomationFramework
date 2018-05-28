@@ -2008,3 +2008,6 @@
 2018-05-28 00:16:04 INFO  TestBase:78 - navigating to http://automationpractice.com/index.php
 2018-05-28 00:16:06 INFO  VerifyloginWithInvalidCredentails:43 - **********ring************
 2018-05-28 00:16:06 INFO  VerifyloginWithInvalidCredentails:33 - ***********Starting VerifyloginWithInvalidCredentails Test************
+2018-05-28 01:57:33 INFO  VerifyloginWithInvalidCredentails:43 - **********ring************
+2018-05-28 01:57:33 INFO  VerifyloginWithInvalidCredentails:33 - ***********Starting VerifyloginWithInvalidCredentails Test************
+2018-05-28 01:57:34 INFO  HomePage:199 - Click signIn and object is : [[RemoteWebDriver: chrome on MAC (1a12e7a1c1f31b695d9af99b5211c4fd)] -> xpath: .//nav/div[@class='header_user_info']/a['Sign in']]

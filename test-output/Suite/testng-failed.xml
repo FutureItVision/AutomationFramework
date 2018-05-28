@@ -1,32 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
-  <parameter name="browser" value="chrome"/>
-  <test name="FirefoxTest">
-    <parameter name="browser" value="firefox"/>
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="1" name="Test">
     <classes>
-      <class name="com.framework.automation.framework.homePage.CrossBrowserTestNew"/>
+      <class name="com.framework.automation.framework.homePage.VerifyloginWithInvalidCredentails"/>
     </classes>
-  </test> <!-- FirefoxTest -->
-  <test name="chrome">
-    <parameter name="browser" value="chrome"/>
+  </test> <!-- Test -->
+  <test name="Test(failed)">
     <classes>
-      <class name="com.framework.automation.framework.homePage.CrossBrowserTestNew"/>
-    </classes>
-  </test> <!-- chrome -->
-  <test name="chrome(failed)" parallel="tests">
-    <parameter name="browser" value="chrome"/>
-    <classes>
-      <class name="com.framework.automation.framework.homePage.CrossBrowserTestNew">
+      <class name="com.framework.automation.framework.homePage.VerifyloginWithInvalidCredentails">
         <methods>
+          <include name="setup"/>
+          <include name="end"/>
           <include name="verifyLoginWithInvalidCredentails"/>
-          <include name="afterTest"/>
-          <include name="afterTest"/>
           <include name="VerifyProductring"/>
-          <include name="beforeTest"/>
-          <include name="beforeTest"/>
         </methods>
-      </class> <!-- com.framework.automation.framework.homePage.CrossBrowserTestNew -->
+      </class> <!-- com.framework.automation.framework.homePage.VerifyloginWithInvalidCredentails -->
     </classes>
-  </test> <!-- chrome(failed) -->
+  </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

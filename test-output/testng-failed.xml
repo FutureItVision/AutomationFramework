@@ -1,27 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="3" guice-stage="DEVELOPMENT" name="Failed suite [Regression Suite]" parallel="tests">
-  <listeners>
-    <listener class-name="com.framework.automation.framework.testlistner.RetryListener"/>
-  </listeners>
-  <test name="verifyLoginWithInvalidCredentails">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="1" name="Test">
     <classes>
       <class name="com.framework.automation.framework.homePage.VerifyloginWithInvalidCredentails"/>
     </classes>
-  </test> <!-- verifyLoginWithInvalidCredentails -->
-  <test name="verifyLoginWithValidCredentails">
+  </test> <!-- Test -->
+  <test name="Test(failed)">
     <classes>
-      <class name="com.framework.automation.framework.homePage.VerifyloginWithValidCredentails"/>
-    </classes>
-  </test> <!-- verifyLoginWithValidCredentails -->
-  <test name="verifyLoginWithInvalidCredentails(failed)" parallel="tests">
-    <classes>
-      <class name="com.framework.automation.framework.homePage.VerifyloginWithValidCredentails">
-        <methods>
-          <include name="end"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- com.framework.automation.framework.homePage.VerifyloginWithValidCredentails -->
       <class name="com.framework.automation.framework.homePage.VerifyloginWithInvalidCredentails">
         <methods>
           <include name="setup"/>
@@ -31,24 +17,5 @@
         </methods>
       </class> <!-- com.framework.automation.framework.homePage.VerifyloginWithInvalidCredentails -->
     </classes>
-  </test> <!-- verifyLoginWithInvalidCredentails(failed) -->
-  <test name="verifyLoginWithValidCredentails(failed)" parallel="tests">
-    <classes>
-      <class name="com.framework.automation.framework.homePage.VerifyloginWithValidCredentails">
-        <methods>
-          <include name="validEmailforCreateAccount"/>
-          <include name="end"/>
-          <include name="setup"/>
-          <include name="verifyLoginWithValidCredentails"/>
-          <include name="verifyLoginWithValidCredentails" invocation-numbers="0 0 0 0 1 1 2 2 3 3"/>
-        </methods>
-      </class> <!-- com.framework.automation.framework.homePage.VerifyloginWithValidCredentails -->
-      <class name="com.framework.automation.framework.homePage.VerifyloginWithInvalidCredentails">
-        <methods>
-          <include name="setup"/>
-          <include name="end"/>
-        </methods>
-      </class> <!-- com.framework.automation.framework.homePage.VerifyloginWithInvalidCredentails -->
-    </classes>
-  </test> <!-- verifyLoginWithValidCredentails(failed) -->
-</suite> <!-- Failed suite [Regression Suite] -->
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

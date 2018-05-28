@@ -1,36 +1,110 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="2" total="2" passed="0">
-  <reporter-output>
-  </reporter-output>
-  <suite name="Suite" duration-ms="5416" started-at="2018-05-28T05:57:29Z" finished-at="2018-05-28T05:57:34Z">
-    <groups>
-    </groups>
-    <test name="Test" duration-ms="5416" started-at="2018-05-28T05:57:29Z" finished-at="2018-05-28T05:57:34Z">
-      <class name="com.framework.automation.framework.homePage.VerifyloginWithInvalidCredentails">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.framework.automation.framework.homePage.VerifyloginWithInvalidCredentails@5a8e6209]" name="setup" is-config="true" duration-ms="3937" started-at="2018-05-28T01:57:29Z" finished-at="2018-05-28T01:57:33Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="FAIL" signature="VerifyProductring()[pri:0, instance:com.framework.automation.framework.homePage.VerifyloginWithInvalidCredentails@5a8e6209]" name="VerifyProductring" duration-ms="97" started-at="2018-05-28T01:57:33Z" finished-at="2018-05-28T01:57:33Z">
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[unknown error: call function result missing 'value'
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>0/2/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon May 28 01:57:29 EDT 2018</td>
+</tr>
+<tr><td>Total time:</td><td>5 seconds (5416 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.framework.automation.framework.homePage.VerifyloginWithInvalidCredentails.VerifyProductring()'><b>VerifyProductring</b><br>Test class: com.framework.automation.framework.homePage.VerifyloginWithInvalidCredentails</td>
+<td><div><pre>org.openqa.selenium.WebDriverException: unknown error: call function result missing &apos;value&apos;
   (Session info: chrome=66.0.3359.181)
   (Driver info: chromedriver=2.32.498537 (cb2f855cbc7b82e20387eaf9a43f6b99b6105061),platform=Mac OS X 10.11.4 x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
-Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
-System info: host: 'NYCMDLNMUHMAC.local', ip: 'fe80:0:0:0:a299:9bff:fe1a:6ff5%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.4', java.version: '1.8.0_171'
+Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T15:28:36.4Z&apos;
+System info: host: &apos;NYCMDLNMUHMAC.local&apos;, ip: &apos;fe80:0:0:0:a299:9bff:fe1a:6ff5%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.4&apos;, java.version: &apos;1.8.0_171&apos;
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
 Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=MAC, acceptSslCerts=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=MAC, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498537 (cb2f855cbc7b82e20387eaf9a43f6b99b6105061), userDataDir=/var/folders/xc/6sf0jwrj1kld9nykm9hs0zpm1hp1_p/T/.org.chromium.Chromium.pNtMyI}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=66.0.3359.181, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 1a12e7a1c1f31b695d9af99b5211c4fd]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: call function result missing 'value'
+Session ID: 1a12e7a1c1f31b695d9af99b5211c4fd
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:82)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:100)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy9.sendKeys(Unknown Source)
+	at com.framework.automation.framework.applicationAction.HomePage.homePageSearch(HomePage.java:316)
+	at com.framework.automation.framework.homePage.VerifyloginWithInvalidCredentails.VerifyProductring(VerifyloginWithInvalidCredentails.java:45)
+... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace735937428", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace735937428'><pre>org.openqa.selenium.WebDriverException: unknown error: call function result missing &apos;value&apos;
   (Session info: chrome=66.0.3359.181)
   (Driver info: chromedriver=2.32.498537 (cb2f855cbc7b82e20387eaf9a43f6b99b6105061),platform=Mac OS X 10.11.4 x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
-Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
-System info: host: 'NYCMDLNMUHMAC.local', ip: 'fe80:0:0:0:a299:9bff:fe1a:6ff5%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.4', java.version: '1.8.0_171'
+Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T15:28:36.4Z&apos;
+System info: host: &apos;NYCMDLNMUHMAC.local&apos;, ip: &apos;fe80:0:0:0:a299:9bff:fe1a:6ff5%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.4&apos;, java.version: &apos;1.8.0_171&apos;
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
 Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=MAC, acceptSslCerts=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=MAC, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498537 (cb2f855cbc7b82e20387eaf9a43f6b99b6105061), userDataDir=/var/folders/xc/6sf0jwrj1kld9nykm9hs0zpm1hp1_p/T/.org.chromium.Chromium.pNtMyI}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=66.0.3359.181, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
 Session ID: 1a12e7a1c1f31b695d9af99b5211c4fd
@@ -79,32 +153,40 @@ Session ID: 1a12e7a1c1f31b695d9af99b5211c4fd
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- VerifyProductring -->
-        <test-method status="FAIL" signature="verifyLoginWithInvalidCredentails()[pri:0, instance:com.framework.automation.framework.homePage.VerifyloginWithInvalidCredentails@5a8e6209]" name="verifyLoginWithInvalidCredentails" duration-ms="1255" started-at="2018-05-28T01:57:33Z" finished-at="2018-05-28T01:57:34Z">
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[unknown error: call function result missing 'value'
+</pre></div></td>
+<td>0</td>
+<td>com.framework.automation.framework.homePage.VerifyloginWithInvalidCredentails@5a8e6209</td></tr>
+<tr>
+<td title='com.framework.automation.framework.homePage.VerifyloginWithInvalidCredentails.verifyLoginWithInvalidCredentails()'><b>verifyLoginWithInvalidCredentails</b><br>Test class: com.framework.automation.framework.homePage.VerifyloginWithInvalidCredentails</td>
+<td><div><pre>org.openqa.selenium.WebDriverException: unknown error: call function result missing &apos;value&apos;
   (Session info: chrome=66.0.3359.181)
   (Driver info: chromedriver=2.32.498537 (cb2f855cbc7b82e20387eaf9a43f6b99b6105061),platform=Mac OS X 10.11.4 x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
-Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
-System info: host: 'NYCMDLNMUHMAC.local', ip: 'fe80:0:0:0:a299:9bff:fe1a:6ff5%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.4', java.version: '1.8.0_171'
+Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T15:28:36.4Z&apos;
+System info: host: &apos;NYCMDLNMUHMAC.local&apos;, ip: &apos;fe80:0:0:0:a299:9bff:fe1a:6ff5%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.4&apos;, java.version: &apos;1.8.0_171&apos;
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
 Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=MAC, acceptSslCerts=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=MAC, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498537 (cb2f855cbc7b82e20387eaf9a43f6b99b6105061), userDataDir=/var/folders/xc/6sf0jwrj1kld9nykm9hs0zpm1hp1_p/T/.org.chromium.Chromium.pNtMyI}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=66.0.3359.181, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 1a12e7a1c1f31b695d9af99b5211c4fd]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: call function result missing 'value'
+Session ID: 1a12e7a1c1f31b695d9af99b5211c4fd
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:82)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:100)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy9.sendKeys(Unknown Source)
+	at com.framework.automation.framework.applicationAction.HomePage.logInToApplication(HomePage.java:200)
+	at com.framework.automation.framework.homePage.VerifyloginWithInvalidCredentails.verifyLoginWithInvalidCredentails(VerifyloginWithInvalidCredentails.java:35)
+... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2029680286", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2029680286'><pre>org.openqa.selenium.WebDriverException: unknown error: call function result missing &apos;value&apos;
   (Session info: chrome=66.0.3359.181)
   (Driver info: chromedriver=2.32.498537 (cb2f855cbc7b82e20387eaf9a43f6b99b6105061),platform=Mac OS X 10.11.4 x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
-Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
-System info: host: 'NYCMDLNMUHMAC.local', ip: 'fe80:0:0:0:a299:9bff:fe1a:6ff5%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.4', java.version: '1.8.0_171'
+Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T15:28:36.4Z&apos;
+System info: host: &apos;NYCMDLNMUHMAC.local&apos;, ip: &apos;fe80:0:0:0:a299:9bff:fe1a:6ff5%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.4&apos;, java.version: &apos;1.8.0_171&apos;
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
 Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=MAC, acceptSslCerts=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=MAC, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498537 (cb2f855cbc7b82e20387eaf9a43f6b99b6105061), userDataDir=/var/folders/xc/6sf0jwrj1kld9nykm9hs0zpm1hp1_p/T/.org.chromium.Chromium.pNtMyI}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=66.0.3359.181, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
 Session ID: 1a12e7a1c1f31b695d9af99b5211c4fd
@@ -153,17 +235,9 @@ Session ID: 1a12e7a1c1f31b695d9af99b5211c4fd
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyLoginWithInvalidCredentails -->
-        <test-method status="PASS" signature="end()[pri:0, instance:com.framework.automation.framework.homePage.VerifyloginWithInvalidCredentails@5a8e6209]" name="end" is-config="true" duration-ms="112" started-at="2018-05-28T01:57:34Z" finished-at="2018-05-28T01:57:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- end -->
-      </class> <!-- com.framework.automation.framework.homePage.VerifyloginWithInvalidCredentails -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
-</testng-results>
+</pre></div></td>
+<td>1</td>
+<td>com.framework.automation.framework.homePage.VerifyloginWithInvalidCredentails@5a8e6209</td></tr>
+</table><p>
+</body>
+</html>
