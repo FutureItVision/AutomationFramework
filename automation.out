@@ -2002,3 +2002,9 @@
 2018-05-27 23:51:03 INFO  VerifyloginWithValidCredentails:43 - ***********Starting vrifiedHomePageshoppingChartButtonDisplayed Test************
 2018-05-27 23:51:03 INFO  HomePage:220 -  shoppingchart object is : [[RemoteWebDriver: chrome on MAC (e164bb4544834aceef08388623d62e4e)] -> xpath: .//div[@class="col-sm-4 clearfix"]/div[@class='shopping_cart']/a[@ title='View my shopping cart']]
 2018-05-27 23:51:03 INFO  VerifyloginWithValidCredentails:46 - ***********Finish vrifiedHomePageshoppingChartButtonDisplayed Test************
+2018-05-28 00:16:00 INFO  TestBase:64 - creating object of  chrome
+2018-05-28 00:16:00 INFO  TestBase:78 - navigating to http://automationpractice.com/index.php
+2018-05-28 00:16:03 INFO  TestBase:64 - creating object of  chrome
+2018-05-28 00:16:04 INFO  TestBase:78 - navigating to http://automationpractice.com/index.php
+2018-05-28 00:16:06 INFO  VerifyloginWithInvalidCredentails:43 - **********ring************
+2018-05-28 00:16:06 INFO  VerifyloginWithInvalidCredentails:33 - ***********Starting VerifyloginWithInvalidCredentails Test************
