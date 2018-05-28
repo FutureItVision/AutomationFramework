@@ -2,9 +2,6 @@ package com.framework.automation.framework.homePage;
 
 import org.testng.annotations.Test;
 import org.testng.AssertJUnit;
-import org.testng.Assert;
-import org.testng.annotations.Test;
-
 import com.framework.automation.framework.applicationAction.HomePage;
 import com.framework.automation.framework.testBase.CrossBrowserTestBase;
 
