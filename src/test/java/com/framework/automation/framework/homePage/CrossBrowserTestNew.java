@@ -1,5 +1,7 @@
 package com.framework.automation.framework.homePage;
 
+import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -15,7 +17,7 @@ HomePage homepage;
 		homepage = new HomePage(driver);
 		homepage.logInToApplication("test@gmail.com", "test123");
 
-		Assert.assertEquals(homepage.getInvalidLogInText(), "Authentication failed.");
+		AssertJUnit.assertEquals(homepage.getInvalidLogInText(), "Authentication failed.");
 		
 
 	}

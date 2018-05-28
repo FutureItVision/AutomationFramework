@@ -1,32 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
-  <parameter name="browser" value="chrome"/>
-  <test name="FirefoxTest">
-    <parameter name="browser" value="firefox"/>
+<suite thread-count="3" guice-stage="DEVELOPMENT" name="Failed suite [Regression Suite]" parallel="tests">
+  <listeners>
+    <listener class-name="com.framework.automation.framework.testlistner.RetryListener"/>
+  </listeners>
+  <test name="verifyLoginWithInvalidCredentails">
     <classes>
-      <class name="com.framework.automation.framework.homePage.CrossBrowserTestNew"/>
+      <class name="com.framework.automation.framework.homePage.VerifyloginWithInvalidCredentails"/>
     </classes>
-  </test> <!-- FirefoxTest -->
-  <test name="chrome">
-    <parameter name="browser" value="chrome"/>
+  </test> <!-- verifyLoginWithInvalidCredentails -->
+  <test name="verifyLoginWithValidCredentails">
     <classes>
-      <class name="com.framework.automation.framework.homePage.CrossBrowserTestNew"/>
+      <class name="com.framework.automation.framework.homePage.VerifyloginWithValidCredentails"/>
     </classes>
-  </test> <!-- chrome -->
-  <test name="chrome(failed)" parallel="tests">
-    <parameter name="browser" value="chrome"/>
+  </test> <!-- verifyLoginWithValidCredentails -->
+  <test name="verifyLoginWithInvalidCredentails(failed)" parallel="tests">
     <classes>
-      <class name="com.framework.automation.framework.homePage.CrossBrowserTestNew">
+      <class name="com.framework.automation.framework.homePage.VerifyloginWithValidCredentails">
         <methods>
-          <include name="verifyLoginWithInvalidCredentails"/>
-          <include name="afterTest"/>
-          <include name="afterTest"/>
-          <include name="VerifyProductring"/>
-          <include name="beforeTest"/>
-          <include name="beforeTest"/>
+          <include name="end"/>
+          <include name="setup"/>
         </methods>
-      </class> <!-- com.framework.automation.framework.homePage.CrossBrowserTestNew -->
+      </class> <!-- com.framework.automation.framework.homePage.VerifyloginWithValidCredentails -->
+      <class name="com.framework.automation.framework.homePage.VerifyloginWithInvalidCredentails">
+        <methods>
+          <include name="setup"/>
+          <include name="end"/>
+          <include name="verifyLoginWithInvalidCredentails"/>
+          <include name="VerifyProductring"/>
+        </methods>
+      </class> <!-- com.framework.automation.framework.homePage.VerifyloginWithInvalidCredentails -->
     </classes>
-  </test> <!-- chrome(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- verifyLoginWithInvalidCredentails(failed) -->
+  <test name="verifyLoginWithValidCredentails(failed)" parallel="tests">
+    <classes>
+      <class name="com.framework.automation.framework.homePage.VerifyloginWithValidCredentails">
+        <methods>
+          <include name="validEmailforCreateAccount"/>
+          <include name="end"/>
+          <include name="setup"/>
+          <include name="verifyLoginWithValidCredentails"/>
+          <include name="verifyLoginWithValidCredentails" invocation-numbers="0 0 0 0 1 1 2 2 3 3"/>
+        </methods>
+      </class> <!-- com.framework.automation.framework.homePage.VerifyloginWithValidCredentails -->
+      <class name="com.framework.automation.framework.homePage.VerifyloginWithInvalidCredentails">
+        <methods>
+          <include name="setup"/>
+          <include name="end"/>
+        </methods>
+      </class> <!-- com.framework.automation.framework.homePage.VerifyloginWithInvalidCredentails -->
+    </classes>
+  </test> <!-- verifyLoginWithValidCredentails(failed) -->
+</suite> <!-- Failed suite [Regression Suite] -->

@@ -1,5 +1,6 @@
 package com.framework.automation.framework.homePage;
 
+import org.testng.annotations.Test;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -16,6 +17,7 @@ public class Gecko_Driver {
 //	}
 
 	
+	@Test
 	public void  testn() throws InterruptedException{
 		
 		System.setProperty("webdriver.chrome.driver", " path of chromedriver.exe");

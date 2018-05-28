@@ -1,5 +1,7 @@
 package com.framework.automation.framework.homePage;
 
+import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
 import java.io.IOException;
 
 import org.apache.log4j.Logger;
@@ -34,7 +36,7 @@ public class VerifyloginWithValidCredentails extends TestBase {
 		log.info("***********Starting verifyLoginWithValidCredentails Test************");
 		homepage = new HomePage(driver);
 		homepage.logInToApplication("kagim2005@gmail.com", "uddin");
-		Assert.assertEquals(homepage.getValidLogInText(), "k u");
+		AssertJUnit.assertEquals(homepage.getValidLogInText(), "k u");
 		log.info("***********Finish verifyLoginWithValidCredentails Test************");
 	}
 
@@ -51,7 +53,7 @@ public class VerifyloginWithValidCredentails extends TestBase {
 		log.info("***********Starting validEmailforCreateAccount Test************");
 		homepage = new HomePage(driver);
 		homepage.correctCreateAccount("automation@gmil.com");
-		Assert.assertEquals(homepage.validCreateAccount(), "AUTHENTICATION");
+		AssertJUnit.assertEquals(homepage.validCreateAccount(), "AUTHENTICATION");
 		takeScreenShot("validEmailforCreateAccount_");
 		log.info("***********Finish validEmailforCreateAccount Test************");
 	}
@@ -64,7 +66,7 @@ public class VerifyloginWithValidCredentails extends TestBase {
 		log.info("***********Starting verifyLoginWithValidCredentails Test************");
 		homepage = new HomePage(driver);
 		homepage.logInToApplication(emailAddress, password);
-		Assert.assertEquals(homepage.getValidLogInText(), "k u");
+		AssertJUnit.assertEquals(homepage.getValidLogInText(), "k u");
 		log.info("***********Finish verifyLoginWithValidCredentails Test************");
 	}
 

@@ -1,5 +1,6 @@
 package com.framework.automation.framework.homePage;
 
+import org.testng.annotations.Test;
 import java.sql.SQLException;
 
 import org.testng.Assert;
