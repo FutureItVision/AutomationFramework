@@ -1,5 +1,7 @@
 package com.framework.automation.framework.homePage;
 
+import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
 import java.io.IOException;
 import java.util.Iterator;
 
@@ -60,7 +62,7 @@ public class HomePageDisplayVerification extends TestBase {
 		log.info("***********verifyNewsLetterInvitation************");
 		homepage = new HomePage(driver);
 		homepage.NewsLetterInvitation("kamaluddinitqa@gmail.com");
-		Assert.assertEquals(homepage.HomePageNewsLetterInvitaionResult(),
+		AssertJUnit.assertEquals(homepage.HomePageNewsLetterInvitaionResult(),
 				"Newsletter : This email address is already registered.");
 		log.info("***********Finish verifyNewsLetterInvitation Test************");
 
@@ -80,7 +82,7 @@ public class HomePageDisplayVerification extends TestBase {
 		log.info("***********tShirtSearch************");
 		homepage = new HomePage(driver);
 		homepage.homePageSearch("T-SHIRT");
-		Assert.assertEquals(homepage.validsearchresult(), "\"T-SHIRT\"");
+		AssertJUnit.assertEquals(homepage.validsearchresult(), "\"T-SHIRT\"");
 		log.info("***********Finish tShirtSearch Test************");
 
 	}
@@ -90,7 +92,7 @@ public class HomePageDisplayVerification extends TestBase {
 		log.info("***********VerifyToptSearch************");
 		homepage = new HomePage(driver);
 		homepage.homePageSearch("Top");
-		Assert.assertEquals(homepage.topSearch(), "\"TOP\"");
+		AssertJUnit.assertEquals(homepage.topSearch(), "\"TOP\"");
 		log.info("***********Finish VerifyToptSearch Test************");
 
 	}
@@ -100,7 +102,7 @@ public class HomePageDisplayVerification extends TestBase {
 		log.info("***********VerifyPrintedDressSearch************");
 		homepage = new HomePage(driver);
 		homepage.homePageSearch("Printed Dress");
-		Assert.assertEquals(homepage.printedDressSearch(), "\"PRINTED DRESS\"");
+		AssertJUnit.assertEquals(homepage.printedDressSearch(), "\"PRINTED DRESS\"");
 		log.info("***********Finish VerifyPrintedDressSearch Test************");
 
 	}
@@ -118,7 +120,7 @@ public class HomePageDisplayVerification extends TestBase {
 		log.info("***********Verifytwitterlink************");
 		homepage = new HomePage(driver);
 		homepage.homepagetwitterlink();
-		Assert.assertEquals("Twitter", "Twitter");
+		AssertJUnit.assertEquals("Twitter", "Twitter");
 		log.info("***********Finish Verifytwitterlink Test************");
 	}
 
@@ -134,7 +136,7 @@ public class HomePageDisplayVerification extends TestBase {
 		log.info("***********FacebookLogo************");
 		homepage = new HomePage(driver);
 		homepage.FacebookLogo();
-		Assert.assertEquals("Facebook", "Facebook");
+		AssertJUnit.assertEquals("Facebook", "Facebook");
 		log.info("***********Finish FacebookLogo************");
 	}
 

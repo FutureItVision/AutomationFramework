@@ -1,5 +1,7 @@
 package com.framework.automation.framework.homePage;
 
+import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
 import java.io.IOException;
 import java.sql.SQLException;
 
@@ -32,7 +34,7 @@ public class VerifyloginWithInvalidCredentails extends TestBase {
 		homepage = new HomePage(driver);
 		homepage.logInToApplication("test@gmail.com", "test123");
 
-		Assert.assertEquals(homepage.getInvalidLogInText(), "Authentication failed.");
+		AssertJUnit.assertEquals(homepage.getInvalidLogInText(), "Authentication failed.");
 		log.info("***********Finish VerifyloginWithInvalidCredentails Test************");
 
 	}
