@@ -1,7 +1,11 @@
 package com.framework.automation.framework.homePage;
 
 import org.testng.annotations.Test;
+import org.testng.Assert;
 import org.testng.AssertJUnit;
+import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
+
 import com.framework.automation.framework.applicationAction.HomePage;
 import com.framework.automation.framework.testBase.CrossBrowserTestBase;
 
@@ -14,7 +18,7 @@ HomePage homepage;
 		homepage = new HomePage(driver);
 		homepage.logInToApplication("test@gmail.com", "test123");
 
-		AssertJUnit.assertEquals(homepage.getInvalidLogInText(), "Authentication failed.");
+		Assert.assertEquals(homepage.getInvalidLogInText(), "Authentication failed.");
 		
 
 	}

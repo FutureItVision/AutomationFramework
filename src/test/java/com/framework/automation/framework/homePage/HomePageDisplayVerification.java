@@ -2,6 +2,8 @@ package com.framework.automation.framework.homePage;
 
 import org.testng.annotations.Test;
 import org.testng.AssertJUnit;
+import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
 import java.io.IOException;
 import java.util.Iterator;
 
@@ -82,7 +84,7 @@ public class HomePageDisplayVerification extends TestBase {
 		log.info("***********tShirtSearch************");
 		homepage = new HomePage(driver);
 		homepage.homePageSearch("T-SHIRT");
-		AssertJUnit.assertEquals(homepage.validsearchresult(), "\"T-SHIRT\"");
+		Assert.assertEquals(homepage.validsearchresult(), "\"T-SHIRT\"");
 		log.info("***********Finish tShirtSearch Test************");
 
 	}
@@ -102,7 +104,7 @@ public class HomePageDisplayVerification extends TestBase {
 		log.info("***********VerifyPrintedDressSearch************");
 		homepage = new HomePage(driver);
 		homepage.homePageSearch("Printed Dress");
-		AssertJUnit.assertEquals(homepage.printedDressSearch(), "\"PRINTED DRESS\"");
+		Assert.assertEquals(homepage.printedDressSearch(), "\"PRINTED DRESS\"");
 		log.info("***********Finish VerifyPrintedDressSearch Test************");
 
 	}
